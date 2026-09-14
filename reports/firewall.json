@@ -1,5 +1,5 @@
 {
-  "files_scanned": 11,
+  "files_scanned": 17,
   "hard_tokens_groups": [
     "protagonist",
     "invented_orgs_and_products",
@@ -9,8 +9,64 @@
   "hard_hits": [],
   "soft": [
     {
+      "name": "Kim Taeyeon",
+      "hits": 1,
+      "cleared_by_raws": true,
+      "note": "sourced from this book's raws",
+      "samples": [
+        {
+          "file": "work_epub/OEBPS/text/ch005.xhtml",
+          "context": " names. Someone yelled Yoona. Someone yelled Taeyeon. Someone yelled Jessica. Bae Do-yoon had loo"
+        }
+      ]
+    },
+    {
+      "name": "Im Yoona",
+      "hits": 2,
+      "cleared_by_raws": true,
+      "note": "sourced from this book's raws",
+      "samples": [
+        {
+          "file": "work_epub/OEBPS/text/ch005.xhtml",
+          "context": "tage the crowd shouted names. Someone yelled Yoona. Someone yelled Taeyeon. Someone yelled Jess"
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch005.xhtml",
+          "context": "looked at the few of them standing up there. Yoona was beautiful. Of course she was. Being the "
+        }
+      ]
+    },
+    {
+      "name": "Krystal",
+      "hits": 11,
+      "cleared_by_raws": true,
+      "note": "sourced from this book's raws",
+      "samples": [
+        {
+          "file": "work_epub/OEBPS/text/characters.xhtml",
+          "context": "any, not closed out Family A younger sister, Krystal, also under SM In the story Sent into the Sh"
+        },
+        {
+          "file": "work_epub/OEBPS/text/characters.xhtml",
+          "context": "terial to correct, to flatter, or to borrow. Krystal Press photograph, studio editorial Also writ"
+        },
+        {
+          "file": "work_epub/OEBPS/text/characters.xhtml",
+          "context": "ss photograph, studio editorial Also written Krystal (Jung Soo-jung) Field Singer and actress Com"
+        },
+        {
+          "file": "work_epub/OEBPS/text/introductions.xhtml",
+          "context": " he intends to make her pay for it. The hand Krystal Singer and actress; the reason her sister si"
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch004.xhtml",
+          "context": "h she had not seen the warning in her face. “Krystal.” “Her career has taken damage because of yo"
+        }
+      ]
+    },
+    {
       "name": "Lee Boo-jin",
-      "hits": 4,
+      "hits": 27,
       "cleared_by_raws": true,
       "note": "sourced from this book's raws",
       "samples": [
@@ -20,15 +76,19 @@
         },
         {
           "file": "work_epub/OEBPS/text/characters.xhtml",
-          "context": " College of Law Occupation Prosecutor Patron Lee Boo-jin, by contract and by her own words Trait Gold"
+          "context": "-bedroom he can explain on his salary Patron Lee Boo-jin, by her own description of the arrangement E"
         },
         {
           "file": "work_epub/OEBPS/text/characters.xhtml",
-          "context": " feelings is settled before the raw says it. Lee Boo-jin The woman who hands out two options and hono"
+          "context": "wn words, is a single fact: who the man was. Lee Boo-jin Press photograph, gate arrival; the serial c"
         },
         {
           "file": "work_epub/OEBPS/text/introductions.xhtml",
-          "context": " a chapter’s business, not this page’s. Idol Lee Boo-jin The stranger with two options Chaebol house,"
+          "context": "ansaction at once. Chapter 1 · and Chapter 4 Lee Boo-jin The President. Head of the Shilla; the eldes"
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch002.xhtml",
+          "context": "ridor dropped to the floor and stayed there. Lee Boo-jin Head of the Shilla. Eldest daughter of the S"
         }
       ]
     }

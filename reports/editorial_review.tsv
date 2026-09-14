@@ -1,2 +1,4 @@
 file	kind	detail
-Dominating_South_Korea_Starting_with_a_Golden_Trait.epub	package-not-built	No EPUB at the deliverable path yet. Expected during workspace setup; build_epub.py runs only after an authorized editorial cycle.
+OEBPS/text/ch001.xhtml	metrics-band	max p 52; dashes/1k 6.94; includes furniture
+OEBPS/text/ch003.xhtml	metrics-band	max p 66; dashes/1k 7.22; includes furniture
+OEBPS/text/ch004.xhtml	metrics-band	max p 49; dashes/1k 6.95; includes furniture

@@ -1,0 +1,126 @@
+class	occurrences	chapters
+aa-label	5	ch001, ch002, ch003, ch004, ch005
+aa-text	6	ch001, ch002, ch003, ch004, ch005
+app-meta	3	ch001, ch003, ch005
+app-screen	3	ch001, ch003, ch005
+app-title	3	ch001, ch003, ch005
+author-aside	5	ch001, ch002, ch003, ch004, ch005
+beat	2	ch001, ch005
+bf-band	3	ch002, ch003, ch004
+bf-item	18	ch002, ch003, ch004
+bf-key	18	ch002, ch003, ch004
+bf-note	3	ch002, ch003, ch004
+bf-source	3	ch002, ch003, ch004
+bf-title	3	ch002, ch003, ch004
+briefing-block	3	ch002, ch003, ch004
+chapter-header	5	ch001, ch002, ch003, ch004, ch005
+chapter-number	5	ch001, ch002, ch003, ch004, ch005
+chapter-rule	5	ch001, ch002, ch003, ch004, ch005
+chapter-title	5	ch001, ch002, ch003, ch004, ch005
+char-intro-block	4	ch001, ch002, ch003, ch005
+checklist-block	5	ch001, ch002, ch003, ch004, ch005
+ci-body	4	ch001, ch002, ch003, ch005
+ci-born	4	ch001, ch002, ch003, ch005
+ci-desc	4	ch001, ch002, ch003, ch005
+ci-group	4	ch001, ch002, ch003, ch005
+ci-name	4	ch001, ch002, ch003, ch005
+ci-photo	4	ch001, ch002, ch003, ch005
+ci-photo-wrap	4	ch001, ch002, ch003, ch005
+ci-role	4	ch001, ch002, ch003, ch005
+ci-tag	4	ch001, ch002, ch003, ch005
+ckl-band	5	ch001, ch002, ch003, ch004, ch005
+ckl-count	20	ch001, ch002, ch003, ch004, ch005
+ckl-note	5	ch001, ch002, ch003, ch004, ch005
+ckl-step	20	ch001, ch002, ch003, ch004, ch005
+contract-block	4	ch002, ch003, ch004, ch005
+ct-clause	15	ch002, ch003, ch004, ch005
+ct-figure	3	ch002, ch003, ch004
+ct-header	4	ch002, ch003, ch004, ch005
+ct-note	4	ch002, ch003, ch004, ch005
+dev-quest	1	ch001
+dg-field	20	ch002, ch003, ch004, ch005
+dg-flag	4	ch002, ch003, ch004, ch005
+dg-header	4	ch002, ch003, ch004, ch005
+dg-label	20	ch002, ch003, ch004, ch005
+dg-note	4	ch002, ch003, ch004, ch005
+dg-value	20	ch002, ch003, ch004, ch005
+dialogue-line	124	ch001, ch002, ch003, ch004, ch005
+dossier-block	4	ch002, ch003, ch004, ch005
+dq-basis	1	ch001
+dq-basis-key	1	ch001
+dq-basis-val	1	ch001
+dq-gate	2	ch001
+dq-header	1	ch001
+dq-num	2	ch001
+dq-principle	1	ch001
+dq-reward	1	ch001
+dq-task	2	ch001
+dq-what	2	ch001
+filled	11	ch001, ch003
+hand-letter	1	ch005
+hand-note	3	ch003, ch004, ch005
+highlight	6	ch001, ch002, ch003, ch004
+highlight2	4	ch001, ch002
+hl-label	1	ch005
+hl-sign	1	ch005
+hn-label	3	ch003, ch004, ch005
+lect-header	4	ch001, ch002, ch003, ch004
+lect-q	5	ch001, ch002, ch003, ch004
+lecture-block	4	ch001, ch002, ch003, ch004
+location-stamp	6	ch001, ch002, ch003, ch004, ch005
+ls-date	6	ch001, ch002, ch003, ch004, ch005
+ls-place	6	ch001, ch002, ch003, ch004, ch005
+ls-sub	6	ch001, ch002, ch003, ch004, ch005
+mb-label	4	ch001, ch002, ch004, ch005
+mb-voice	10	ch001, ch002, ch004, ch005
+memory-block	4	ch001, ch002, ch004, ch005
+page-wrapper	5	ch001, ch002, ch003, ch004, ch005
+pd-choice	1	ch002
+pd-firm	4	ch002
+pd-foot	1	ch002
+pd-mark	1	ch002
+pd-position	4	ch002
+pd-rank	4	ch002
+pd-slide	4	ch002
+pd-slides	1	ch002
+pd-strength	4	ch002
+pd-title	1	ch002
+pitch-deck	1	ch002
+pullquote	5	ch001, ch002, ch003, ch004, ch005
+rec-dot	1	ch002
+rec-header	1	ch002
+rec-note	1	ch002
+rec-time	1	ch002
+rec-voice	1	ch002
+rec-voice2	1	ch002
+recording-block	1	ch002
+scene-break	6	ch001, ch002, ch003, ch005
+sound-effect	2	ch004, ch005
+sp-bar	11	ch001, ch003
+sp-header	5	ch001, ch002, ch003, ch004, ch005
+sp-label	27	ch001, ch002, ch003, ch004, ch005
+sp-note	5	ch001, ch002, ch003, ch004, ch005
+sp-row	27	ch001, ch002, ch003, ch004, ch005
+sp-subject	5	ch001, ch002, ch003, ch004, ch005
+sp-total	4	ch001, ch002, ch003, ch005
+sp-value	27	ch001, ch002, ch003, ch004, ch005
+status-panel	5	ch001, ch002, ch003, ch004, ch005
+sys-header	6	ch001, ch002
+sys-key	27	ch001, ch002
+sys-line	27	ch001, ch002
+sys-note	3	ch001, ch002
+sys-value	27	ch001, ch002
+system-block	6	ch001, ch002
+thought	26	ch001, ch002, ch003, ch004, ch005
+wardrobe-block	3	ch002, ch004, ch005
+wd-effect	3	ch002, ch004, ch005
+wd-header	3	ch002, ch004, ch005
+wd-item	13	ch002, ch004, ch005
+wd-label	13	ch002, ch004, ch005
+wd-note	3	ch002, ch004, ch005
+wh-close	1	ch001
+wh-label	1	ch001
+wh-note	1	ch001
+wh-reply	1	ch001
+wh-voice	1	ch001
+whisper-block	1	ch001

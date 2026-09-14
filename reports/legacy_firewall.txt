@@ -1,5 +1,8 @@
-legacy_firewall: 11 files scanned · 18 raw tokens indexed for provenance
+legacy_firewall: 17 files scanned · 1,064 raw tokens indexed for provenance
   hard bleed: 0 — none of the reference novel's inventions are present
-  soft: Lee Boo-jin ×4 → cleared (sourced from this book's raws)
+  soft: Kim Taeyeon ×1 → cleared (sourced from this book's raws)
+  soft: Im Yoona ×2 → cleared (sourced from this book's raws)
+  soft: Krystal ×11 → cleared (sourced from this book's raws)
+  soft: Lee Boo-jin ×27 → cleared (sourced from this book's raws)
   report: reports/firewall.json
 legacy_firewall: PASS

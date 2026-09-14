@@ -108,6 +108,12 @@ by sheet section 38); `toc.ncx` mirrors everything except the nav itself.
 - **Protagonist.** **Bae Do-yoon** ( Korean order, family name Bae). The raw writes him `裴云`;
   this book never prints the Chinese rendering, "Pei Yun", or a shortened "Bae Yun"/"Do-yun".
   Never rename or localize him. Nicknames only if a chapter bestows them.
+- **Stage names.** Entertainers are written by the name their industry and the raw use, not by their
+  family name: `郑秀妍 → Jessica`, `林允儿 → Yoona`, `郑秀晶 → Krystal`. The pattern is
+  *given name* (`Soo-yeon`) with the legal family name in parentheses once, on the card
+  (`Jung Sooyeon`), and the stage name everywhere in prose. Never flip to the family name mid-chapter,
+  and never let a card's parenthetical legal name become the running name.
+
 - **Names.** Real people keep their real romanization **only when this book's raw names them**
   (`legacy_firewall.py` proves it). Fictional figures stay fictional and get their own cards. Never
   import a name from the previous novel as a convenience.
@@ -320,6 +326,7 @@ spine +1 (7), navPoints +1 (6), nav li +1 (9). Recompute if images, fonts or new
 | **Phone-call audit** | in `audit_marks.py` | `pc-head` is the first child; body classes ⊆ `pc-me`/`pc-them`/`pc-note` — **standing directive** |
 | **Style-block deep scan** | re-read the finished chapter against §5 and the raw | every raw context owns a block; nothing the catalog covers is left in plain prose — **standing directive** |
 | **Firewall** | `python3 legacy_firewall.py --json reports/firewall.json` | 0 hard hits; every soft hit cleared by `raws/` provenance or an allowlist line — **standing directive (reader)** |
+| **Style-block coverage (machine)** | `python3 style_audit.py --json reports/style_audit.json` | PASS: ≥8 distinct block types per chapter, ≤0.25 blocks per prose word, no block type repeated in a chapter outside the device allowlist — **standing directive** |
 | Stylesheet integrity | `python3 sync_styles.py` | `= … already current` + rule-identity check PASS |
 | Font integrity | `.venv/bin/python install_fonts.py --verify` | 20 faces resolve; no missing critical glyphs |
 | CSS lint | `npm ci --ignore-scripts --no-audit --no-fund` then `node_modules/.bin/stylelint --config .sl.json "work_epub/OEBPS/styles/*.css"` | 0 errors |
@@ -450,3 +457,21 @@ needs — never truncate, never pad to a word count.
 7. Understand every step thoroughly — recon, draft, wire, gate, log, build, verify — in that order.
 8. **After every final EPUB: commit and push to GitHub** on this session branch, verify the remote,
    and hand over the download link. No EPUB is built before the raws arrive.
+9. **Cover.** Reuse the reader's supplied reference art as a plate, but the plate must show the
+   protagonist, and it must carry the book name, the author name **DKILLER1**, and the genre in a
+   colourful stylised treatment. No version strings (`Version 3`, `V1`, `Draft`) anywhere on the cover.
+   Type is set live in `cover.xhtml` over a text-free plate so the lettering stays editable and crisp.
+10. **Portraits.** Real people get editorial-quality photographs — a professional studio or press
+    editorial, cropped to the house card ratio, never a low-res crop, never a fan snapshot. If no such
+    photograph exists, AI-generate one and hold it to a 100% likeness check against the reference before
+    it is approved. Source photographs stay in `image-search/`; only the finished card goes into
+    `work_epub/OEBPS/images/`.
+11. **Raws first.** Every supplied chapter is written to `raws/` verbatim before any drafting, wiring or
+    packaging begins; the raws are then the only source a draft may be built from.
+12. **Before packaging, re-scan everything**: (a) every raw beat against the §5 catalog, so no context
+    that owns a style block is left in plain prose, and (b) every interrogative, so no question lost its
+    `?` in translation. `style_audit.py` and `audit_marks.py` are the machine halves of that scan; the
+    human half is reading the chapter against the raw a second time.
+13. **This is private fiction for a single reader.** Do not sanitize, moralize, or hedge the source. Adult
+    and power-fantasy material is rendered as written, tastefully and non-graphically, with no added
+    editorial disapproval and no invented consent furniture.

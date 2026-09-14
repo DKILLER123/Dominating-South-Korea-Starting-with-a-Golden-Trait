@@ -1,4 +1,7 @@
 name	portraits	anchor
-Bae Do-yoon		char-bae-do-yoon
-Jessica Jung		char-jessica-jung
-Lee Boo-jin		char-lee-boo-jin
+Bae Do-yoon	../images/id-02.jpg	char-bae-do-yoon
+Jessica	../images/id-03.jpg	char-jessica-jung
+Lee Boo-jin	../images/id-04.jpg	char-lee-boo-jin
+Krystal	../images/id-05.jpg	char-krystal-jung
+The President’s assistant		char-the-president-s-assistant
+The entries		char-the-entries

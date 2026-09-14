@@ -1,0 +1,21 @@
+== ch001.xhtml · 2606 words · scope: characters.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== ch002.xhtml · 3544 words · scope: ch001.xhtml, characters.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== ch003.xhtml · 3318 words · scope: ch001.xhtml, ch002.xhtml, characters.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== ch004.xhtml · 3295 words · scope: ch001.xhtml, ch002.xhtml, ch003.xhtml
+  INTERNAL repeats: 5
+    x2: the one place on her that no one
+    x2: one place on her that no one is
+    x2: place on her that no one is allowed
+    x2: on her that no one is allowed to
+    x2: her that no one is allowed to touch
+  cross-chapter 8-grams: 0
+== ch005.xhtml · 3701 words · scope: ch002.xhtml, ch003.xhtml, ch004.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+repeat_check: REVIEW (deliberate lyric quotes may be legitimate)

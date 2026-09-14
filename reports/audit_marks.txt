@@ -1,0 +1,19 @@
+== work_epub/OEBPS/text/ch001.xhtml
+   clean
+== work_epub/OEBPS/text/ch002.xhtml
+   [NO-QM?] “…What’s in your hand.”
+   [NO-QM?] “…Whatever you want to know — ask.”
+   [NO-QM?] “…Don’t take it as an injury.”
+   [NO-QM?] “… his own value is, having someone plan it for him is not a misfortune.”
+== work_epub/OEBPS/text/ch003.xhtml
+   [NO-QM?] “…What I am raising is not a blade of the Samsung group.”
+   [NO-QM?] “…When you reach the level, I’ll tell you.”
+   [NO-QM?] “…When I decided I wanted to be an idol, none of it was about climbing.”
+   [NO-QM?] “…What an amusing little thing.”
+   [NO-QM?] “…Don’t disappoint me.”
+== work_epub/OEBPS/text/ch004.xhtml
+   [NO-QM?] “…Don’t you dare.”
+   [NO-QM?] “…Don’t touch her.”
+== work_epub/OEBPS/text/ch005.xhtml
+   clean
+RESULT: OK (triage any NO-QM? lines above)

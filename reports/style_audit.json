@@ -1,0 +1,50 @@
+{
+  "chapters": [
+    {
+      "chapter": "ch001.xhtml",
+      "prose_words": 2681,
+      "blocks": 15,
+      "distinct_types": 11,
+      "blocks_per_1k_words": 6,
+      "used": "app-screen, author-aside, char-intro-block, checklist-block, dev-quest, lecture-block, location-stamp, memory-block, status-panel, system-block, whisper-block",
+      "unused": "acting-block, award-block, box-office, briefing-block, call-sheet, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lesson-block, lyric-block, menu-block, news-digest, official-post, official-statement, performance-block, phone-call, pitch-deck, recording-block, release-block, screen-view, studio-block, trend-block, variety-block, wardrobe-block, world-dispatch"
+    },
+    {
+      "chapter": "ch002.xhtml",
+      "prose_words": 3640,
+      "blocks": 14,
+      "distinct_types": 14,
+      "blocks_per_1k_words": 4,
+      "used": "author-aside, briefing-block, char-intro-block, checklist-block, contract-block, dossier-block, lecture-block, location-stamp, memory-block, pitch-deck, recording-block, status-panel, system-block, wardrobe-block",
+      "unused": "acting-block, app-screen, award-block, box-office, call-sheet, comment-thread, dev-quest, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lesson-block, lyric-block, menu-block, news-digest, official-post, official-statement, performance-block, phone-call, release-block, screen-view, studio-block, trend-block, variety-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "ch003.xhtml",
+      "prose_words": 3422,
+      "blocks": 11,
+      "distinct_types": 11,
+      "blocks_per_1k_words": 3,
+      "used": "app-screen, author-aside, briefing-block, char-intro-block, checklist-block, contract-block, dossier-block, hand-note, lecture-block, location-stamp, status-panel",
+      "unused": "acting-block, award-block, box-office, call-sheet, comment-thread, dev-quest, fanclub-block, finance-block, hand-letter, hate-wall, lesson-block, lyric-block, memory-block, menu-block, news-digest, official-post, official-statement, performance-block, phone-call, pitch-deck, recording-block, release-block, screen-view, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "ch004.xhtml",
+      "prose_words": 3379,
+      "blocks": 11,
+      "distinct_types": 11,
+      "blocks_per_1k_words": 3,
+      "used": "author-aside, briefing-block, checklist-block, contract-block, dossier-block, hand-note, lecture-block, location-stamp, memory-block, status-panel, wardrobe-block",
+      "unused": "acting-block, app-screen, award-block, box-office, call-sheet, char-intro-block, comment-thread, dev-quest, fanclub-block, finance-block, hand-letter, hate-wall, lesson-block, lyric-block, menu-block, news-digest, official-post, official-statement, performance-block, phone-call, pitch-deck, recording-block, release-block, screen-view, studio-block, system-block, trend-block, variety-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "ch005.xhtml",
+      "prose_words": 3766,
+      "blocks": 13,
+      "distinct_types": 12,
+      "blocks_per_1k_words": 3,
+      "used": "app-screen, author-aside, char-intro-block, checklist-block, contract-block, dossier-block, hand-letter, hand-note, location-stamp, memory-block, status-panel, wardrobe-block",
+      "unused": "acting-block, award-block, box-office, briefing-block, call-sheet, comment-thread, dev-quest, fanclub-block, finance-block, hate-wall, lecture-block, lesson-block, lyric-block, menu-block, news-digest, official-post, official-statement, performance-block, phone-call, pitch-deck, recording-block, release-block, screen-view, studio-block, system-block, trend-block, variety-block, whisper-block, world-dispatch"
+    }
+  ],
+  "problems": []
+}

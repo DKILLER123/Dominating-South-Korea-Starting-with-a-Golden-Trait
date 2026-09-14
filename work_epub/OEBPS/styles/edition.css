@@ -1,0 +1,100 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   EDITION STYLESHEET · Dominating South Korea: Starting with a Golden Trait
+   ───────────────────────────────────────────────────────────────────────
+   The reader's reference stylesheet is inherited untouched (sync_styles.py
+   proves rule-for-rule identity against it, so nothing this edition needs may
+   be written into that file). Everything the front list does NOT provide for
+   this book — the cover plate's author band, the coloured genre marks, and the
+   plate-side treatment of the character photographs — lives here, in a file the
+   gate never compares, and it only ever ADDS selectors.
+   Section numbering of the inherited sheet is left alone; this file's single
+   numbered section is 57, the next free number after §56.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─────────────────────────────────────────────
+   57 · EDITION COVER PLATE  (author band, genre marks)
+   The plate is a rooftop at golden hour with the man himself in it, so the
+   inherited §35 overlay keeps its dark band at the top (title) and at the
+   bottom (marks, author, tagline) and stays clear through the middle.
+   ───────────────────────────────────────────── */
+.cover-genre {
+  margin: 0 0 1.5em;
+  text-align: center;
+  text-indent: 0;
+}
+.cover-genre-item {
+  display: inline-block;
+  margin: 0.22em 0.16em;
+  padding: 0.3em 0.78em 0.24em;
+  border-radius: 3px;
+  font-family: "Bebas Neue", "Lora", sans-serif;
+  font-size: 0.92em;
+  letter-spacing: 0.2em;
+  color: #14100a;
+  background-color: #d4a24e;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.cover-genre-kpop {
+  background-color: #f2b8d4;
+}
+.cover-genre-chaebol {
+  background-color: #e8c87a;
+}
+.cover-genre-rebirth {
+  background-color: #8fd8e8;
+}
+.cover-genre-legal {
+  background-color: #b9c7f2;
+}
+.cover-genre-desire {
+  background-color: #f2a0a0;
+}
+.cover-author-band {
+  margin: 0 0 0.9em;
+  text-align: center;
+  text-indent: 0;
+}
+.cover-author-over {
+  display: block;
+  margin: 0 0 0.15em;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.68em;
+  letter-spacing: 0.44em;
+  text-transform: uppercase;
+  color: #c8b892;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+.cover-author-name {
+  display: block;
+  font-family: "Bebas Neue", "Lora", sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 0.22em;
+  line-height: 1.1;
+  color: #e8c87a;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.92), 0 0 34px rgba(212, 162, 78, 0.42);
+}
+.cover-tagline {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: #efe6d2;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.92);
+  margin: 0.3em 0 0;
+  text-align: center;
+  text-indent: 0;
+}
+/* The plate carries its own light, so the inherited gradient veil is lifted a
+   little in the middle and deepened where the type sits. Chained selectors keep
+   the inherited sheet's specificity intact and override nothing else. */
+.cover-shell .cover-overlay--plate {
+  padding: 2.6em 1.2em 2.2em;
+  background: linear-gradient(180deg, rgba(7, 7, 11, 0.68) 0%, rgba(7, 7, 11, 0.22) 30%, rgba(7, 7, 11, 0) 52%, rgba(7, 7, 11, 0.74) 100%);
+}
+.cover-shell .cover-overlay--plate .cover-title {
+  font-size: 3.05em;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.94), 0 0 52px rgba(212, 162, 78, 0.34);
+}
+.cover-shell .cover-overlay--plate .cover-ornament {
+  margin-bottom: 17.5em;
+}
