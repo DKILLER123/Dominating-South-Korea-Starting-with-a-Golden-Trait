@@ -37,7 +37,7 @@ BANNER = """/* ═════════════════════�
    PROVENANCE: the section comments below were inherited from the
    reference sheet, whose cast, brands, song titles and chapter
    numbering are NOT this book's. "First used in the reference
-   edition" marks a provenance line that has been genericised. This
+   edition" marks a provenance line that has been genericized. This
    edition's chapters start at Chapter 1 from this book's own raws.
    ═══════════════════════════════════════════════════════════════ */
 """

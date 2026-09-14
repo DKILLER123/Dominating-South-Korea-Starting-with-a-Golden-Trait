@@ -100,7 +100,7 @@ are printed by the audit so they are never guessed.
 
 **Not performed:** EPUBCheck, rendering proofs in real reader engines, accessibility conformance,
 per-glyph fallback verification, likeness review of the cover by the reader. Nothing here certifies
-typographic behaviour on a device; it certifies structure, references and asset integrity.
+typographic behavior on a device; it certifies structure, references and asset integrity.
 
 ## 5 · Standing rules carried into every cycle
 

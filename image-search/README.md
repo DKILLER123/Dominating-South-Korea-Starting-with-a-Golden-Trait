@@ -15,7 +15,7 @@ for character portraits, wardrobe plates and cover art lands, and where it stays
    exists: this folder (reader-supplied or reader-searched), else nothing. Fabricating a likeness
    for a real person is a breach, not a shortcut.
 2. **Real people are photographed, fictional figures are illustrated.** An illustration is
-   labelled as an illustration on the card that carries it; a photograph is never invented.
+   labeled as an illustration on the card that carries it; a photograph is never invented.
 3. **Coding spec before install.** Portrait cards: 4:5 center-crop, 736×920, JPEG q85 optimize.
    Wardrobe plates: 4:5 center-crop, 1120×1400, JPEG q85. Cover background: 1200×1800, JPEG q85
    progressive. Install only the coded file into `work_epub/OEBPS/images/`; the raw source stays here.

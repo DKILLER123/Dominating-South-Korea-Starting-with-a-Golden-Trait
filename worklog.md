@@ -116,7 +116,7 @@ Spine order is the reader's mandated structure order and is now machine-checked.
 
 **Assets.** Stylesheets installed by `sync_styles.py`, which rewrites only comments: the top banner
 now brands this book, the reference novel's proper nouns and chapter-map provenance lines were
-genericised, and the script **asserts comment-stripped rule identity** (4,205 stylesheet lines +
+genericized, and the script **asserts comment-stripped rule identity** (4,205 stylesheet lines +
 140 fonts lines). Fonts installed by `install_fonts.py` from `@fontsource` v5 packages, latin subsets,
 mapped to the house file names `fonts.css` already declares; 20/20 verified for `‘ ’ “ ” – — … ·`.
 Cover: `generate_image` original kept at `image-search/cover_gen_original.png`, then 1.4 % top-edge
@@ -150,7 +150,9 @@ landmarks. No age, date, height, song, title or relationship was invented anywhe
 
 **Finishing pass.** The gate scripts' own docstrings still carried the reference novel's chapter numbers as examples (`ch298.xhtml`, `ch287.xhtml`, a `ch297 cycle` attribution) and `validate_tree.py` justified the Jamo exemption with the other book's four fan blocks: all restated for this book, since process may be inherited but a stray provenance line teaches a future cycle the wrong chapter map. `workspace_audit.py` no longer runs `repeat_check` on an empty tree either, so `reports/` holds no zero-input transcripts. `legacy_firewall.py` now reads only `raws/*.txt` as the provenance corpus, so no README can launder a real-name token into canon. `install_fonts.py --verify` measures digit style and GSUB features per face and fails if the title face is not lining — the inherited "oldstyle figure" folklore is now a measurement (Cardo lining; Cormorant and IM Fell oldstyle; IM Fell has no `lnum` at all).
 
-**Verification.** `validate_tree` PASS · `punct_quotes` PASS · `legacy_firewall` PASS ·
+**Polish pass.** Rereading the seeded pages caught two of the book's own rules being broken by its front matter: the raw's closing rhetorical question (怎么搞起事业来了？) had been flattened to a period on the synopsis page — the exact tell SKILL §3 forbids — and British spellings (colour, labelled, licence, romanisation, apologising) sat next to the sheet's US comments. Both corrected across the tree and the docs, a US-spelling rule added to SKILL §3, and a flattened-interrogative sweep over every quote in the tree now returns 0.
+
+ · `punct_quotes` PASS · `legacy_firewall` PASS ·
 `sync_styles` PASS · `install_fonts` PASS · stylelint PASS · `style_index --check-skill` PASS ·
 `workspace_audit.py --assets` → `structural_errors: []` after the cover plate was installed,
 `package_state: not built yet (setup cycle)`, 112 reference checks, 20 assets decoded.

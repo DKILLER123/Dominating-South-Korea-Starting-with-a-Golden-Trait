@@ -100,6 +100,7 @@ by sheet section 38); `toc.ncx` mirrors everything except the nav itself.
   AI-translation tell. Wh-clefts and temporal clauses are statements and keep periods: triage, never
   blind-fix. Raw `嗎 / ？ / ？？` restore their `?`. Incredulity is `?!`, never `??`; a run of `???` is
   the sanctioned fan-board idiom (`audit_marks.py` flags exactly-two, exempts three-plus).
+- **Spelling.** US English throughout — color, labeled, romanization, license, defense. The inherited sheet is written in US style ("Chapter header … colorful", "solid color fallbacks"), so mixing in British forms mid-book reads as two translators. One pass, one register.
 - **Honorifics preserved** where the raw has them: `-nim`, `-ssi`, `-yang`, `-gun`, `eonni`, `noona`,
   `oppa`, `hyung`, `sunbae`, `hubae`, `seonsaengnim`, `hoejang-nim`, `sa-jang-nim`, `geomsa`.
   Romanize per Revised Romanization, hyphenate suffix joins, and gloss a term on the glossary page
@@ -127,9 +128,9 @@ by sheet section 38); `toc.ncx` mirrors everything except the nav itself.
   Before importing a raw beat, grep for it. If the raw contradicts an in-tree fact, the tree wins and
   the re-cut is logged in worklog §8.
 - **No canon before the raw.** Nothing in `synopsis.xhtml`, `characters.xhtml`, `introductions.xhtml`
-  or this file is a licence to invent a date, age, height, title, relationship or event ahead of the
+  or this file is a license to invent a date, age, height, title, relationship or event ahead of the
   chapter that states it. Those pages say only what the synopsis they were seeded from says.
-- **Raw-internal contradictions.** When the raw disagrees with itself (a dress colour, a time, a
+- **Raw-internal contradictions.** When the raw disagrees with itself (a dress color, a time, a
   number of people in a room), keep the version the established setup supports and log the re-cut.
 - **Timeline.** Maintain internal dates over raw stamps. For travel, verify booking lead time,
   duration and time zones in one basis; label local zones and flashbacks. Do not silently move a
@@ -151,7 +152,7 @@ by sheet section 38); `toc.ncx` mirrors everything except the nav itself.
 
 Reuse before creating. **Style-block maximalism is policy:** every context the raw gives gets the
 block that owns it — even where the raw is only a few lines thick, keep the block and fill the rest of
-the context from Deep Thinking (in-fiction, canon-safe). Every block is labelled by its own header
+the context from Deep Thinking (in-fiction, canon-safe). Every block is labeled by its own header
 line. Canonical vocabularies are below; the machine-generated full list lives in
 `reports/style_index.md` / `.tsv` (`python3 style_index.py`). All blocks live in
 `work_epub/OEBPS/styles/stylesheet.css`; section numbers in brackets.
@@ -159,7 +160,7 @@ line. Canonical vocabularies are below; the machine-generated full list lives in
 **Chapter furniture:** `chapter-header` (`chapter-number` · `chapter-title` · `chapter-rule`) [04,
 Cardo 700 titles] · `location-stamp` (`ls-date` · `ls-place` · `ls-sub`) [06] · `scene-break` [07] ·
 `dialogue-line` · `thought` · `highlight`/`highlight2`/`sound-effect` [05] · `pullquote` [16, cream
-card, EB Garamond italic, Cardo drop-quote, tri-colour ribbon] · `author-aside` (`aa-label` ·
+card, EB Garamond italic, Cardo drop-quote, tri-color ribbon] · `author-aside` (`aa-label` ·
 `aa-text`; **label text must differ every chapter**) [53] · `chapter-divider` [18].
 
 **Game/system:** `system-block` (`sys-header` · `sys-line`>`sys-key`+`sys-value` · `sys-note` ·
@@ -182,7 +183,7 @@ one-sided calls carry `pc-me` only] · `official-statement` (`os-masthead` · `o
 `briefing-block` (`bf-band` · `bf-title` · `bf-source` · `bf-item`>`bf-key` · `bf-note`) [40].
 
 **Scene cards:** `performance-block` (`pf-header` · `action-beat` · `beat` **only** — a fourth child class does not exist and must not be invented)
-[09] · `variety-block` (`vt-header` · `vt-tag` with the sheet's only colour modifiers `.red`/`.yellow`/.blue · `vt-mission` · `vt-verdict.safe` · `vt-caption` · `vt-rule`)
+[09] · `variety-block` (`vt-header` · `vt-tag` with the sheet's only color modifiers `.red`/`.yellow`/.blue · `vt-mission` · `vt-verdict.safe` · `vt-caption` · `vt-rule`)
 [33] · `recording-block` (`rec-header` · `rec-time` · `rec-voice`/`rec-voice2` · `rec-dot` · `rec-note`)
 [23] · `studio-block` (`st-header` · `st-row`>`st-label`+`st-value` · `st-note`) [28] ·
 `placement-reel` (`pr-header` · `pr-show` · `pr-item` · `pr-note`) [28.5] · `call-sheet` (`cs-header` ·
@@ -205,7 +206,7 @@ one-sided calls carry `pc-me` only] · `official-statement` (`os-masthead` · `o
 `hw-note`) [31] · `lecture-block` (`lect-header` · `lect-q`) [15].
 
 **Analysis cards:** `dossier-block` (`dg-header` · `dg-field`>`dg-label`+`dg-value` · `dg-note` ·
-`dg-flag` · `dg-transcript`>`dg-transcript-label` · `dg-msg`; **values left-aligned**) [29]. A character's private reckoning is labelled as such —
+`dg-flag` · `dg-transcript`>`dg-transcript-label` · `dg-msg`; **values left-aligned**) [29]. A character's private reckoning is labeled as such —
 not presented as a new magical system event.
 
 **Front-matter pages:** `cover-shell`/`cover-overlay`/`cover-eyebrow`/`cover-title`/`cover-subtitle`/
@@ -226,7 +227,7 @@ not presented as a new magical system event.
    `grep -n "selector" work_epub/OEBPS/styles/stylesheet.css`. The inherited trap is real: a new
    section was once drafted for a block that already existed.
 2. If genuinely new: add a **numbered CSS section with a header comment** (context, class vocabulary,
-   degrade behaviour), scope child classes under the parent selector, and add a narrow-screen override
+   degrade behavior), scope child classes under the parent selector, and add a narrow-screen override
    beside the other `@media (max-width: 30em)` rules. New sections go at the end of the sheet so the
    inherited section numbers stay stable.
 3. **Never edit an inherited rule** to make a chapter fit — `sync_styles.py` asserts rule identity and
@@ -237,7 +238,7 @@ not presented as a new magical system event.
    `install_fonts.py`, verify glyph coverage with
    `.venv/bin/python install_fonts.py --verify` **before** committing, then add the `@font-face`
    (in the tree's `fonts.css` only — never in the reader's root reference file) and the manifest
-   `<item>`, and note the licence (all faces SIL OFL 1.1). Unused faces stay if they are fallbacks.
+   `<item>`, and note the license (all faces SIL OFL 1.1). Unused faces stay if they are fallbacks.
    Digits in titles must be lining. Measured at setup (`install_fonts.py --verify` prints the table):
    **Cormorant Garamond 600/700 and IM Fell English draw oldstyle digits**, so numerals never go in
    them — IM Fell carries no `lnum` at all, and Cormorant's `lnum` cannot be trusted through an EPUB
@@ -263,7 +264,7 @@ aspect, preferably not watermarked. Center-crop 4:5 → 736×920 → JPEG q85 op
 lives in worklog only, never printed in the book.
 
 **Fictional figures.** Illustrate rather than fake a likeness (cover art included: `generate_image` →
-keep the original in `image-search/` → code to the card spec → install). An illustration is labelled
+keep the original in `image-search/` → code to the card spec → install). An illustration is labeled
 as an illustration on the card caption; a photograph is never invented for a real person.
 
 **Wardrobe plates.** Trigger: a *new* outfit with narrative intent (the same outfit twice = no plate).
@@ -403,7 +404,7 @@ needs — never truncate, never pad to a word count.
   `str.replace`.
 - First-`</div>` extraction grabs the label's own div — parse with ElementTree.
 - Multi-edit scripts: assert every anchor before writing; discard on mid-script failure.
-- A global `p{color}` beats an inherited block colour — scope child rules under the block.
+- A global `p{color}` beats an inherited block color — scope child rules under the block.
 - `repeat_check.py` takes a **bare filename**; `audit_marks.py` needs a **real path**. Feeding either
   the wrong form produces a misleadingly clean run.
 - `workspace_audit.py` needs `image-search/` and `raws/` to exist for `source_inventory.tsv`, and it

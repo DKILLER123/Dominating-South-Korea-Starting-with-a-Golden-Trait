@@ -3,7 +3,7 @@
 
 Standing directive for this book: production skills, house gates, fonts and stylesheet RULES
 were inherited from the reference novel (*Peninsula: Going Viral After a Dating Scandal with
-Kim Taeyeon*), but **no character, invented organisation, ship label, song, system name or
+Kim Taeyeon*), but **no character, invented organization, ship label, song, system name or
 other content of that novel may appear in this book.** This gate scans the book tree for bleed.
 
 Two severities, because this novel and the reference novel both sit in the real Korean
