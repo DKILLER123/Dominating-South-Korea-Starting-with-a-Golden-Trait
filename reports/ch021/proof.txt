@@ -1,0 +1,14 @@
+== ch021.xhtml · 6861 words · 8 style blocks (1/1k words) · 8 distinct types
+   used:   author-aside, briefing-block, checklist-block, dossier-block, location-stamp, memory-block, status-panel, whisper-block
+   unused: acting-block, app-screen, award-block, box-office, call-sheet, char-intro-block, comment-thread, contract-block, dev-quest, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lesson-block, lyric-block, menu-block, news-digest, official-post, official-statement, performance-block, phone-call, pitch-deck, recording-block, release-block, screen-view, studio-block, system-block, trend-block, variety-block, wardrobe-block, world-dispatch
+== ch022.xhtml · 3896 words · 9 style blocks (2/1k words) · 8 distinct types
+    x2: about a friend’s private life is normal rene
+  cross-chapter 8-grams: 0
+repeat_check: REVIEW (deliberate lyric quotes may be legitimate)
+   [NO-QM?] “…Don’t tease me like this in future.”
+RESULT: OK (triage any NO-QM? lines above)
+--- cycle-7 notes
+blocks(counted): location-stamp, checklist-block, memory-block, status-panel, dossier-block, whisper-block, briefing-block, author-aside = 8 distinct; pullquote uncounted.
+deliberate echo kept: 'A friend caring about a friend's private life is normal.' x2 (raw callback joke, he throws her line back; 'learned and used on the spot').
+NO-QM? triage: all flagged lines are imperatives/statements, legitimate.
+reserved portraits: uploads/Ha-Jiwon.png, uploads/Son-Yejin.jpg — NOT introduced in ch21/22; adopt on first prose introduction (Ha-Jiwon.png needs bottom-right watermark crop on adoption).

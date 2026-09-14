@@ -70,4 +70,14 @@
    [NO-QM?] “…Shoulders loose.”
 == work_epub/OEBPS/text/ch020.xhtml
    [NO-QM?] “…Why you suddenly asked to meet.”
+== work_epub/OEBPS/text/ch021.xhtml
+   [NO-QM?] “…d whether you had a girlfriend, you didn’t seem very surprised either.”
+   [NO-QM?] “…When you laugh like this now, you look better than on stage.”
+   [NO-QM?] “…Don’t forget — I am an SM Entertainment artist.”
+   [NO-QM?] “…Which is why my tone is already gentle.”
+   [NO-QM?] “…Don’t want to.”
+   [NO-QM?] “…Don’t tease me like this in future.”
+== work_epub/OEBPS/text/ch022.xhtml
+   [NO-QM?] “…Don’t move.”
+   [NO-QM?] “…Don’t poke out.”
 RESULT: OK (triage any NO-QM? lines above)

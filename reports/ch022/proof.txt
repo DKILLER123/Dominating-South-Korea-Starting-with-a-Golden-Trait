@@ -1,0 +1,13 @@
+== ch022.xhtml · 3896 words · 9 style blocks (2/1k words) · 8 distinct types
+   used:   author-aside, checklist-block, contract-block, location-stamp, memory-block, news-digest, status-panel, whisper-block
+   unused: acting-block, app-screen, award-block, box-office, briefing-block, call-sheet, char-intro-block, comment-thread, dev-quest, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lesson-block, lyric-block, menu-block, official-post, official-statement, performance-block, phone-call, pitch-deck, recording-block, release-block, screen-view, studio-block, system-block, trend-block, variety-block, wardrobe-block, world-dispatch
+style_audit: PASS (22 chapter(s))
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+repeat_check: PASS
+   [NO-QM?] “…Don’t poke out.”
+RESULT: OK (triage any NO-QM? lines above)
+--- cycle-7 notes
+blocks(counted): location-stamp x2, news-digest, checklist-block, whisper-block, status-panel, memory-block, contract-block, author-aside = 8 distinct; pullquote uncounted.
+name discipline: Irene in prose; Joo-hyun-ssi / Joo-hyun in address; Yoona stage-name only in carried-over contract clause; Lee Bu-jin spelled as established.
+NO-QM? triage: 'Don't move.' / 'Don't poke out.' imperatives, legitimate.

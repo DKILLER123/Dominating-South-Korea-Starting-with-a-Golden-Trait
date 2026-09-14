@@ -1,5 +1,5 @@
 {
-  "files_scanned": 32,
+  "files_scanned": 34,
   "hard_tokens_groups": [
     "protagonist",
     "invented_orgs_and_products",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Im Yoona",
-      "hits": 3,
+      "hits": 34,
       "cleared_by_raws": true,
       "note": "sourced from this book's raws",
       "samples": [
@@ -41,6 +41,14 @@
         {
           "file": "work_epub/OEBPS/text/ch006.xhtml",
           "context": "he wanted a photograph with. Somebody yelled Yoona. Somebody yelled Taeyeon. Somebody yelled he"
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch021.xhtml",
+          "context": "dered it a moment, then said, lightly: “Then Yoona would be good.” Irene’s heart jumped hard; s"
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch021.xhtml",
+          "context": "t?” Bae Do-yoon looked at her and repeated: “Yoona. I said she would be quite good.” Irene’s ey"
         }
       ]
     },

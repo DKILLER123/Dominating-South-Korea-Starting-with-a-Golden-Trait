@@ -4,23 +4,32 @@
   "sha256": "0e1ef706e20028398e4b32183ff384fe7499aa7218cd1a64a2a948c91fb600bd",
   "bytes": 4615230,
   "archive_entries": 77,
-  "extracted_files": 77,
+  "extracted_files": 79,
   "package_state": "built",
   "archive_only": [],
-  "tree_only": [],
-  "changed_files": [],
-  "xml_documents": 29,
-  "chapters": 20,
-  "xhtml_files": 26,
-  "manifest_items": 74,
-  "spine_items": 26,
-  "ncx_navpoints": 25,
-  "nav_li": 28,
+  "tree_only": [
+    "OEBPS/text/ch021.xhtml",
+    "OEBPS/text/ch022.xhtml"
+  ],
+  "changed_files": [
+    "OEBPS/content.opf",
+    "OEBPS/text/cover.xhtml",
+    "OEBPS/text/glossary.xhtml",
+    "OEBPS/text/nav.xhtml",
+    "OEBPS/toc.ncx"
+  ],
+  "xml_documents": 31,
+  "chapters": 22,
+  "xhtml_files": 28,
+  "manifest_items": 76,
+  "spine_items": 28,
+  "ncx_navpoints": 27,
+  "nav_li": 30,
   "images": 24,
   "fonts": 20,
   "highest_numeric_image_id": 24,
   "image_manifest_items": 24,
-  "glossary_cards": 43,
+  "glossary_cards": 46,
   "introductions_cards": 17,
   "front_matter_order": [
     "text/cover.xhtml",
@@ -30,13 +39,13 @@
     "text/introductions.xhtml",
     "text/glossary.xhtml"
   ],
-  "next_chapter_slot": "ch021",
-  "next_ncx_play_order": 26,
-  "next_nav_li_after_chapters": 28,
+  "next_chapter_slot": "ch023",
+  "next_ncx_play_order": 28,
+  "next_nav_li_after_chapters": 30,
   "character_cards": 17,
   "reference_checks_note": "Every href, src and CSS url() resolved inside the tree; fragments checked against document IDs.",
-  "reference_checks": 352,
-  "body_words_including_furniture": 62992,
+  "reference_checks": 366,
+  "body_words_including_furniture": 73203,
   "asset_decoding": "performed",
   "assets_decoded": 44,
   "legacy_gate_exit_codes": {
@@ -48,9 +57,11 @@
     "stylelint": "not installed; npm ci required"
   },
   "editorial_review_counts": {
-    "metrics-band": 17,
+    "metrics-band": 19,
     "doubled-word": 1
   },
-  "structural_errors": [],
-  "scope_note": "Automated full-tree scan, not semantic proof of all 20 chapters; regex editorial flags require human review. This script does not perform EPUBCheck or reader rendering; see separate cycle reports for any additional proof."
+  "structural_errors": [
+    "Tree/archive parity differs; see summary JSON"
+  ],
+  "scope_note": "Automated full-tree scan, not semantic proof of all 22 chapters; regex editorial flags require human review. This script does not perform EPUBCheck or reader rendering; see separate cycle reports for any additional proof."
 }
