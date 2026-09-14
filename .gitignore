@@ -1,0 +1,19 @@
+# Dependencies and scratch — never shipped (house convention: the extracted tree and useful
+# audit indexes ARE kept, so work_epub/ and reports/ stay tracked).
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.cache/
+reports/.tmp/
+
+# Generated intermediates from image rounds: search downloads and generation are re-derivable.
+# image-search/ is kept tracked on purpose (reader directive: it stores the image-search files),
+# but batch scratch output does not belong in history.
+image-search/_scratch/
+gen/
+*.tmp
+
+# OS noise
+.DS_Store
+Thumbs.db

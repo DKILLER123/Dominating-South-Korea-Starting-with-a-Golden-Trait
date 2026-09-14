@@ -1,5 +1,32 @@
 {
   "dependencies": {
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/cardo": "^5.3.0",
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/courier-prime": "^5.3.0",
+    "@fontsource/crimson-pro": "^5.3.0",
+    "@fontsource/eb-garamond": "^5.3.0",
+    "@fontsource/im-fell-english": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/libre-baskerville": "^5.3.0",
+    "@fontsource/lora": "^5.3.0",
+    "@fontsource/permanent-marker": "^5.3.0",
     "stylelint": "^16.26.1"
-  }
+  },
+  "scripts": {
+    "fonts": "python3 install_fonts.py",
+    "fonts:verify": ".venv/bin/python install_fonts.py --verify",
+    "styles": "python3 sync_styles.py",
+    "lint": "stylelint --config .sl.json \"work_epub/OEBPS/styles/*.css\"",
+    "gates": "python3 validate_tree.py && python3 punct_quotes.py && python3 legacy_firewall.py",
+    "audit": "python3 workspace_audit.py",
+    "audit:assets": ".venv/bin/python workspace_audit.py --assets",
+    "index": "python3 style_index.py",
+    "build": "python3 build_epub.py",
+    "index:check": "python3 style_index.py --check-skill",
+    "all": "python3 sync_styles.py && python3 install_fonts.py && python3 style_index.py --check-skill && npm run gates"
+  },
+  "description": "Tooling for the Dominating South Korea EPUB production workspace (stylelint is the only runtime dependency).",
+  "private": true
 }

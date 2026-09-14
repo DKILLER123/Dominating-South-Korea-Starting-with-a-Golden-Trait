@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Read-only recovery audit; writes reports/, never edits or rebuilds the book.
+"""Read-only workspace audit for *Dominating South Korea: Starting with a Golden Trait*.
+Writes reports/, never edits or rebuilds the book. Safe to run with no EPUB built yet: the
+package-parity section is skipped and recorded as `package-not-built` for review.
 
 python3 workspace_audit.py             # standard-library structural/content inventory
 .venv/bin/python workspace_audit.py --assets  # additionally decode images and WOFFs
@@ -23,7 +25,11 @@ import zipfile
 ROOT = Path(__file__).resolve().parent
 TREE = ROOT / 'work_epub'
 REPORTS = ROOT / 'reports'
-BOOK = ROOT / 'Peninsula_Going_Viral_After_a_Dating_Scandal_with_Kim_Taeyeon_UC.epub'
+BOOK = ROOT / 'Dominating_South_Korea_Starting_with_a_Golden_Trait.epub'
+# Required front-matter order for this edition (reader directive): cover, synopsis, contents,
+# character info, introductions, glossary, then Chapter 1 onward.
+FRONT_ORDER = ['text/cover.xhtml', 'text/synopsis.xhtml', 'text/nav.xhtml',
+               'text/characters.xhtml', 'text/introductions.xhtml', 'text/glossary.xhtml']
 X = '{http://www.w3.org/1999/xhtml}'
 O = '{http://www.idpf.org/2007/opf}'
 N = '{http://www.daisy.org/z3986/2005/ncx/}'
@@ -65,28 +71,34 @@ def main():
     errors, review = [], []
     files = {p.relative_to(TREE).as_posix(): p for p in TREE.rglob('*') if p.is_file()}
     if not files:
-        parser.error('work_epub/ is missing or empty; extract the source EPUB first')
-    with zipfile.ZipFile(BOOK) as archive:
-        infos = archive.infolist()
-        names = [i.filename for i in infos]
-        if len(names) != len(set(names)):
-            errors.append('Duplicate archive entries')
-        if archive.testzip() is not None:
-            errors.append('Archive CRC failure')
-        first = infos[0]
-        if not (first.filename == 'mimetype' and first.compress_type == zipfile.ZIP_STORED
-                and archive.read('mimetype') == b'application/epub+zip'):
-            errors.append('Invalid mimetype packaging')
-        archive_only = sorted(set(names) - files.keys())
-        tree_only = sorted(files.keys() - set(names))
-        changed = sorted(n for n in files.keys() & set(names)
-                         if files[n].read_bytes() != archive.read(n))
-        if archive_only or tree_only or changed:
-            errors.append('Tree/archive parity differs; see summary JSON')
-        inventory = [{'path': i.filename, 'bytes': i.file_size,
-                      'sha256': sha(archive.read(i)), 'compression': i.compress_type}
-                     for i in infos]
-    tsv('archive_inventory.tsv', inventory)
+        parser.error('work_epub/ is missing or empty. Setup order: python3 sync_styles.py, python3 install_fonts.py, then seed the front-matter pages; chapter cycles rebuild from raws/')
+    infos, archive_only, tree_only, changed, inventory = [], [], [], [], []
+    if BOOK.exists():
+        with zipfile.ZipFile(BOOK) as archive:
+            infos = archive.infolist()
+            names = [i.filename for i in infos]
+            if len(names) != len(set(names)):
+                errors.append('Duplicate archive entries')
+            if archive.testzip() is not None:
+                errors.append('Archive CRC failure')
+            first = infos[0]
+            if not (first.filename == 'mimetype' and first.compress_type == zipfile.ZIP_STORED
+                    and archive.read('mimetype') == b'application/epub+zip'):
+                errors.append('Invalid mimetype packaging')
+            archive_only = sorted(set(names) - files.keys())
+            tree_only = sorted(files.keys() - set(names))
+            changed = sorted(n for n in files.keys() & set(names)
+                             if files[n].read_bytes() != archive.read(n))
+            if archive_only or tree_only or changed:
+                errors.append('Tree/archive parity differs; see summary JSON')
+            inventory = [{'path': i.filename, 'bytes': i.file_size,
+                          'sha256': sha(archive.read(i)), 'compression': i.compress_type}
+                         for i in infos]
+        tsv('archive_inventory.tsv', inventory)
+    else:
+        review.append({'file': BOOK.name, 'kind': 'package-not-built',
+                       'detail': 'No EPUB at the deliverable path yet. Expected during workspace '
+                                 'setup; build_epub.py runs only after an authorized editorial cycle.'})
     docs = {}
     for name, path in files.items():
         if path.suffix in {'.xml', '.opf', '.ncx', '.xhtml'}:
@@ -166,6 +178,14 @@ def main():
         errors.append('Chapter sequence has gaps')
     if [h for h in spine_hrefs if re.fullmatch(r'text/ch\d{3}\.xhtml', h)] != [n.removeprefix('OEBPS/') for n in expected]:
         errors.append('Spine chapter order mismatch')
+    if spine_hrefs[:len(FRONT_ORDER)] != FRONT_ORDER:
+        errors.append('Spine front-matter order mismatch: the reader-mandated order is '
+                      + ' > '.join(FRONT_ORDER) + f'; the spine opens with {spine_hrefs[:len(FRONT_ORDER)]}')
+    for position, name in enumerate(chapter_names, start=1):
+        want = f'text/ch{position:03d}.xhtml'
+        if len(spine_hrefs) < len(FRONT_ORDER) + position or spine_hrefs[len(FRONT_ORDER) + position - 1] != want:
+            errors.append(f'Spine chapter slot {position} should be {want}')
+            break
     nav = docs['OEBPS/text/nav.xhtml']
     toc = next(e for e in nav.iter(X + 'nav') if 'toc' in e.get('{http://www.idpf.org/2007/ops}type', '').split())
     nav_chapters = [a.get('href') for a in toc.iter(X + 'a') if re.fullmatch(r'ch\d{3}\.xhtml', a.get('href', ''))]
@@ -222,7 +242,10 @@ def main():
             character_rows.append({'name': name, 'portraits': ' | '.join(portraits), 'anchor': card.get('id', '')})
     tsv('character_index.tsv', character_rows)
     tsv('glossary_index.tsv', [{'term': compact(e)} for e in docs['OEBPS/text/glossary.xhtml'].iter() if 'gl-term' in classes(e)])
-    variants = ['Kim Taeyeon', 'Kim Tae-yeon', 'Tae-yeon', 'Im Yoon-a', 'Yoona', 'Hahm Eun-jung', 'Ham Eun-jung', 'Park Hyomin', 'Hyo-min', 'Song Ji-ho', 'Sol', 'Bae Joo-hyun', 'Chae Soo-bin']
+    variants = ['Bae Do-yoon', 'Do-yoon', 'Bae Yun', 'Pei Yun', 'Jessica Jung', 'Jessica',
+                'Lee Boo-jin', "Girls' Generation", 'SNSD', 'SM Entertainment',
+                'Seoul National University', 'Han River', 'Favor of Rich Women',
+                'Favoured by Rich Women', 'Golden Trait']
     variant_rows = []
     for variant in variants:
         counts = {Path(n).stem: len(re.findall(r'(?<![A-Za-z])' + re.escape(variant) + r'(?![A-Za-z])', text(docs[n].find(X + 'body')))) for n in chapter_names if n in docs}
@@ -232,7 +255,7 @@ def main():
     tsv('style_usage.tsv', [{'class': c, 'occurrences': sum(uses.values()), 'chapters': ', '.join(sorted(uses))} for c, uses in sorted(block_usage.items())])
     tsv('editorial_review.tsv', review)
     source_rows = []
-    for folder in ['raws', 'uploads']:
+    for folder in ['raws', 'image-search']:
         for path in sorted((ROOT / folder).glob('*')):
             if not path.is_file():
                 continue
@@ -259,21 +282,29 @@ def main():
     commands = {
         'validate_tree': [sys.executable, 'validate_tree.py'],
         'punct_quotes': [sys.executable, 'punct_quotes.py'],
-        'audit_marks': [sys.executable, 'audit_marks.py', *['work_epub/' + n for n in chapter_names]],
+        'audit_marks': [sys.executable, 'audit_marks.py', *['work_epub/' + n for n in chapter_names]]
+        if chapter_names else None,
         'repeat_check': [sys.executable, 'repeat_check.py', *[Path(n).name for n in chapter_names]],
+        'legacy_firewall': [sys.executable, 'legacy_firewall.py', '--json', 'reports/firewall.json'],
     }
     lint = ROOT / 'node_modules/.bin/stylelint'
     if lint.exists():
         commands['stylelint'] = [str(lint), '--config', '.sl.json', 'work_epub/OEBPS/styles/*.css']
     for label, command in commands.items():
+        if not command:
+            gates[label] = 'no chapters in tree yet'
+            continue
         result = subprocess.run(command, cwd=ROOT, capture_output=True, text=True)
         (REPORTS / f'{label}.txt').write_text(result.stdout + result.stderr, encoding='utf-8')
         gates[label] = result.returncode
     if not lint.exists():
         gates['stylelint'] = 'not installed; npm ci required'
     summary = {
-        'epub': BOOK.name, 'sha256': sha(BOOK.read_bytes()), 'bytes': BOOK.stat().st_size,
+        'epub': BOOK.name, 'packaged': BOOK.exists(),
+        'sha256': sha(BOOK.read_bytes()) if BOOK.exists() else None,
+        'bytes': BOOK.stat().st_size if BOOK.exists() else None,
         'archive_entries': len(infos), 'extracted_files': len(files),
+        'package_state': 'built' if BOOK.exists() else 'not built yet (setup cycle)',
         'archive_only': archive_only, 'tree_only': tree_only, 'changed_files': changed,
         'xml_documents': len(docs), 'chapters': len(chapter_names),
         'xhtml_files': sum(n.endswith('.xhtml') for n in files),
@@ -281,9 +312,16 @@ def main():
         'ncx_navpoints': len(points), 'nav_li': len(list(nav.iter(X + 'li'))),
         'images': sum(i.get('media-type', '').startswith('image/') for i in items),
         'fonts': sum(i.get('href', '').endswith('.woff') for i in items),
-        'highest_numeric_image_id': max(int(i.get('id')[3:]) for i in items if re.fullmatch(r'id-\d+', i.get('id', ''))),
+        'highest_numeric_image_id': max((int(i.get('id')[3:]) for i in items if re.fullmatch(r'id-\d+', i.get('id', ''))), default=0),
+        'image_manifest_items': sum(1 for i in items if re.fullmatch(r'id-\d+', i.get('id', ''))),
         'glossary_cards': sum('glossary-card' in classes(e) for e in docs['OEBPS/text/glossary.xhtml'].iter()),
+        'introductions_cards': sum('char-intro-block' in classes(e) for e in docs['OEBPS/text/introductions.xhtml'].iter()),
+        'front_matter_order': spine_hrefs[:len(FRONT_ORDER)],
+        'next_chapter_slot': f'ch{len(chapter_names) + 1:03d}',
+        'next_ncx_play_order': len(points) + 1,
+        'next_nav_li_after_chapters': len(chapter_names) + 8,
         'character_cards': sum('char-card' in classes(e) for e in docs['OEBPS/text/characters.xhtml'].iter()),
+        'reference_checks_note': 'Every href, src and CSS url() resolved inside the tree; fragments checked against document IDs.',
         'reference_checks': len(references), 'body_words_including_furniture': sum(r['body_words'] for r in chapter_rows),
         'asset_decoding': 'performed' if args.assets else 'not requested',
         'assets_decoded': len(assets), 'legacy_gate_exit_codes': gates,

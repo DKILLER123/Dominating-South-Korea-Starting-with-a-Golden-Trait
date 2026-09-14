@@ -1,0 +1,5 @@
+legacy_firewall: 11 files scanned · 179 raw tokens indexed for provenance
+  hard bleed: 0 — none of the reference novel's inventions are present
+  soft: Lee Boo-jin ×4 → cleared (sourced from this book's raws)
+  report: reports/firewall.json
+legacy_firewall: PASS

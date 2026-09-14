@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """House packer — builds the deliverable EPUB from work_epub/.
 
-Rules (fixed by the project worklog):
+OVERWRITES the root deliverable: never run it to inspect the book, and never run it without an
+authorized editorial cycle, a worklog §8 entry and all §9 gates green (SKILL.md §2 step 7).
+
+Rules (fixed by this project's worklog):
   * mimetype MUST be the first entry, STORED, raw bytes 'application/epub+zip'
   * everything else ZIP_DEFLATED
   * entry order: mimetype, META-INF/*, then the OEBPS tree
@@ -12,7 +15,7 @@ import zipfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TREE = os.path.join(HERE, "work_epub")
-OUT = os.path.join(HERE, "Peninsula_Going_Viral_After_a_Dating_Scandal_with_Kim_Taeyeon_UC.epub")
+OUT = os.path.join(HERE, "Dominating_South_Korea_Starting_with_a_Golden_Trait.epub")
 
 def entries():
     files = []

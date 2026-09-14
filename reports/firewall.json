@@ -1,0 +1,37 @@
+{
+  "files_scanned": 11,
+  "hard_tokens_groups": [
+    "protagonist",
+    "invented_orgs_and_products",
+    "reference_titles_and_ships",
+    "reference_cast"
+  ],
+  "hard_hits": [],
+  "soft": [
+    {
+      "name": "Lee Boo-jin",
+      "hits": 4,
+      "cleared_by_raws": true,
+      "note": "sourced from this book's raws",
+      "samples": [
+        {
+          "file": "work_epub/OEBPS/text/synopsis.xhtml",
+          "context": "did Do-yoon finally see the stranger’s face. Lee Boo-jin made her terms plain. “Work for me, and work"
+        },
+        {
+          "file": "work_epub/OEBPS/text/characters.xhtml",
+          "context": " College of Law Occupation Prosecutor Patron Lee Boo-jin, by contract and by her own words Trait Gold"
+        },
+        {
+          "file": "work_epub/OEBPS/text/characters.xhtml",
+          "context": " feelings is settled before the raw says it. Lee Boo-jin The woman who hands out two options and hono"
+        },
+        {
+          "file": "work_epub/OEBPS/text/introductions.xhtml",
+          "context": " a chapter’s business, not this page’s. Idol Lee Boo-jin The stranger with two options Chaebol house,"
+        }
+      ]
+    }
+  ],
+  "scope_note": "Hard tokens are the reference novel's own fiction; soft tokens are real public figures cleared only when this book's raws name them. Real-world idol names appearing in this book must trace to this book's raws."
+}

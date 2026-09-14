@@ -5,7 +5,11 @@ Checks, in order:
   1. every .xhtml parses as XML
   2. every class used in the text tree is defined in the stylesheets
   3. straight quotes in prose (should be 0 — Option B curly everywhere)
-  4. CJK characters anywhere in the text tree (must be 0)
+  4. CJK characters anywhere in the text tree (must be 0). Documented exemption for this
+     book: a run of Korean inside an element marked lang="ko" is a sanctioned gloss (the
+     glossary page and character-card Hangul), so it is exempted from the Han/Hangul scan
+     and reported separately as a count. Everything else — including every chapter body —
+     must be CJK-free, and the exemption never applies to a chapter file.
   5. internal href/src references resolve to files in the tree
 """
 import re
@@ -60,8 +64,11 @@ def main():
     # is deliberately exempted: the base ships ㅋㅋ / ㅠㅠ as fan-register emoticons
     # in four comment/chat blocks (ch120/143/196/209) — voice, not language.
     cjk = re.compile(r"[\u2e80-\u312f\u3190-\u9fff\uf900-\ufaff\uff00-\uffef\u3000-\u303f]")
+    ko_span = re.compile(r'<(\w+)[^>]*\blang="ko"[^>]*>(.*?)</\1>', re.S)
+    hangul_only = re.compile(r"[\uac00-\ud7af\u3130-\u318f]")
     straight = 0
     cjk_hits = 0
+    exempted = 0
     for f in files:
         src = open(f, encoding="utf-8").read()
         body = re.sub(r"<[^>]+>", "", src)
@@ -70,11 +77,21 @@ def main():
         if n:
             straight += n
             print(f"STRAIGHT QUOTES {os.path.basename(f)}: {n}")
-        m = cjk.findall(body)
+        # Sanctioned Korean glosses (glossary + card glosses) are exempt from the scan only
+        # when they sit inside a lang="ko" element, and never inside a chapter file.
+        is_chapter = bool(re.search(r"ch\d{3}\.xhtml$", f))
+        glosses = [] if is_chapter else ko_span.findall(src)
+        if not is_chapter and glosses:
+            exempted += sum(len(hangul_only.findall(re.sub(r"<[^>]+>", "", inner)))
+                            for _tag, inner in glosses)
+        scan_src = src if is_chapter else ko_span.sub(" ", src)
+        scan_body = re.sub(r"&[a-z]+;", "", re.sub(r"<[^>]+>", "", scan_src))
+        m = cjk.findall(scan_body)
         if m:
             cjk_hits += len(m)
             print(f"CJK {os.path.basename(f)}: {''.join(m[:10])}")
-    print(f"straight quotes in prose: {straight} · CJK chars: {cjk_hits}")
+    print(f"straight quotes in prose: {straight} · CJK chars: {cjk_hits} · "
+          f"lang=\"ko\" Hangul glosses exempted: {exempted}")
     if straight or cjk_hits:
         ok = False
 
