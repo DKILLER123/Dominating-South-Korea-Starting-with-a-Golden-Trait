@@ -29,8 +29,8 @@ and why it is walled off).
 - **No EPUB without raws.** Nothing has been translated yet: do not invent Chapter 1, do not build a
   package to "see what it looks like" (`build_epub.py` overwrites the deliverable).
 - **Publication rule (reader directive):** after **every final EPUB**, commit and push to this
-  session branch `arena/01a09e8b-dominating-south-korea-startin`, verify the remote commit equals
-  local HEAD, and provide the GitHub download link. Never force-push, never touch `main`.
+session branch `arena/01a0a030-dominating-south-korea-startin`, verify the remote commit equals
+local HEAD, and provide the GitHub download link. Never force-push, never touch `main`.
   Setup cycles that produce no EPUB are committed locally and pushed as tooling/state checkpoints.
 
 ## Tooling in this repo
@@ -51,11 +51,12 @@ and why it is walled off).
 
 `npm run gates` chains the three fast gates; `npm run audit:assets` runs the full audit.
 
-## Current state (setup cycle, 2026-09-14)
+## Current state (cycle 2, 2026-09-14)
 
-Tree: 33 files · 30 manifest items · 6 spine entries · 5 NCX navPoints · 8 nav list items · 20 WOFF
-faces · 1 image (`cover-bg.jpg`, generated plate, v1) · 3 character cards · 4 introduction cards ·
-27 glossary cards · 0 chapters. All gates green; nothing packaged yet — awaiting the reader's raws.
-Next cycle is Chapter 1: `raws/ch001_raw.txt` → `work_epub/OEBPS/text/ch001.xhtml` → wire-up
-(manifest `ch001`, NCX `num_6`/playOrder 6, one nav `<li>`, cover + OPF stamps → `Chapters 1–1`,
-glossary footer → Chapter 1).
+Tree: 5 chapters (`ch001`–`ch005`) · 47 payload files · 44 manifest items · 11 spine entries ·
+10 NCX navPoints · 13 nav list items · 20 WOFF faces · 9 images (repaired cover plate · cards
+`id-02`…`id-05` · assistant portrait `id-06` · wardrobe plates `id-07`…`id-09`, all photographic-real) ·
+6 character cards · 6 introduction cards · 35 glossary cards. Package built and pushed:
+47 entries · 2,032,683 B · sha256 `d4c044f3…`. `extracted/` holds the unpacked v1 archive snapshot.
+All gates green. Next chapter slot `ch006` (NCX `num_11`/playOrder 11, nav li 14, next image id
+`id-10`); next cycle begins at `raws/ch006_raw.txt` per SKILL §2.

@@ -2,7 +2,7 @@
   "chapters": [
     {
       "chapter": "ch001.xhtml",
-      "prose_words": 2681,
+      "prose_words": 2674,
       "blocks": 15,
       "distinct_types": 11,
       "blocks_per_1k_words": 6,
@@ -11,7 +11,7 @@
     },
     {
       "chapter": "ch002.xhtml",
-      "prose_words": 3640,
+      "prose_words": 3654,
       "blocks": 14,
       "distinct_types": 14,
       "blocks_per_1k_words": 4,
@@ -29,7 +29,7 @@
     },
     {
       "chapter": "ch004.xhtml",
-      "prose_words": 3379,
+      "prose_words": 3390,
       "blocks": 11,
       "distinct_types": 11,
       "blocks_per_1k_words": 3,
@@ -38,7 +38,7 @@
     },
     {
       "chapter": "ch005.xhtml",
-      "prose_words": 3766,
+      "prose_words": 3791,
       "blocks": 13,
       "distinct_types": 12,
       "blocks_per_1k_words": 3,

@@ -55,6 +55,10 @@
     <item id="id-03" href="images/id-03.jpg" media-type="image/jpeg"/>
     <item id="id-04" href="images/id-04.jpg" media-type="image/jpeg"/>
     <item id="id-05" href="images/id-05.jpg" media-type="image/jpeg"/>
+    <item id="id-06" href="images/id-06.jpg" media-type="image/jpeg"/>
+    <item id="id-07" href="images/wd_assistant_suit.jpg" media-type="image/jpeg"/>
+    <item id="id-08" href="images/wd_assistant_tealounge.jpg" media-type="image/jpeg"/>
+    <item id="id-09" href="images/wd_jessica_trench.jpg" media-type="image/jpeg"/>
     <item id="ch001" href="text/ch001.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch002" href="text/ch002.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch003" href="text/ch003.xhtml" media-type="application/xhtml+xml"/>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:6f1c2a48-9b3e-4e77-8d51-2c0a74b9e310"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Dominating South Korea: Starting with a Golden Trait</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="text/cover.xhtml"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2">
+      <navLabel><text>Synopsis</text></navLabel>
+      <content src="text/synopsis.xhtml"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="3">
+      <navLabel><text>Character Info</text></navLabel>
+      <content src="text/characters.xhtml"/>
+    </navPoint>
+    <navPoint id="num_4" playOrder="4">
+      <navLabel><text>Introductions</text></navLabel>
+      <content src="text/introductions.xhtml"/>
+    </navPoint>
+    <navPoint id="num_5" playOrder="5">
+      <navLabel><text>Glossary</text></navLabel>
+      <content src="text/glossary.xhtml"/>
+    </navPoint>
+    <!-- CHAPTER NAVPOINTS: insert the next chapter after this comment.
+         Chapter N takes id="num_{N+5}" and playOrder="{N+5}" (five leading
+         reference entries; navPoints = chapters + 5). -->
+    <navPoint id="num_6" playOrder="6">
+      <navLabel><text>Chapter 1 · Favor of Rich Women (Gold) and Idol Killer (Purple)</text></navLabel>
+      <content src="text/ch001.xhtml"/>
+    </navPoint>
+    <navPoint id="num_7" playOrder="7">
+      <navLabel><text>Chapter 2 · Thoroughly Controlled by a Rich Woman</text></navLabel>
+      <content src="text/ch002.xhtml"/>
+    </navPoint>
+    <navPoint id="num_8" playOrder="8">
+      <navLabel><text>Chapter 3 · I Only Wanted to Date Girl-Group Idols</text></navLabel>
+      <content src="text/ch003.xhtml"/>
+    </navPoint>
+    <navPoint id="num_9" playOrder="9">
+      <navLabel><text>Chapter 4 · Jessica’s Predicament, and Her Compromise</text></navLabel>
+      <content src="text/ch004.xhtml"/>
+    </navPoint>
+    <navPoint id="num_10" playOrder="10">
+      <navLabel><text>Chapter 5 · The Two of Them, Two Years Ago</text></navLabel>
+      <content src="text/ch005.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

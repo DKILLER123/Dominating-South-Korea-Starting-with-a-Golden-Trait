@@ -5,10 +5,11 @@ publisher-grade English EPUB. This file holds the **skills**; `worklog.md` holds
 (cycle log, ships, canon pins). Do not duplicate skills between the two — SKILL.md is the master
 reference, worklog §8 is the history.
 
-**Current at ship:** nothing shipped yet. Tree = 0 chapters · 33 payload files · 30 manifest items ·
-6 spine entries · 5 NCX navPoints · 8 nav list items · 1 image (`cover-bg.jpg`) · 20 WOFF faces ·
-3 character cards · 4 introduction cards · 27 glossary cards. Next image id: **id-02**. Next chapter:
-**ch001** (NCX `num_6`, playOrder `6`).
+**Current at ship:** cycle 2 shipped. Tree = 5 chapters · 47 payload files · 44 manifest items ·
+11 spine entries · 10 NCX navPoints · 13 nav list items · 9 images (`cover-bg.jpg` repaired in place ·
+cards `id-02`…`id-05` · assistant portrait `id-06` · wardrobe plates `id-07`…`id-09`) · 20 WOFF faces ·
+6 character cards · 6 introduction cards · 35 glossary cards. Package: 47 entries · 2,032,683 B ·
+sha256 `d4c044f3…`. Next image id: **id-10**. Next chapter: **ch006** (NCX `num_11`, playOrder `11`).
 
 **Provenance of these skills.** The pipeline below was inherited from the reader's previous novel and
 rewritten for this book. **The previous novel's content is banned** — see `reference/README.md` and
@@ -38,6 +39,7 @@ worklog §8. SKILL.md is versioned by its *Current at ship* line only.
 | `work_epub/` | **the book**: `mimetype`, `META-INF/container.xml`, `OEBPS/{content.opf,toc.ncx,text/,images/,fonts/,styles/}` |
 | `raws/` | untouched source raws, saved first (`raws/README.md`) |
 | `image-search/` | image workbench: search downloads, generation originals, coding rules (`image-search/README.md`) |
+| `extracted/` | read-only unpacked snapshot of each delivered archive (cycle 2 holds v1's 43 entries); never a second live tree |
 | `reports/` | generated audit output (safe to delete; `workspace_audit.py` rebuilds it) |
 | `reference/peninsula-inherited/` | the previous novel's SKILL/worklog/setup — **process only** |
 | `fonts.css`, `stylesheet.css` | the reader's supplied references — never edit their bytes |
@@ -77,8 +79,9 @@ by sheet section 38); `toc.ncx` mirrors everything except the nav itself.
 7. **Build** (`python3 build_epub.py`) → in-archive asserts (§11) → refresh SKILL.md *Current at
    ship* → seal the hash into worklog §8.
 8. **Publish (standing reader directive).** Commit the final EPUB plus the tree, tooling and useful
-   reports; `git push origin arena/01a09e8b-dominating-south-korea-startin`; verify
-   `git rev-parse HEAD` equals `git rev-parse origin/arena/01a09e8b-dominating-south-korea-startin`;
+reports; `git push origin <session-branch>` (the `arena/…` branch the session is tied to — cycle 2
+onward: `arena/01a0a030-dominating-south-korea-startin`); verify
+`git rev-parse HEAD` equals the remote ref for that same branch;
    give the reader the GitHub download link
    (`https://github.com/DKILLER123/Dominating-South-Korea-Starting-with-a-Golden-Trait/raw/<sha>/<file>.epub`).
    Never force-push; never change `main`.
@@ -264,6 +267,22 @@ not presented as a new magical system event.
 Everything about an image round starts and ends in `image-search/` (see its README): searches are
 saved, sources are kept, and only the coded file is installed into the tree.
 
+**Realism directive (reader, cycle 2 — standing).** Every AI-generated image this book makes —
+portrait, wardrobe plate, cover repair — must be photographic-real and natural-feeling: real skin
+texture, real fabric, real light, photographic grain. Animate, cartoon or painterly-stylized
+generation is banned (the reader's word for the banned look is "animatic"). The reader-approved cover plate keeps its painterly treatment (approved in
+cycle 1); the directive governs what is *generated*, and any repair of an approved plate must match
+that plate's own surrounding style so the patch is invisible.
+
+**Repairing an approved plate (cycle 2 practice).** Never swap a reader-approved plate for a full
+regeneration to fix a local defect. Chain: (1) measure the defect's exact extent (gradient/variance
+maps); (2) one image-model pass reconstructs only the defect in the plate's style; (3) prove the edit
+pixel-aligned (shift search on a ring around the defect); (4) graft **only the defect rectangle** by
+Poisson cloning (`cv2.seamlessClone`) onto the approved file; (5) melt any straight border left by
+the graft with a feathered local Gaussian strip; (6) prove containment by pixel diff (changed bbox +
+max |Δ| outside it) **and** inspect at ≥5× zoom — statistics alone hid a seam once; (7) keep the
+lossless master in `image-search/`, re-encode to the house spec, install.
+
 **Character portraits (real people).** `image_search` for a real photograph — close crop, portrait
 aspect, preferably not watermarked. Center-crop 4:5 → 736×920 → JPEG q85 optimize →
 `OEBPS/images/char-{name}.jpg` → manifest `<item id="id-NN">` → the card's `ci-photo`. Provenance
@@ -273,11 +292,17 @@ lives in worklog only, never printed in the book.
 keep the original in `image-search/` → code to the card spec → install). An illustration is labeled
 as an illustration on the card caption; a photograph is never invented for a real person.
 
-**Wardrobe plates.** Trigger: a *new* outfit with narrative intent (the same outfit twice = no plate).
-Identity source order: (1) a reader-supplied file in `image-search/`; (2) the person's canonical
-in-tree portrait. Without a suitable identity source, **skip the plate and the block** rather than
-fabricate a likeness. Generate → center-crop 4:5 → 1120×1400 → JPEG q85 →
-`images/wd_{who}_{garment}.jpg` → manifest id → `wd-photo` embed.
+**Wardrobe plates.** Trigger: a *new* outfit with narrative intent (the same outfit twice = no plate
+— unless the reader's wardrobe-image directive asks for a plate per block: where one outfit carries
+two different scene reads, each block keeps its own plate, all generated from one identity source so
+the person is the same person in every one). Identity source order: (1) a reader-supplied file in
+`image-search/`; (2) the person's canonical in-tree portrait — the plate is generated **from that
+portrait as the image-to-image identity source**, so it matches the character image on page 100%
+and is never a random outfit match. Without a suitable identity source, **skip the plate and the
+block** rather than fabricate a likeness (for a fictional figure with no portrait yet, commission the
+canonical portrait first, install it on the card, then plate from it). Generate → center-crop 4:5 →
+1120×1400 → JPEG q85 → `images/wd_{who}_{garment}.jpg` → manifest id → `wd-photo` embed, with a
+`wd-sub` caption line naming the identity source ("Plate set from her card portrait — …").
 
 **Cover plate.** `images/cover-bg.jpg`, 1200×1800, JPEG q85 progressive, referenced by section 35's
 `background-image` AND declared as `<item id="id-01" properties="cover-image">`; keep the top third
@@ -387,7 +412,9 @@ needs — never truncate, never pad to a word count.
   chapter file (`validate_tree.py` enforces both halves of that).
 - **`nav.xhtml`** — Contents is a real page, not only a hidden nav: five reference entries, then
   chapters in reading order, then the three landmark items.
-- **`cover.xhtml`** — `#chapters-stamp` is the only per-cycle text on the page.
+- **`cover.xhtml`** — `#chapters-stamp` (`p.cover-stamp`, styled by `edition.css` §58) is the only
+  per-cycle text on the page; it carries the chapter range and nothing else. Implemented in cycle 2
+  after v1 shipped without it — the in-archive assert set checks it every build.
 
 ---
 
@@ -426,6 +453,11 @@ needs — never truncate, never pad to a word count.
 - A wardrobe block for a person with no identity source is skipped, not faked.
 - One-sided phone calls: `pc-me` only, far end as `pc-note` murmurs.
 - QM false positives: wh-clefts and temporal clauses are correct periods — triage, don't blind-fix.
+- A feathered blur used to scrub lettering can survive as a visible flat rectangle. After any local
+  patch, inspect the plate at ≥5× zoom around the patch **and** pixel-diff for containment; a
+  pass/fail statistic alone missed the cycle-1 shoulder rectangle the reader caught by eye.
+- Doc drift: v1 shipped without the `#chapters-stamp` §8/§12 mandate. When a gate cannot see a
+  mandated element, the in-archive assert set must grow the check the same cycle the element lands.
 - Do not "fix" the reader's root `fonts.css`/`stylesheet.css`; they are references. Fork with
   `sync_styles.py`.
 - Stylelint 16 has no `no-extra-semicolons` rule; a config carrying it errors out for every file.

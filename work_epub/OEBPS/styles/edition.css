@@ -98,3 +98,22 @@
 .cover-shell .cover-overlay--plate .cover-ornament {
   margin-bottom: 17.5em;
 }
+
+/* ─────────────────────────────────────────────
+   58 · PER-CYCLE CHAPTER STAMP
+   The only per-cycle text on the cover page (SKILL §12): a small courier
+   line under the tagline carrying the chapter range this plate ships with.
+   It sits inside the bottom veil so the plate's own light is untouched, and
+   it carries no version string of any kind — only the chapter range.
+   ───────────────────────────────────────────── */
+.cover-stamp {
+  margin: 0.85em 0 0;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-align: center;
+  text-indent: 0;
+  color: #c8b892;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
