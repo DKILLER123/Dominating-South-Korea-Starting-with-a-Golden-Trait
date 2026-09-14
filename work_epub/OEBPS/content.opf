@@ -9,8 +9,8 @@
     <dc:contributor>Arena Agent Mode · production and typesetting</dc:contributor>
     <dc:publisher>Reader's own edition (unofficial fan translation)</dc:publisher>
     <dc:date>2026-09-14</dc:date>
-    <dc:description>Chapters 1–22: the Shilla suite, the sealed corridor, the terms of a blade, Jessica’s café, a photograph two years old, a declined ring, an audited ledger, a first day in office, a cap in a supermarket line, a bulb changed at nine at night, a marinated-crab debt, a wager over the bottom file, a petition with a famous name, a careful stalker, a business card left in a JYP lobby, a department chief’s hints at nightfall, a masked maknae at an elevator hall, and a how-many-th-generation master above a dumpling shop, a white-rank entry earned in sweat, an SM scout’s card in a wallet, and a side door in Cheongdam-dong.</dc:description>
-    <dc:description>English edition of Chapters 1–22, typeset in the reader's reference stylesheet.</dc:description>
+    <dc:description>Chapters 1–25: the Shilla suite, the sealed corridor, the terms of a blade, Jessica’s café, a photograph two years old, a declined ring, an audited ledger, a first day in office, a cap in a supermarket line, a bulb changed at nine at night, a marinated-crab debt, a wager over the bottom file, a petition with a famous name, a careful stalker, a business card left in a JYP lobby, a department chief’s hints at nightfall, a masked maknae at an elevator hall, and a how-many-th-generation master above a dumpling shop, a white-rank entry earned in sweat, an SM scout’s card in a wallet, and a side door in Cheongdam-dong.</dc:description>
+    <dc:description>English edition of Chapters 1–25, typeset in the reader's reference stylesheet.</dc:description>
     <dc:subject>Korean entertainment industry</dc:subject>
     <dc:subject>Rebirth</dc:subject>
     <dc:subject>Prosecutor</dc:subject>
@@ -96,6 +96,10 @@
     <item id="ch020" href="text/ch020.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch021" href="text/ch021.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch022" href="text/ch022.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch023" href="text/ch023.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch024" href="text/ch024.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch025" href="text/ch025.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-25" href="images/wd_jiyeon_loungewear.jpg" media-type="image/jpeg"/>
   </manifest>
   <spine page-progression-direction="ltr" toc="ncx">
     <itemref idref="cover" linear="yes"/>
@@ -126,5 +130,8 @@
     <itemref idref="ch020" linear="yes"/>
     <itemref idref="ch021" linear="yes"/>
     <itemref idref="ch022" linear="yes"/>
+    <itemref idref="ch023" linear="yes"/>
+    <itemref idref="ch024" linear="yes"/>
+    <itemref idref="ch025" linear="yes"/>
   </spine>
 </package>

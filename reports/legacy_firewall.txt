@@ -1,4 +1,4 @@
-legacy_firewall: 34 files scanned · 5,786 raw tokens indexed for provenance
+legacy_firewall: 37 files scanned · 6,534 raw tokens indexed for provenance
   hard bleed: 0 — none of the reference novel's inventions are present
   soft: Kim Taeyeon ×2 → cleared (sourced from this book's raws)
   soft: Im Yoona ×34 → cleared (sourced from this book's raws)

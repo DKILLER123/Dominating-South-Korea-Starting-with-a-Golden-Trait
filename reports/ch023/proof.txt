@@ -1,0 +1,9 @@
+== ch023.xhtml · 4030 words · 10 style blocks (2/1k words) · 9 distinct types
+   used:   author-aside, checklist-block, contract-block, dossier-block, location-stamp, memory-block, status-panel, wardrobe-block, whisper-block
+   unused: acting-block, app-screen, award-block, box-office, briefing-block, call-sheet, char-intro-block, comment-thread, dev-quest, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lesson-block, lyric-block, menu-block, news-digest, official-post, official-statement, performance-block, phone-call, pitch-deck, recording-block, release-block, screen-view, studio-block, system-block, trend-block, variety-block, world-dispatch
+  cross-chapter 8-grams: 0
+repeat_check: REVIEW (deliberate lyric quotes may be legitimate)
+--- notes
+counted blocks (9): location-stamp x2, whisper, checklist, status-panel, memory, wardrobe (plate wd_irene_practice reused, same outfit as ch20), dossier, contract, author-aside; pullquote uncounted.
+address discipline: private address Joo-hyun / Joo-hyun-ssi; Irene in prose.
+NO-QM? triage: imperatives/declaratives only.

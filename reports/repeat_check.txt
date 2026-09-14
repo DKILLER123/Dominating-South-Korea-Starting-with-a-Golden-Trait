@@ -124,16 +124,41 @@
   vs ch019.xhtml: ae o yoon lifted his coffee and drank
   vs ch019.xhtml: o yoon lifted his coffee and drank again
   cross-chapter 8-grams: 4
-== ch021.xhtml · 6629 words · scope: ch018.xhtml, ch019.xhtml, ch020.xhtml
-  INTERNAL repeats: 10
+== ch021.xhtml · 6627 words · scope: ch018.xhtml, ch019.xhtml, ch020.xhtml
+  INTERNAL repeats: 4
     x3: ae o yoon did not answer at once
     x2: friend caring about a friend’s private life is
     x2: caring about a friend’s private life is normal
     x2: about a friend’s private life is normal rene
-    x2: on purpose ae o yoon looked at her
-    x2: respect your account hat is still not believing
   cross-chapter 8-grams: 0
 == ch022.xhtml · 3789 words · scope: ch019.xhtml, ch020.xhtml, ch021.xhtml
   internal repeats: 0
+  cross-chapter 8-grams: 0
+== ch023.xhtml · 3960 words · scope: ch020.xhtml, ch021.xhtml, ch022.xhtml
+  INTERNAL repeats: 39
+    x2: t the moment he ought to make her
+    x2: o hen what is he doing n the
+    x2: hen what is he doing n the phone
+    x2: what is he doing n the phone ill
+    x2: is he doing n the phone ill he
+    x2: he doing n the phone ill he find
+  cross-chapter 8-grams: 0
+== ch024.xhtml · 3537 words · scope: ch021.xhtml, ch022.xhtml, ch023.xhtml
+  INTERNAL repeats: 22
+    x3: a person who understands neighborly consideration very well
+    x2: declared in all earnestness that she was a
+    x2: in all earnestness that she was a person
+    x2: all earnestness that she was a person who
+    x2: earnestness that she was a person who understands
+    x2: that she was a person who understands neighborly
+  cross-chapter 8-grams: 0
+== ch025.xhtml · 4296 words · scope: ch022.xhtml, ch023.xhtml, ch024.xhtml
+  INTERNAL repeats: 22
+    x2: here is a smell on ae o yoon
+    x2: is a smell on ae o yoon ssi
+    x2: at once he leaned against the sofa back
+    x2: a borrowed car a favor repaid at close
+    x2: borrowed car a favor repaid at close range
+    x2: the distance was close or the time was
   cross-chapter 8-grams: 0
 repeat_check: REVIEW (deliberate lyric quotes may be legitimate)

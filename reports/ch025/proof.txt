@@ -1,0 +1,9 @@
+== ch025.xhtml · 4435 words · 9 style blocks (2/1k words) · 8 distinct types
+   used:   author-aside, checklist-block, contract-block, dossier-block, location-stamp, memory-block, status-panel, whisper-block
+   unused: acting-block, app-screen, award-block, box-office, briefing-block, call-sheet, char-intro-block, comment-thread, dev-quest, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lesson-block, lyric-block, menu-block, news-digest, official-post, official-statement, performance-block, phone-call, pitch-deck, recording-block, release-block, screen-view, studio-block, system-block, trend-block, variety-block, wardrobe-block, world-dispatch
+  cross-chapter 8-grams: 0
+repeat_check: REVIEW (deliberate lyric quotes may be legitimate)
+--- notes
+counted blocks (8): location-stamp x2, checklist, dossier, whisper, memory, status-panel, contract, author-aside; pullquote uncounted.
+glossary +3 this cycle: CCET Pink Encounter, jokbal, tteokbokki (49 total).
+reserved portraits Ha-Jiwon / Son-Yejin still not introduced in ch23-25; adoption pending first prose introduction.

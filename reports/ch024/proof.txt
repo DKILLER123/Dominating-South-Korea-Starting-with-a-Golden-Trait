@@ -1,0 +1,7 @@
+== ch024.xhtml · 3678 words · 10 style blocks (3/1k words) · 9 distinct types
+   used:   author-aside, checklist-block, contract-block, location-stamp, memory-block, menu-block, status-panel, wardrobe-block, whisper-block
+   unused: acting-block, app-screen, award-block, box-office, briefing-block, call-sheet, char-intro-block, comment-thread, dev-quest, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lesson-block, lyric-block, news-digest, official-post, official-statement, performance-block, phone-call, pitch-deck, recording-block, release-block, screen-view, studio-block, system-block, trend-block, variety-block, world-dispatch
+  cross-chapter 8-grams: 0
+repeat_check: REVIEW (deliberate lyric quotes may be legitimate)
+--- notes
+counted blocks (9): location-stamp x2, status-panel, whisper, wardrobe (NEW plate wd_jiyeon_loungewear.jpg = id-25, identity-locked to uploads/Jiyeon.jpg), menu, checklist, contract, memory, author-aside; pullquote uncounted.

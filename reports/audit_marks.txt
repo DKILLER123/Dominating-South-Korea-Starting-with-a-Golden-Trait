@@ -80,4 +80,19 @@
 == work_epub/OEBPS/text/ch022.xhtml
    [NO-QM?] “…Don’t move.”
    [NO-QM?] “…Don’t poke out.”
+== work_epub/OEBPS/text/ch023.xhtml
+   [NO-QM?] “…Don’t use that tone.”
+   [NO-QM?] “…Who knows whether there is a second one.”
+   [NO-QM?] “…Who is looking at you.”
+   [NO-QM?] “…Whatever you say is right.”
+   [NO-QM?] “…Don’t talk nonsense.”
+   [NO-QM?] “…Who is sad to see you go.”
+== work_epub/OEBPS/text/ch024.xhtml
+   [NO-QM?] “…When we were eating jokbal, you weren’t this concerned about exercise.”
+   [NO-QM?] “…Don’t ask.”
+   [NO-QM?] “…ith that child-who-caused-trouble look first — hear me out to the end.”
+== work_epub/OEBPS/text/ch025.xhtml
+   [NO-QM?] “…Don’t deny it.”
+   [NO-QM?] “…What I mean is: no more analyzing the perfume.”
+   [NO-QM?] “…Which is why I said the two of us.”
 RESULT: OK (triage any NO-QM? lines above)

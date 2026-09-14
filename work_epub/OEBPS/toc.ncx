@@ -121,5 +121,17 @@
       <navLabel><text>Chapter 22 · Rekindled?</text></navLabel>
       <content src="text/ch022.xhtml"/>
     </navPoint>
+    <navPoint id="num_28" playOrder="28">
+      <navLabel><text>Chapter 23 · Really Leaving Now</text></navLabel>
+      <content src="text/ch023.xhtml"/>
+    </navPoint>
+    <navPoint id="num_29" playOrder="29">
+      <navLabel><text>Chapter 24 · The Girls Next Door</text></navLabel>
+      <content src="text/ch024.xhtml"/>
+    </navPoint>
+    <navPoint id="num_30" playOrder="30">
+      <navLabel><text>Chapter 25 · Unnie, Are We Sick?</text></navLabel>
+      <content src="text/ch025.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>
