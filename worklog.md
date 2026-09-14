@@ -124,8 +124,8 @@ real figures recur. The front-matter pages say only what the synopsis says.
 before any drafting, alongside the earlier `Synopsis_raw.txt`. Nothing was drafted from recency: each
 chapter was drafted with its raw file open, then re-read against it line by line.
 
-**Chapters.** `work_epub/OEBPS/text/ch001.xhtml` … `ch005.xhtml` (2,681 / 3,643 / 3,4xx / 3,3xx /
-3,766 words). Two drafting rules earned their keep: never draft from memory (the first pass, written
+**Chapters.** `work_epub/OEBPS/text/ch001.xhtml` … `ch005.xhtml` (2,681 / 3,640 / 3,422 / 3,379 /
+3,766 words — `style_audit.py`'s counts, which include block furniture). Two drafting rules earned their keep: never draft from memory (the first pass, written
 from recall, invented a café scene and a phone-count detail — both files were rewritten from the raws),
 and never let a plausible micro-detail stand unless the raw owns it.
 
