@@ -18,4 +18,32 @@
 == ch005.xhtml · 3711 words · scope: ch002.xhtml, ch003.xhtml, ch004.xhtml
   internal repeats: 0
   cross-chapter 8-grams: 0
+== ch006.xhtml · 2657 words · scope: ch003.xhtml, ch004.xhtml, ch005.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== ch007.xhtml · 2498 words · scope: ch004.xhtml, ch005.xhtml, ch006.xhtml
+  INTERNAL repeats: 20
+    x2: he way he looks at you is not
+    x2: way he looks at you is not the
+    x2: he looks at you is not the way
+    x2: looks at you is not the way a
+    x2: at you is not the way a man
+    x2: you is not the way a man looks
+  vs ch006.xhtml: here was a business dinner last night drank
+  cross-chapter 8-grams: 1
+== ch008.xhtml · 2399 words · scope: ch005.xhtml, ch006.xhtml, ch007.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== ch009.xhtml · 3032 words · scope: ch006.xhtml, ch007.xhtml, ch008.xhtml
+  INTERNAL repeats: 8
+    x2: eing on your guard isn’t a bad thing
+    x2: on your guard isn’t a bad thing especially
+    x2: your guard isn’t a bad thing especially for
+    x2: guard isn’t a bad thing especially for you
+    x2: isn’t a bad thing especially for you since
+    x2: a bad thing especially for you since you’re
+  cross-chapter 8-grams: 0
+== ch010.xhtml · 3029 words · scope: ch007.xhtml, ch008.xhtml, ch009.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
 repeat_check: REVIEW (deliberate lyric quotes may be legitimate)

@@ -53,10 +53,12 @@ local HEAD, and provide the GitHub download link. Never force-push, never touch 
 
 ## Current state (cycle 2, 2026-09-14)
 
-Tree: 5 chapters (`ch001`–`ch005`) · 47 payload files · 44 manifest items · 11 spine entries ·
-10 NCX navPoints · 13 nav list items · 20 WOFF faces · 9 images (repaired cover plate · cards
-`id-02`…`id-05` · assistant portrait `id-06` · wardrobe plates `id-07`…`id-09`, all photographic-real) ·
-6 character cards · 6 introduction cards · 35 glossary cards. Package built and pushed:
-47 entries · 2,032,683 B · sha256 `d4c044f3…`. `extracted/` holds the unpacked v1 archive snapshot.
+Tree: 10 chapters (`ch001`–`ch010`) · 56 payload entries · 53 manifest items · 16 spine entries ·
+15 NCX navPoints · 18 nav list items · 20 WOFF faces · 13 images (repaired cover plate · cards
+`id-02`…`id-06` · wardrobe plates `id-07`…`id-09` · Boram card `id-10` · plates `id-11`…`id-13`,
+all photographic-real) · 8 character cards · 8 introduction cards · 36 glossary cards. Package built
+and pushed: 56 entries · 2,884,650 B · sha256 `748469d4…`. `extracted/` holds the unpacked v1 archive
+snapshot. All gates green. Next chapter slot `ch011` (NCX `num_16`/playOrder 16, nav li 19, next
+image id `id-14`).
 All gates green. Next chapter slot `ch006` (NCX `num_11`/playOrder 11, nav li 14, next image id
 `id-10`); next cycle begins at `raws/ch006_raw.txt` per SKILL §2.

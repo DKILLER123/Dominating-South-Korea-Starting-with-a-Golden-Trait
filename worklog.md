@@ -147,6 +147,58 @@ rebuilt; `work_epub/` is the only tree the gates and the packer read.
 
 ## 8 · Cycle log (Version 1, newest first)
 
+### Cycle 3 — chapters 6–10, style redesigns, Boram cast — September 14, 2026 — complete, EPUB built
+
+Raws `ch006`–`ch010` saved verbatim to `raws/` before any drafting (reader's raw-first rule). Reader
+asks this cycle: (1) `checklist-block` steps properly separated; (2) `lecture-block` and other plain
+blocks redesigned colorful/stylist; (3) Deep Scan + Deep Thinking on everything; (4) pre-package deep
+scan for missing style blocks and question-mark implementation.
+
+Style work — `styles/edition.css` §59–§63 (overrides only, `fonts.css`/`stylesheet.css` untouched):
+§59 dashed-cyan separators between `.ckl-step` items + gradient lit `.ckl-count` badge; §60 dark-slate
+gradient lecture card with gold left border, rose header mark, cyan `.lect-q` chips; §61 violet-night
+memory album with gold spine, lilac label, sepia voice, cyan `.bright` variant; §62 amber glowing
+notification toast; §63 cream author-aside card with gold ribbon label. `<link … edition.css/>` added
+to the heads of all 11 non-cover text pages (cover already carried it). stylelint 0 errors.
+
+Art — Boram master chosen from image-search set (`image-search/ph-5`, clean); encoded `id-10.jpg`
+736×920 (stage-era promotional crop; caption labels it). Wardrobe plates, all identity-locked and
+visually checked against their card portraits: `id-11 wd_bae_doyoon_prosecutor.jpg` (ch008 mirror,
+from `id-02`), `id-12 wd_boram_disguise.jpg` (ch009 supermarket line, cap + oversized coat + snacks,
+from `id-10`), `id-13 wd_boram_loungewear.jpg` (ch010 doorway, pale blue loungewear; v1 rejected for
+face drift, v2 generated from dual refs `id-10` + disguise plate and approved).
+
+Chapters — ch006 (Krystal; whisper, bright memory, hand-note, dossier, Kwon text-only intro card,
+unanswered phone-call, half-truths aside) · ch007 (relationship audit dossier, declined ring, the
+connected call in a phone-call block, sisterhood hug, candidate-list checklist, unknown-number SMS in
+app-screen, ledger demand in finance-block) · ch008 (mirror wardrobe read, career-ladder checklist,
+3 a.m. library memory, recall status-panel, Training-Institute hand-note, appointment
+official-statement, day-one briefing, prosecution-hierarchy lecture, movers next door) · ch009
+(sunbae-hubae lecture, supermarket disguise wardrobe, stalking-case dossier, dropped-key standoff,
+Boram intro card with `id-10`, Jeon Doo-ram name gag, Idol Killer system-block) · ch010 (search
+app-screen, controversy news-digest with both sides hedged as the raw states them, archived
+comment-thread, theft-file dossier, evidence-vs-emotion lecture, corridor memory, loungewear
+wardrobe, bulb scene, her offer to help closing the chapter on its title). Distinct style types per
+chapter: 8 / 8 / 10 / 8 / 9 (floor 8). Every raw interrogative carries “?” in English; imperative and
+statement-shaped lines keep periods (triaged per audit_marks). No Han characters in chapter prose.
+
+Wiring — manifest + spine ch006–ch010; NCX `num_11`–`num_15` playOrder 11–15; nav li ×5 (18 total);
+cover stamp and both OPF descriptions → Chapters 1–10; glossary +1 card (“-ah / -ya”, earned by the
+ch006 manager-mimic line) → 36, footer line updated; characters + introductions gain Boram (photo
+`id-10`) and Kwon Young-il (text-only, “also written: Tyler Kwon (English press)”).
+
+Gates — stylelint 0 · check_classes OK · validate_tree PASS · style_audit PASS (10 chapters) ·
+legacy_firewall PASS · repeat_check triaged (deliberate pullquote echoes + the raw's repeated
+dinner-lie) · structural container-child scan clean after fixing one `sys-line` missing its
+`sys-value` span in ch009 · pre-package deep scan: no missing style blocks, all interrogatives
+implemented with “?”.
+
+Package — 56 entries · 2,884,650 B · sha256 `748469d471576c5a112643251c683cb55e59b5550015af2caa0dc1dd42612880`.
+In-archive asserts: manifest 53 · spine 16 · navPoints 15 · nav li 18 · images 13 · char cards 8 ·
+intro cards 8 · glossary 36 · cover stamp + both description stamps at Chapters 1–10 · all four new
+images present. workspace_audit parity CLEAN after build. Committed and pushed to
+`arena/01a0a030-dominating-south-korea-startin`.
+
 ### EPUB extraction, cover shoulder repair, realistic wardrobe plates — September 14, 2026 — complete, EPUB rebuilt
 
 **Reader directives this cycle.** (a) extract every file of the delivered EPUB for future use;

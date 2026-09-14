@@ -1,5 +1,5 @@
 {
-  "files_scanned": 17,
+  "files_scanned": 22,
   "hard_tokens_groups": [
     "protagonist",
     "invented_orgs_and_products",
@@ -10,19 +10,23 @@
   "soft": [
     {
       "name": "Kim Taeyeon",
-      "hits": 1,
+      "hits": 2,
       "cleared_by_raws": true,
       "note": "sourced from this book's raws",
       "samples": [
         {
           "file": "work_epub/OEBPS/text/ch005.xhtml",
           "context": " names. Someone yelled Yoona. Someone yelled Taeyeon. Someone yelled Jessica. Bae Do-yoon had loo"
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch006.xhtml",
+          "context": "with. Somebody yelled Yoona. Somebody yelled Taeyeon. Somebody yelled her name. He did not hesita"
         }
       ]
     },
     {
       "name": "Im Yoona",
-      "hits": 2,
+      "hits": 3,
       "cleared_by_raws": true,
       "note": "sourced from this book's raws",
       "samples": [
@@ -33,15 +37,51 @@
         {
           "file": "work_epub/OEBPS/text/ch005.xhtml",
           "context": "looked at the few of them standing up there. Yoona was beautiful. Of course she was. Being the "
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch006.xhtml",
+          "context": "he wanted a photograph with. Somebody yelled Yoona. Somebody yelled Taeyeon. Somebody yelled he"
+        }
+      ]
+    },
+    {
+      "name": "T-ara",
+      "hits": 16,
+      "cleared_by_raws": false,
+      "note": "",
+      "samples": [
+        {
+          "file": "work_epub/OEBPS/text/characters.xhtml",
+          "context": "oram) Field Singer; member of the girl group T-ara Company Group activity in a long valley sinc"
+        },
+        {
+          "file": "work_epub/OEBPS/text/introductions.xhtml",
+          "context": "room he is already standing in. System Boram T-ara’s eldest-line member, living quietly one doo"
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch009.xhtml",
+          "context": "rridor light. Boram Member of the girl group T-ara. The new neighbor next door. Small stature, "
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch009.xhtml",
+          "context": "lapped his forehead. “Oh. I remember.” “That T-ara member, right?” “Called…” He jammed. The nam"
+        },
+        {
+          "file": "work_epub/OEBPS/text/ch009.xhtml",
+          "context": "l figure’s. He nodded at once, hard. “Yes!” “T-ara’s Jeon Bo-ram!” He said it, then looked at h"
         }
       ]
     },
     {
       "name": "Krystal",
-      "hits": 11,
+      "hits": 84,
       "cleared_by_raws": true,
       "note": "sourced from this book's raws",
       "samples": [
+        {
+          "file": "work_epub/OEBPS/toc.ncx",
+          "context": "rder=\"11\"> <navLabel><text>Chapter 6 · Krystal, the Younger Sister</text></navLabel> "
+        },
         {
           "file": "work_epub/OEBPS/text/ch004.xhtml",
           "context": "h she had not seen the warning in her face. “Krystal.” “Her career has taken damage because of yo"
@@ -57,16 +97,12 @@
         {
           "file": "work_epub/OEBPS/text/ch005.xhtml",
           "context": "elevision noise coming from the living room. Krystal was on the sofa with a cushion hugged to her"
-        },
-        {
-          "file": "work_epub/OEBPS/text/ch005.xhtml",
-          "context": " on the table. And above all, she cannot let Krystal understand that part of the reason she agree"
         }
       ]
     },
     {
       "name": "Lee Boo-jin",
-      "hits": 27,
+      "hits": 32,
       "cleared_by_raws": true,
       "note": "sourced from this book's raws",
       "samples": [

@@ -5,11 +5,12 @@ publisher-grade English EPUB. This file holds the **skills**; `worklog.md` holds
 (cycle log, ships, canon pins). Do not duplicate skills between the two — SKILL.md is the master
 reference, worklog §8 is the history.
 
-**Current at ship:** cycle 2 shipped. Tree = 5 chapters · 47 payload files · 44 manifest items ·
-11 spine entries · 10 NCX navPoints · 13 nav list items · 9 images (`cover-bg.jpg` repaired in place ·
-cards `id-02`…`id-05` · assistant portrait `id-06` · wardrobe plates `id-07`…`id-09`) · 20 WOFF faces ·
-6 character cards · 6 introduction cards · 35 glossary cards. Package: 47 entries · 2,032,683 B ·
-sha256 `d4c044f3…`. Next image id: **id-10**. Next chapter: **ch006** (NCX `num_11`, playOrder `11`).
+**Current at ship:** cycle 3 shipped. Tree = 10 chapters · 56 payload entries · 53 manifest items ·
+16 spine entries · 15 NCX navPoints · 18 nav list items · 13 images (`cover-bg.jpg` repaired in place ·
+cards `id-02`…`id-06` · wardrobe plates `id-07`…`id-09` · Boram card `id-10` · plates `id-11`…`id-13`) ·
+20 WOFF faces · 8 character cards · 8 introduction cards · 36 glossary cards. Package: 56 entries ·
+2,884,650 B · sha256 `748469d4…`. Next image id: **id-14**. Next chapter: **ch011** (NCX `num_16`,
+playOrder `16`, nav li 19).
 
 **Provenance of these skills.** The pipeline below was inherited from the reader's previous novel and
 rewritten for this book. **The previous novel's content is banned** — see `reference/README.md` and

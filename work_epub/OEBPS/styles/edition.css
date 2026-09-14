@@ -117,3 +117,135 @@
   color: #c8b892;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
 }
+
+/* ─────────────────────────────────────────────
+   59 · CHECKLIST BLOCK — SEPARATED, LIT STEPS
+   Reader directive (cycle 3): the steps of a checklist must read as separate
+   entries, not as one running paragraph stack. Each step after the first is
+   ruled off with a dashed cyan hairline and given breathing room, and the
+   count chip becomes a lit badge instead of an outlined box.
+   ───────────────────────────────────────────── */
+.checklist-block .ckl-step + .ckl-step {
+  border-top: 1px dashed rgba(111, 201, 222, 0.38);
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+}
+.checklist-block .ckl-count {
+  background: linear-gradient(180deg, #8fd8e8 0%, #6fc9de 100%);
+  color: #0b1322;
+  border-color: transparent;
+  border-radius: 4px;
+  font-weight: 700;
+  box-shadow: 0 0 8px rgba(111, 201, 222, 0.35);
+}
+.checklist-block .ckl-band {
+  color: #9fdcef;
+  border-bottom-color: #27455c;
+}
+.checklist-block .ckl-note {
+  border-top: 1px solid #1f3147;
+  padding-top: 0.55rem;
+}
+
+/* ─────────────────────────────────────────────
+   60 · LECTURE BLOCK — SEMINAR CARD, COLOURFUL
+   Reader directive (cycle 3): the inherited chalk-toned aside was too plain.
+   The edition recuts it as a night-seminar card: deep slate board, gold rule,
+   rose chalk mark, and quoted maxims set as lit cyan quote-chips.
+   ───────────────────────────────────────────── */
+.lecture-block {
+  background: linear-gradient(168deg, #1d2430 0%, #141a24 100%);
+  border: 1px solid #3a4a63;
+  border-left: 4px solid #e8c87a;
+  border-radius: 10px;
+  padding: 1.3rem 1.5rem;
+  color: #dfe6f0;
+  box-shadow: 0 10px 26px -16px rgba(0, 0, 0, 0.8);
+}
+.lecture-block .lect-header {
+  color: #e8c87a;
+  border-bottom: 1px solid #33405a;
+}
+.lecture-block .lect-header::before {
+  color: #f2b8d4;
+}
+.lecture-block p {
+  color: #d5dce8;
+}
+.lecture-block .lect-q {
+  color: #9fdcef;
+  background: rgba(111, 201, 222, 0.08);
+  border-left: 3px solid #6fc9de;
+  border-radius: 0 6px 6px 0;
+  padding: 0.5rem 0.8rem;
+  margin: 1em 0 0.3em;
+}
+
+/* ─────────────────────────────────────────────
+   61 · MEMORY BLOCK — OLD-ALBUM CARD
+   The flat dark panel becomes a kept-album card: violet-night gradient with a
+   gold spine, a lilac label rule, and warm sepia voices. The .bright variant
+   shifts the spine and glow to daylight cyan.
+   ───────────────────────────────────────────── */
+.memory-block {
+  background: linear-gradient(170deg, #201a24 0%, #171320 60%, #12101a 100%);
+  border: 1px solid #3d3350;
+  border-left: 4px solid #c9a86a;
+  border-radius: 10px;
+  box-shadow: 0 10px 26px -16px rgba(0, 0, 0, 0.85);
+}
+.memory-block .mb-label {
+  color: #d8b8f0;
+  border-bottom: 1px dashed #4a3f63;
+}
+.memory-block p {
+  color: #cfc6bb;
+}
+.memory-block .mb-voice {
+  color: #f0e2c8;
+}
+.memory-block.bright {
+  border-left-color: #8fd8e8;
+  background: linear-gradient(170deg, #16202a 0%, #101a22 60%, #0d141c 100%);
+}
+.memory-block.bright .mb-label {
+  color: #9fdcef;
+  border-bottom-color: #2c4356;
+}
+
+/* ─────────────────────────────────────────────
+   62 · NOTIFICATION — LIT SYSTEM TOAST
+   The pale yellow chip becomes a glowing system toast on the book's dark
+   ground: amber ring, warm inner light, gold ink.
+   ───────────────────────────────────────────── */
+.notification {
+  background: linear-gradient(180deg, #2a2410 0%, #201a08 100%);
+  border: 1px solid #d4a24e;
+  color: #ffe9b0;
+  border-radius: 10px;
+  box-shadow: 0 0 18px rgba(212, 162, 78, 0.28), inset 0 1px 0 rgba(255, 233, 176, 0.16);
+}
+
+/* ─────────────────────────────────────────────
+   63 · AUTHOR-ASIDE — RIBBON LABEL
+   The dashed-margin note keeps its paper ground but gains a card body and a
+   gold ribbon behind the label, so the aside reads as a pinned slip rather
+   than a stray margin block.
+   ───────────────────────────────────────────── */
+.author-aside {
+  background: linear-gradient(178deg, #fdfaf3 0%, #f6efe0 100%);
+  border: 1px solid #e0d3b4;
+  border-left: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.1rem;
+  box-shadow: 0 6px 18px -10px rgba(90, 70, 30, 0.35);
+}
+.author-aside .aa-label {
+  display: inline-block;
+  background: linear-gradient(90deg, #d4a24e 0%, #e8c87a 100%);
+  color: #241a08;
+  padding: 0.18rem 0.6rem;
+  border-radius: 3px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}

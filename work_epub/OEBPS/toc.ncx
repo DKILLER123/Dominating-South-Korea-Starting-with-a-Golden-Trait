@@ -53,5 +53,25 @@
       <navLabel><text>Chapter 5 · The Two of Them, Two Years Ago</text></navLabel>
       <content src="text/ch005.xhtml"/>
     </navPoint>
+    <navPoint id="num_11" playOrder="11">
+      <navLabel><text>Chapter 6 · Krystal, the Younger Sister</text></navLabel>
+      <content src="text/ch006.xhtml"/>
+    </navPoint>
+    <navPoint id="num_12" playOrder="12">
+      <navLabel><text>Chapter 7 · Not the “Future Brother-in-Law” Candidate</text></navLabel>
+      <content src="text/ch007.xhtml"/>
+    </navPoint>
+    <navPoint id="num_13" playOrder="13">
+      <navLabel><text>Chapter 8 · Prosecutor Bae, Welcome to Seoul Central</text></navLabel>
+      <content src="text/ch008.xhtml"/>
+    </navPoint>
+    <navPoint id="num_14" playOrder="14">
+      <navLabel><text>Chapter 9 · The New Neighbor Is a Girl-Group Member?</text></navLabel>
+      <content src="text/ch009.xhtml"/>
+    </navPoint>
+    <navPoint id="num_15" playOrder="15">
+      <navLabel><text>Chapter 10 · Jeon Bo-ram Wants to Help</text></navLabel>
+      <content src="text/ch010.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>

@@ -16,4 +16,21 @@
    [NO-QM?] “…Don’t touch her.”
 == work_epub/OEBPS/text/ch005.xhtml
    clean
+== work_epub/OEBPS/text/ch006.xhtml
+   [NO-QM?] “…Don’t look at me like I’m about to collapse.”
+   [NO-QM?] “…Don’t talk nonsense.”
+   [NO-QM?] “…When an opportunity comes, take it.”
+   [NO-QM?] “…Don’t let unnecessary suspicion cost you anything.”
+== work_epub/OEBPS/text/ch007.xhtml
+   [NO-QM?] “…rses you, the fans curse you, and the company uses it to hit you with.”
+   [NO-QM?] “…Don’t talk nonsense.”
+   [NO-QM?] “…Don’t carry everything alone.”
+   [NO-QM?] “…Don’t worry.”
+   [NO-QM?] “…Don’t let yourself be forgotten either.”
+== work_epub/OEBPS/text/ch008.xhtml
+   [NO-QM?] “…Don’t stack on it.”
+== work_epub/OEBPS/text/ch009.xhtml
+   [NO-QM?] “…Don’t come closer.”
+== work_epub/OEBPS/text/ch010.xhtml
+   [NO-QM?] “…What a pain.”
 RESULT: OK (triage any NO-QM? lines above)
