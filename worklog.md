@@ -13,7 +13,7 @@ owns the history. Read §0 and the newest §8 entry before touching the tree.
 and it deliberately contains **no EPUB** (reader directive: nothing is packaged until the raws
 arrive). `raws/` holds one file so far — `Synopsis_raw.txt`, the reader's untouched Chinese synopsis.
 
-**Tree state (measured, `reports/workspace_audit.json`):** 32 payload files · 0 chapters ·
+**Tree state (measured, `reports/workspace_audit.json`):** 33 payload files · 0 chapters ·
 6 XHTML documents (cover, synopsis, nav, characters, introductions, glossary) · 30 manifest items ·
 6 spine entries in the mandated order · 5 NCX navPoints · 8 nav list items · 1 image
 (`cover-bg.jpg`, 1200×1800, 258,247 B) · 20 embedded WOFF faces (all decode) · 3 character cards ·

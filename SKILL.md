@@ -5,7 +5,7 @@ publisher-grade English EPUB. This file holds the **skills**; `worklog.md` holds
 (cycle log, ships, canon pins). Do not duplicate skills between the two — SKILL.md is the master
 reference, worklog §8 is the history.
 
-**Current at ship:** nothing shipped yet. Tree = 0 chapters · 32 payload files · 30 manifest items ·
+**Current at ship:** nothing shipped yet. Tree = 0 chapters · 33 payload files · 30 manifest items ·
 6 spine entries · 5 NCX navPoints · 8 nav list items · 1 image (`cover-bg.jpg`) · 20 WOFF faces ·
 3 character cards · 4 introduction cards · 27 glossary cards. Next image id: **id-02**. Next chapter:
 **ch001** (NCX `num_6`, playOrder `6`).
@@ -304,7 +304,7 @@ tree, not just as generated.
    Korean term this chapter uses for the first time (`lang="ko"` on the Hangul gloss only).
 7. ET-parse every touched file after every edit.
 
-**Expected count deltas for one chapter and no new assets:** tree files +1 (33), manifest +1 (31),
+**Expected count deltas for one chapter and no new assets:** tree files +1 (34), manifest +1 (31),
 spine +1 (7), navPoints +1 (6), nav li +1 (9). Recompute if images, fonts or new reference pages land.
 
 ---

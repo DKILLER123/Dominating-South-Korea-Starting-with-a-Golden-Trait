@@ -62,7 +62,7 @@ anything else, so the order cannot drift silently.
 
 | Property | Value |
 |---|---:|
-| Payload files in tree | 32 |
+| Payload files in tree | 33 |
 | Chapters | 0 (awaiting raws) |
 | XHTML documents | 6 (5 reference pages + nav) |
 | Manifest items | 30 |
@@ -79,7 +79,7 @@ anything else, so the order cannot drift silently.
 | Straight double quotes / CJK in prose | 0 / 0 (56 Hangul glosses exempted as `lang="ko"`) |
 | Hard firewall hits | 0 |
 
-Formulas for the next cycle, one chapter and no new assets: tree 33 · manifest 31 · spine 7 ·
+Formulas for the next cycle, one chapter and no new assets: tree 34 · manifest 31 · spine 7 ·
 navPoints 6 (`num_6`, playOrder 6) · nav li 9 · `next_ncx_play_order` and `next_nav_li_after_chapters`
 are printed by the audit so they are never guessed.
 

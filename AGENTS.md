@@ -53,7 +53,7 @@ and why it is walled off).
 
 ## Current state (setup cycle, 2026-09-14)
 
-Tree: 32 files · 30 manifest items · 6 spine entries · 5 NCX navPoints · 8 nav list items · 20 WOFF
+Tree: 33 files · 30 manifest items · 6 spine entries · 5 NCX navPoints · 8 nav list items · 20 WOFF
 faces · 1 image (`cover-bg.jpg`, generated plate, v1) · 3 character cards · 4 introduction cards ·
 27 glossary cards · 0 chapters. All gates green; nothing packaged yet — awaiting the reader's raws.
 Next cycle is Chapter 1: `raws/ch001_raw.txt` → `work_epub/OEBPS/text/ch001.xhtml` → wire-up
