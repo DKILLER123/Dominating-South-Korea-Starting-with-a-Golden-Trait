@@ -455,8 +455,12 @@ needs — never truncate, never pad to a word count.
 6. Character imagery: web-search real photographs (search files stay in `image-search/`); cover art is
    commissioned illustration; real people keep real names, as the raw gives them.
 7. Understand every step thoroughly — recon, draft, wire, gate, log, build, verify — in that order.
-8. **After every final EPUB: commit and push to GitHub** on this session branch, verify the remote,
-   and hand over the download link. No EPUB is built before the raws arrive.
+8. **After every final EPUB: commit and push to GitHub** on this session branch — the push is part of
+   the delivery, not an optional follow-up. Verify it landed (`git rev-parse HEAD` must equal the sha
+   `gh api …/git/ref/heads/<branch>` reports, and the `.epub` must exist at that ref with the built byte
+   count), then hand over the download link. If the push fails on authentication the cycle is **not**
+   complete: commit locally, say so plainly, and push as soon as the connection is restored. No EPUB is
+   built before the raws arrive.
 9. **Cover.** Reuse the reader's supplied reference art as a plate, but the plate must show the
    protagonist, and it must carry the book name, the author name **DKILLER1**, and the genre in a
    colourful stylised treatment. No version strings (`Version 3`, `V1`, `Draft`) anywhere on the cover.

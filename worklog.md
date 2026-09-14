@@ -179,6 +179,12 @@ Resolution applied: pick sources shot for print at full resolution, crop only to
 (head and shoulders held, no recomposed detail lost), and keep the untouched originals in
 `image-search/` for audit.
 
+**Delivery.** Pushed to `arena/01a09e8b-dominating-south-korea-startin` at `9fddac7`; remote HEAD
+verified equal to local, and `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` confirmed present
+at that ref (1,495,148 B). The first push attempt of this cycle failed on an expired sandbox GitHub token
+— the work stayed committed and was pushed once the connection was refreshed, which is now written into
+SKILL §16.8 as the standing rule rather than a note to remember.
+
 **Tooling added this cycle.** `style_audit.py` (root) — counts the §5 block vocabulary per chapter,
 floors distinct types at 8, caps blocks/prose at 0.25, and rejects a repeated device outside the
 allowlist; wired into SKILL §9. `check_classes.py` now unions `styles/edition.css` into the legal class
