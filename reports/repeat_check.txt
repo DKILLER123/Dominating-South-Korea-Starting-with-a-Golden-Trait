@@ -82,4 +82,30 @@
   vs ch014.xhtml: hat is enough for today im i ju
   vs ch014.xhtml: is enough for today im i ju immediately
   cross-chapter 8-grams: 5
+== ch016.xhtml · 3118 words · scope: ch013.xhtml, ch014.xhtml, ch015.xhtml
+  INTERNAL repeats: 3
+    x2: eyes watching you now may be more than
+    x2: watching you now may be more than you
+    x2: you now may be more than you imagine
+  vs ch013.xhtml: ae o yoon did not answer at once
+  vs ch015.xhtml: ae o yoon did not answer at once
+  cross-chapter 8-grams: 2
+== ch017.xhtml · 3117 words · scope: ch014.xhtml, ch015.xhtml, ch016.xhtml
+  INTERNAL repeats: 3
+    x2: ae o yoon looked at her once ark
+    x2: o yoon looked at her once ark i
+    x2: yoon looked at her once ark i yeon
+  cross-chapter 8-grams: 0
+== ch018.xhtml · 3316 words · scope: ch015.xhtml, ch016.xhtml, ch017.xhtml
+  INTERNAL repeats: 9
+    x2: eon o ram looked at her ark i
+    x2: o ram looked at her ark i yeon
+    x2: a how many th generation inheritor’s lineage disciple
+    x2: oes this country really allow minors to encounter
+    x2: this country really allow minors to encounter bears
+    x2: country really allow minors to encounter bears on
+  vs ch016.xhtml: ae o yoon was silent for a moment
+  vs ch017.xhtml: ae o yoon looked at the two of
+  vs ch017.xhtml: o yoon looked at the two of them
+  cross-chapter 8-grams: 3
 repeat_check: REVIEW (deliberate lyric quotes may be legitimate)

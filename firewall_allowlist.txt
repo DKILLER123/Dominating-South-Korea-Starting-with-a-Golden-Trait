@@ -1,0 +1,4 @@
+# Firewall allowlist — documented homonym clearances only.
+# Format: <exact match token>\t<reason>. Never used to admit reference-novel content;
+# only to clear real-person / this-book-raw names that collide with reference-cast patterns.
+Park Ji-yeon	T-ara's Park Ji-yeon (박지연) is named by this book's own raws (raws/ch017_raw.txt lines 1, 35; reader-supplied raws, cycle 5) and is the real public figure the reader reserved uploads/Jiyeon.jpg for. Homonym collision with the reference novel's fictional cast pattern only; no reference-novel content, trait, scene or line is borrowed.

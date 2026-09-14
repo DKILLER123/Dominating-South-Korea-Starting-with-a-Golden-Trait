@@ -93,5 +93,17 @@
       <navLabel><text>Chapter 15 · The Officer’s Discovery, Bae Suzy’s Anomaly</text></navLabel>
       <content src="text/ch015.xhtml"/>
     </navPoint>
+    <navPoint id="num_21" playOrder="21">
+      <navLabel><text>Chapter 16 · The Department Chief’s Hint</text></navLabel>
+      <content src="text/ch016.xhtml"/>
+    </navPoint>
+    <navPoint id="num_22" playOrder="22">
+      <navLabel><text>Chapter 17 · Park Ji-yeon</text></navLabel>
+      <content src="text/ch017.xhtml"/>
+    </navPoint>
+    <navPoint id="num_23" playOrder="23">
+      <navLabel><text>Chapter 18 · Learning Self-Defense</text></navLabel>
+      <content src="text/ch018.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>

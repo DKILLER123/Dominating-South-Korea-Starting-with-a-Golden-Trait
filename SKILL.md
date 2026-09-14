@@ -5,16 +5,15 @@ publisher-grade English EPUB. This file holds the **skills**; `worklog.md` holds
 (cycle log, ships, canon pins). Do not duplicate skills between the two — SKILL.md is the master
 reference, worklog §8 is the history.
 
-**Current at ship:** cycle 4 shipped. Tree = 15 chapters · 67 payload entries · 64 manifest items ·
-21 spine entries · 20 NCX navPoints · 23 nav list items · 19 images (`cover-bg.jpg` repaired in
-place · cards `id-02`…`id-06`, `id-10` (reader-provided Boram master), `id-14` (Kim Mi-joo),
-`id-17` (Bae Suzy), `id-19` (Park Jin-young) · wardrobe/scene plates `wd_*` and `id-07`…`id-09`,
-`id-11`; Boram plates are v2, identity-locked to the new master) ·
-20 WOFF faces · 13 character cards · 13 introduction cards · 39 glossary cards. Package: 67 entries ·
-3,743,733 B · sha256 `48d6bce0…`. Next image id: **id-20**. Next chapter: **ch016** (NCX `num_21`,
-playOrder `21`, nav li 24). Reserved portraits: `uploads/Irene.jpg` (Irene) and `uploads/Jiyeon.jpg`
-(Jiyeon) — adopt the cycle each first appears in prose; `uploads/600.webp` is reference-only
-(original serial cover, watermarked/CJK — never our cover or chapter art).
+**Current at ship:** cycle 5 shipped. Tree = 18 chapters · 73 payload entries · 70 manifest items ·
+24 spine entries · 23 NCX navPoints · 26 nav list items · 22 images (`cover-bg.jpg` repaired in
+place · cards `id-02`…`id-06`, `id-10`, `id-14`, `id-17`, `id-19`, `id-20` (reader-provided Ji-yeon),
+`id-21` (Inmudang master) · plates `wd_*` incl. `id-22 wd_jiyeon_disguise`) ·
+20 WOFF faces · 16 character cards · 16 introduction cards · 41 glossary cards. Package: 73 entries ·
+4,262,765 B · sha256 `b15f739e…`. Next image id: **id-23**. Next chapter: **ch019** (NCX `num_24`,
+playOrder `24`, nav li 27). Reserved portrait: `uploads/Irene.jpg` (Irene) for her first prose
+appearance; `uploads/600.webp` reference-only. `firewall_allowlist.txt` holds exactly one documented
+homonym clearance (Park Ji-yeon ← ch017 raw); it must never admit reference-novel content.
 
 **Provenance of these skills.** The pipeline below was inherited from the reader's previous novel and
 rewritten for this book. **The previous novel's content is banned** — see `reference/README.md` and

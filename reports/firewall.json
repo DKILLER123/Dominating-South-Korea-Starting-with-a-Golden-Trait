@@ -1,5 +1,5 @@
 {
-  "files_scanned": 27,
+  "files_scanned": 30,
   "hard_tokens_groups": [
     "protagonist",
     "invented_orgs_and_products",
@@ -46,7 +46,7 @@
     },
     {
       "name": "T-ara",
-      "hits": 17,
+      "hits": 24,
       "cleared_by_raws": false,
       "note": "",
       "samples": [
@@ -55,20 +55,20 @@
           "context": "oram) Field Singer; member of the girl group T-ara Company Group activity in a long valley sinc"
         },
         {
+          "file": "work_epub/OEBPS/text/characters.xhtml",
+          "context": "n Park Ji-yeon (Ji-yeon) Field Entertainer — T-ara, the group named in the raw Company Not stat"
+        },
+        {
           "file": "work_epub/OEBPS/text/introductions.xhtml",
           "context": "room he is already standing in. System Boram T-ara’s eldest-line member, living quietly one doo"
         },
         {
+          "file": "work_epub/OEBPS/text/introductions.xhtml",
+          "context": "as his name on it. The minority Park Ji-yeon T-ara member; the neighbor’s neighbor, as of one c"
+        },
+        {
           "file": "work_epub/OEBPS/text/ch009.xhtml",
           "context": "rridor light. Boram Member of the girl group T-ara. The new neighbor next door. Small stature, "
-        },
-        {
-          "file": "work_epub/OEBPS/text/ch009.xhtml",
-          "context": "lapped his forehead. “Oh. I remember.” “That T-ara member, right?” “Called…” He jammed. The nam"
-        },
-        {
-          "file": "work_epub/OEBPS/text/ch009.xhtml",
-          "context": "l figure’s. He nodded at once, hard. “Yes!” “T-ara’s Jeon Bo-ram!” He said it, then looked at h"
         }
       ]
     },
@@ -102,7 +102,7 @@
     },
     {
       "name": "Lee Boo-jin",
-      "hits": 33,
+      "hits": 38,
       "cleared_by_raws": true,
       "note": "sourced from this book's raws",
       "samples": [

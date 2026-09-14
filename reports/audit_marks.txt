@@ -52,4 +52,17 @@
    [NO-QM?] “…Do not stare only at what the harasser left behind.”
 == work_epub/OEBPS/text/ch015.xhtml
    clean
+== work_epub/OEBPS/text/ch016.xhtml
+   [NO-QM?] “…day, and the preliminary investigative direction I have drawn from it.”
+   [NO-QM?] “…ey say it touches the entertainer’s privacy and the company’s secrets.”
+   [NO-QM?] “…see is: several appearances exactly right, but not every one followed.”
+   [NO-QM?] “…Have Officer Kim present as much as possible.”
+   [NO-QM?] “…Do not hurry to catch a man.”
+== work_epub/OEBPS/text/ch017.xhtml
+   [NO-QM?] “…What a coincidence.”
+   [NO-QM?] “…Don’t drag me in; I don’t eat much.”
+   [NO-QM?] “…Which is why we need Bae Do-yoon-ssi’s help.”
+   [NO-QM?] “…Don’t press people about their work.”
+== work_epub/OEBPS/text/ch018.xhtml
+   [NO-QM?] “…When ordinary people are unhappy, they can stay in, stay silent.”
 RESULT: OK (triage any NO-QM? lines above)

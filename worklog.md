@@ -38,25 +38,38 @@ CJK, never usable as our cover or chapter art). New masters: Kim Mi-joo `id-14`,
 text-only); glossary 36→39 (`sasaeng`, `ganjang gejang`, `Nation’s First Love`); id-10 caption/alt
 corrected to "Reader-provided portrait, street editorial" everywhere.
 
-**Tree state (measured, `reports/workspace_audit.json`):** 15 chapters (`ch001`–`ch015`, next slot
-`ch016`) · 21 XHTML documents · 67 payload entries · 64 manifest items · 21 spine entries ·
-20 NCX navPoints · 23 nav list items · 19 images (`cover-bg.jpg` 1200×1800 repaired in place ·
-cards `id-02`…`id-06`, `id-10`, `id-14`, `id-17`, `id-19` at 736×920 · wardrobe/scene plates
-`wd_*` at 1120×1400) · 20 embedded WOFF faces · 13 character cards · 13 introduction cards ·
-39 glossary cards · 296 reference checks resolved · 47,126 body words · 0 structural errors.
-**Package:** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` · 67 entries · 3,743,733 B ·
-sha256 `48d6bce0ee4b9373f197b89c353da2fdcbded27fd6f9fc76897b8fca44f808b8` · mimetype STORED first,
-zip test clean. (Cycle-3 package it replaces: 56 entries · 2,884,650 B · sha256 `748469d4…`.)
+**Cycle 5 complete: chapters 16–18, Ji-yeon cast from the reader’s reserve, the master of Inmudang.**
+`uploads/Jiyeon.jpg` went live the cycle her name first appeared in prose (ch017), exactly per the
+standing reservation rule: card `id-20` (reader-provided portrait) + identity-locked plate
+`wd_jiyeon_disguise` (cap low, mask high, loose coat — the eyes do the introducing). New generated
+master `id-21` for the Master of Inmudang (ch018). Cast pages 13→16 (Park Ji-yeon with portrait;
+Department Chief Prosecutor and the Master — the latter with portrait); glossary 39→41 (`hanja`,
+`wing chun`); stamps → Chapters 1–18. New block firsts this cycle: `.phone-call.sinister` (the
+Chief’s after-door call, ch016), `.app-screen` + `.comment-thread` + `.hand-letter` (the gym listing,
+its comment section, the two wall scrolls — ch018), `.menu-block` returning for the “bought too much”
+inventory (ch017). One documented firewall allowlist entry created (`firewall_allowlist.txt`):
+“Park Ji-yeon” is a homonym collision — T-ara’s Ji-yeon is named by this book’s own raws
+(ch017) and is the reader’s reserved upload; no reference-novel content admitted.
 
-**Gates this cycle:** `validate_tree` PASS (21/21 parsed, 0 unresolved refs, 0 Han outside the
-`lang="ko"` glosses) · `audit_marks` all five new chapters RESULT: OK (NO-QM? survivors triaged:
-every one an imperative or statement the raw punctuates with 。) · `repeat_check` reviewed (surviving
-flags are raw-faithful refrains: pullquote echoes, the line the raw itself splits across ch014/ch015,
-the EXO/“occasionally” beats) · `style_audit` PASS (15 chapters; ch011–ch015 at 8/8/10/8/8 distinct
-block types) · `check_classes` PASS (21 pages) · `legacy_firewall` PASS (soft Lee Boo-jin ×33 cleared
-by raws provenance) · `workspace_audit`: package built, parity archive == extracted == work_epub
-(0/0/0), 0 structural errors · in-archive asserts: entries = manifest + 3, 27 image refs 0 broken,
-stamps `Chapters 1–15` ×3, glossary 39, cards/intros 13/13, v2 plates byte-identical.
+**Tree state (measured, `reports/workspace_audit.json`):** 18 chapters (`ch001`–`ch018`, next slot
+`ch019`) · 24 XHTML documents · 73 payload entries · 70 manifest items · 24 spine entries ·
+23 NCX navPoints · 26 nav list items · 22 images (`cover-bg.jpg` repaired in place · cards
+`id-02`…`id-06`, `id-10`, `id-14`, `id-17`, `id-19`, `id-20` (reader Ji-yeon), `id-21` (master) ·
+plates `wd_*` incl. `id-22 wd_jiyeon_disguise`) · 20 embedded WOFF faces · 16 character cards ·
+16 introduction cards · 41 glossary cards · 0 structural errors.
+**Package:** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` · 73 entries · 4,262,765 B ·
+sha256 `b15f739ec7f06eee…` · mimetype STORED first, zip test clean. (Cycle-4 package it replaces:
+67 entries · 3,743,733 B · sha256 `48d6bce0…`.)
+
+**Gates this cycle:** `validate_tree` PASS (24/24 pages) · `check_classes` PASS · `style_audit`
+PASS (18 chapters; ch016–18 at 8/8/10 distinct) · `audit_marks` RESULT OK on all chapters (NO-QM?
+survivors are imperatives the raw punctuates with 。) · `repeat_check` REVIEW only (raw-faithful
+refrains: the “bought too much” volley, the kitchen/door whispers, the how-many-th-generation
+callbacks) · `legacy_firewall` PASS via one documented homonym clearance (hard hits 0) ·
+`workspace_audit`: parity 0/0/0, struct errors 0 · in-archive asserts: entries = manifest + 3,
+0 broken image refs, stamps `Chapters 1–18` ×3, glossary 41, cards/intros 16/16, new images
+byte-identical archive == workspace. Han slips caught pre-build: ch017 ×2 (温和, 签字); ch016/018
+clean at first scan; full-tree CJK scan clean.
 
 **Canon pins:** see §1. Chapter 5 ends on Jessica's silence and the "blade" bargain; Bae Do-yoon holds
 two purple entries, one blue, one gold, and no rank he can spend yet.
@@ -74,15 +87,14 @@ delivered archive · **after every final EPUB: commit, push to the session branc
 (currently `arena/01a0a030-dominating-south-korea-startin`), verify remote HEAD, deliver the GitHub
 download link.**
 
-**Next cycle (when the reader supplies Chapter 16+):** next numeric image manifest id is `id-20`.
-Save `raws/ch016_raw.txt` first → recon greps → draft `work_epub/OEBPS/text/ch016.xhtml` → wire-up
-(manifest `ch016`, NCX `num_21`/playOrder 21, nav `<li>` 24, cover `#chapters-stamp` and both OPF
-stamps → `Chapters 1–16`, glossary header/footer + cards as earned) → all of SKILL §9 → worklog §8
-entry + §0 refresh → only then `build_epub.py`, in-archive asserts, seal, push, present. Reserved
-portraits: `uploads/Irene.jpg` (Irene, Red Velvet) and `uploads/Jiyeon.jpg` (Jiyeon, T-ara) go live
-the cycle their names first appear in prose. Name discipline for the JYP arc: 裴云 → Bae Do-yoon;
-裴秀智 → Bae Suzy; 朴振英 → J.Y. Park / Park Jin-young; 金美珠 → Kim Mi-ju;
-朴正焕 → Park Jung-hwan; 朴大俊 → Park Dae-jun; 全宝蓝 → Boram.
+**Next cycle (when the reader supplies Chapter 19+):** next numeric image manifest id is `id-23`.
+Save `raws/ch019_raw.txt` first → recon greps → draft → wire-up (manifest `ch019`, NCX
+`num_24`/playOrder 24, nav `<li>` 27, cover `#chapters-stamp` and both OPF descriptions →
+`Chapters 1–19`, glossary header/footer + cards as earned) → all of SKILL §9 → worklog §8 + §0 →
+only then `build_epub.py`, in-archive asserts, seal, push, present. Reserved portrait still held:
+`uploads/Irene.jpg` (Irene, Red Velvet) for her first prose appearance. `firewall_allowlist.txt`
+exists now — add to it ONLY documented homonym/real-person clearances sourced to this book’s raws,
+never to admit reference-novel content.
 
 Repository root: this checkout. Session branch: `arena/01a0a030-dominating-south-korea-startin`.
 
@@ -158,6 +170,27 @@ rebuilt; `work_epub/` is the only tree the gates and the packer read.
 ---
 
 ## 8 · Cycle log (Version 1, newest first)
+
+### Cycle 5 — chapters 16–18, Ji-yeon live, Inmudang — September 14, 2026 — complete, EPUB built
+
+Push of cycle 4 succeeded first this cycle (remote HEAD `9277871`) after the GitHub token refresh.
+Raws `ch016`–`ch018` saved verbatim before drafting (one self-caught transcription slip in ch017 raw
+fixed to verbatim 他). Reader reserve honored: `uploads/Jiyeon.jpg` adopted as Park Ji-yeon’s card
+(`id-20`, 736×920 top crop) the chapter her name enters prose; plate `wd_jiyeon_disguise` (1120×1400)
+generated from it and identity-checked (eyes/hairline/doorway stance). Generated master `id-21` for
+the Master of Inmudang (black tangzhuang, training hall, wooden dummy). Chapters: ch016 the
+Department Chief’s night office — checklist of the paper’s facts, public-vs-non-public dossier,
+“clean” memory (Lee Boo-jin first), standing-order official-statement, `.phone-call.sinister` for
+the after-door call (8 distinct); ch017 the elevator-hall meeting — Ji-yeon char-intro, wardrobe
+block in canonical children, kitchen whisper-block, “bought too much” menu-block, Ji-yeon’s
+observation dossier, Boram’s three-word memory (8 distinct); ch018 the gym — app-screen listing with
+the how-many-th-generation lineage, comment-thread reviews, childhood-shadow memory (the bear in the
+black suit), hand-note registration form (“childhood shadow” kindly unwritten), hand-letter wall
+scrolls, master char-intro + lecture-block four-beat throw (10 distinct). Author-aside labels:
+hints-and-chessboards / fried-chicken diplomacy / childhood shadows and reasonable force. Cast pages
+13→16, glossary 39→41, stamps → 1–18. Firewall: one documented allowlist homonym clearance
+(Park Ji-yeon, sourced to ch017 raw). Package: 73 entries · 4,262,765 B · sha256 `b15f739e…`.
+Pushed to the session branch; remote HEAD verified.
 
 ### Cycle 4 — chapters 11–15, reader-supplied portraits, JYP arc — September 14, 2026 — complete, EPUB built
 

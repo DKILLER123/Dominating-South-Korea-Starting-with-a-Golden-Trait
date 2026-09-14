@@ -9,8 +9,8 @@
     <dc:contributor>Arena Agent Mode · production and typesetting</dc:contributor>
     <dc:publisher>Reader's own edition (unofficial fan translation)</dc:publisher>
     <dc:date>2026-09-14</dc:date>
-    <dc:description>Chapters 1–15: the Shilla suite, the sealed corridor, the terms of a blade, Jessica’s café, a photograph two years old, a declined ring, an audited ledger, a first day in office, a cap in a supermarket line, a bulb changed at nine at night, a marinated-crab debt, a wager over the bottom file, a petition with a famous name, a careful stalker, and a business card left in a JYP lobby.</dc:description>
-    <dc:description>English edition of Chapters 1–15, typeset in the reader's reference stylesheet.</dc:description>
+    <dc:description>Chapters 1–18: the Shilla suite, the sealed corridor, the terms of a blade, Jessica’s café, a photograph two years old, a declined ring, an audited ledger, a first day in office, a cap in a supermarket line, a bulb changed at nine at night, a marinated-crab debt, a wager over the bottom file, a petition with a famous name, a careful stalker, a business card left in a JYP lobby, a department chief’s hints at nightfall, a masked maknae at an elevator hall, and a how-many-th-generation master above a dumpling shop.</dc:description>
+    <dc:description>English edition of Chapters 1–18, typeset in the reader's reference stylesheet.</dc:description>
     <dc:subject>Korean entertainment industry</dc:subject>
     <dc:subject>Rebirth</dc:subject>
     <dc:subject>Prosecutor</dc:subject>
@@ -69,6 +69,9 @@
     <item id="id-17" href="images/id-17.jpg" media-type="image/jpeg"/>
     <item id="id-18" href="images/wd_suzy_meeting.jpg" media-type="image/jpeg"/>
     <item id="id-19" href="images/id-19.jpg" media-type="image/jpeg"/>
+    <item id="id-20" href="images/id-20.jpg" media-type="image/jpeg"/>
+    <item id="id-21" href="images/id-21.jpg" media-type="image/jpeg"/>
+    <item id="id-22" href="images/wd_jiyeon_disguise.jpg" media-type="image/jpeg"/>
     <item id="ch001" href="text/ch001.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch002" href="text/ch002.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch003" href="text/ch003.xhtml" media-type="application/xhtml+xml"/>
@@ -84,6 +87,9 @@
     <item id="ch013" href="text/ch013.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch014" href="text/ch014.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch015" href="text/ch015.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch016" href="text/ch016.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch017" href="text/ch017.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch018" href="text/ch018.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine page-progression-direction="ltr" toc="ncx">
     <itemref idref="cover" linear="yes"/>
@@ -107,5 +113,8 @@
     <itemref idref="ch013" linear="yes"/>
     <itemref idref="ch014" linear="yes"/>
     <itemref idref="ch015" linear="yes"/>
+    <itemref idref="ch016" linear="yes"/>
+    <itemref idref="ch017" linear="yes"/>
+    <itemref idref="ch018" linear="yes"/>
   </spine>
 </package>
