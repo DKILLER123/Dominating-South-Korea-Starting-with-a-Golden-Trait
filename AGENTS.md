@@ -51,14 +51,14 @@ local HEAD, and provide the GitHub download link. Never force-push, never touch 
 
 `npm run gates` chains the three fast gates; `npm run audit:assets` runs the full audit.
 
-## Current state (cycle 2, 2026-09-14)
+## Current state (cycle 4, 2026-09-14)
 
-Tree: 10 chapters (`ch001`–`ch010`) · 56 payload entries · 53 manifest items · 16 spine entries ·
-15 NCX navPoints · 18 nav list items · 20 WOFF faces · 13 images (repaired cover plate · cards
-`id-02`…`id-06` · wardrobe plates `id-07`…`id-09` · Boram card `id-10` · plates `id-11`…`id-13`,
-all photographic-real) · 8 character cards · 8 introduction cards · 36 glossary cards. Package built
-and pushed: 56 entries · 2,884,650 B · sha256 `748469d4…`. `extracted/` holds the unpacked v1 archive
-snapshot. All gates green. Next chapter slot `ch011` (NCX `num_16`/playOrder 16, nav li 19, next
-image id `id-14`).
-All gates green. Next chapter slot `ch006` (NCX `num_11`/playOrder 11, nav li 14, next image id
-`id-10`); next cycle begins at `raws/ch006_raw.txt` per SKILL §2.
+Tree: 15 chapters (`ch001`–`ch015`) · 67 payload entries · 64 manifest items · 21 spine entries ·
+20 NCX navPoints · 23 nav list items · 20 WOFF faces · 19 images (repaired cover plate · cards
+`id-02`…`id-06`, `id-10` reader-provided Boram master, `id-14` Kim Mi-joo, `id-17` Bae Suzy,
+`id-19` Park Jin-young · plates `wd_*`, all photographic-real, Boram plates v2 re-locked to the new
+master) · 13 character cards · 13 introduction cards · 39 glossary cards. Package built and pushed:
+67 entries · 3,743,733 B · sha256 `48d6bce0…`. `extracted/` holds the unpacked archive snapshot.
+All gates green. Next chapter slot `ch016` (NCX `num_21`/playOrder 21, nav li 24, next image id
+`id-20`). Reserved: `uploads/Irene.jpg` (Irene) and `uploads/Jiyeon.jpg` (Jiyeon) for their first
+prose appearance; `uploads/600.webp` reference-only (never cover/chapter art).

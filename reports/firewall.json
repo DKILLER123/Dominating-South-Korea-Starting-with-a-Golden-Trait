@@ -1,5 +1,5 @@
 {
-  "files_scanned": 22,
+  "files_scanned": 27,
   "hard_tokens_groups": [
     "protagonist",
     "invented_orgs_and_products",
@@ -46,7 +46,7 @@
     },
     {
       "name": "T-ara",
-      "hits": 16,
+      "hits": 17,
       "cleared_by_raws": false,
       "note": "",
       "samples": [
@@ -102,7 +102,7 @@
     },
     {
       "name": "Lee Boo-jin",
-      "hits": 32,
+      "hits": 33,
       "cleared_by_raws": true,
       "note": "sourced from this book's raws",
       "samples": [

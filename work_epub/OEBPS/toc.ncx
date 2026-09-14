@@ -73,5 +73,25 @@
       <navLabel><text>Chapter 10 · Jeon Bo-ram Wants to Help</text></navLabel>
       <content src="text/ch010.xhtml"/>
     </navPoint>
+    <navPoint id="num_16" playOrder="16">
+      <navLabel><text>Chapter 11 · Moving Here Isn’t as Bad as I Imagined</text></navLabel>
+      <content src="text/ch011.xhtml"/>
+    </navPoint>
+    <navPoint id="num_17" playOrder="17">
+      <navLabel><text>Chapter 12 · Wanting to Keep a Low Profile, and Being Taken for a Soft Persimmon?</text></navLabel>
+      <content src="text/ch012.xhtml"/>
+    </navPoint>
+    <navPoint id="num_18" playOrder="18">
+      <navLabel><text>Chapter 13 · Investigating at JYP</text></navLabel>
+      <content src="text/ch013.xhtml"/>
+    </navPoint>
+    <navPoint id="num_19" playOrder="19">
+      <navLabel><text>Chapter 14 · Women Only Slow Down My Case-Solving Speed</text></navLabel>
+      <content src="text/ch014.xhtml"/>
+    </navPoint>
+    <navPoint id="num_20" playOrder="20">
+      <navLabel><text>Chapter 15 · The Officer’s Discovery, Bae Suzy’s Anomaly</text></navLabel>
+      <content src="text/ch015.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>

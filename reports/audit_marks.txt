@@ -33,4 +33,23 @@
    [NO-QM?] “…Don’t come closer.”
 == work_epub/OEBPS/text/ch010.xhtml
    [NO-QM?] “…What a pain.”
+== work_epub/OEBPS/text/ch011.xhtml
+   clean
+== work_epub/OEBPS/text/ch012.xhtml
+   [NO-QM?] “…When I’ve finished reading, we’ll make the records together.”
+   [NO-QM?] “…Don’t worry.”
+== work_epub/OEBPS/text/ch013.xhtml
+   [NO-QM?] “…Which means this route was not a public schedule.”
+   [NO-QM?] “…What we are examining now is not whether fans like her.”
+   [NO-QM?] “…terial, I will compile a preliminary opinion for the chief prosecutor.”
+   [NO-QM?] “… want the prosecution’s judgment, they must provide complete material.”
+   [NO-QM?] “…hat must be examined does not go unexamined because it is troublesome.”
+   [NO-QM?] “…Which is why what they gave us is not investigation material.”
+   [NO-QM?] “…Don’t put it too formally.”
+   [NO-QM?] “…Which makes it stranger.”
+== work_epub/OEBPS/text/ch014.xhtml
+   [NO-QM?] “…What you just said is useful.”
+   [NO-QM?] “…Do not stare only at what the harasser left behind.”
+== work_epub/OEBPS/text/ch015.xhtml
+   clean
 RESULT: OK (triage any NO-QM? lines above)

@@ -5,12 +5,16 @@ publisher-grade English EPUB. This file holds the **skills**; `worklog.md` holds
 (cycle log, ships, canon pins). Do not duplicate skills between the two — SKILL.md is the master
 reference, worklog §8 is the history.
 
-**Current at ship:** cycle 3 shipped. Tree = 10 chapters · 56 payload entries · 53 manifest items ·
-16 spine entries · 15 NCX navPoints · 18 nav list items · 13 images (`cover-bg.jpg` repaired in place ·
-cards `id-02`…`id-06` · wardrobe plates `id-07`…`id-09` · Boram card `id-10` · plates `id-11`…`id-13`) ·
-20 WOFF faces · 8 character cards · 8 introduction cards · 36 glossary cards. Package: 56 entries ·
-2,884,650 B · sha256 `748469d4…`. Next image id: **id-14**. Next chapter: **ch011** (NCX `num_16`,
-playOrder `16`, nav li 19).
+**Current at ship:** cycle 4 shipped. Tree = 15 chapters · 67 payload entries · 64 manifest items ·
+21 spine entries · 20 NCX navPoints · 23 nav list items · 19 images (`cover-bg.jpg` repaired in
+place · cards `id-02`…`id-06`, `id-10` (reader-provided Boram master), `id-14` (Kim Mi-joo),
+`id-17` (Bae Suzy), `id-19` (Park Jin-young) · wardrobe/scene plates `wd_*` and `id-07`…`id-09`,
+`id-11`; Boram plates are v2, identity-locked to the new master) ·
+20 WOFF faces · 13 character cards · 13 introduction cards · 39 glossary cards. Package: 67 entries ·
+3,743,733 B · sha256 `48d6bce0…`. Next image id: **id-20**. Next chapter: **ch016** (NCX `num_21`,
+playOrder `21`, nav li 24). Reserved portraits: `uploads/Irene.jpg` (Irene) and `uploads/Jiyeon.jpg`
+(Jiyeon) — adopt the cycle each first appears in prose; `uploads/600.webp` is reference-only
+(original serial cover, watermarked/CJK — never our cover or chapter art).
 
 **Provenance of these skills.** The pipeline below was inherited from the reader's previous novel and
 rewritten for this book. **The previous novel's content is banned** — see `reference/README.md` and

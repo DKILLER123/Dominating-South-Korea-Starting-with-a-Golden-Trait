@@ -46,4 +46,40 @@
 == ch010.xhtml · 3029 words · scope: ch007.xhtml, ch008.xhtml, ch009.xhtml
   internal repeats: 0
   cross-chapter 8-grams: 0
+== ch011.xhtml · 3123 words · scope: ch008.xhtml, ch009.xhtml, ch010.xhtml
+  INTERNAL repeats: 2
+    x2: nothing at all had happened ae o yoon
+    x2: ae o yoon was silent for two seconds
+  vs ch010.xhtml: ae o yoon looked at her once he
+  vs ch010.xhtml: up with the fact that he was joking
+  cross-chapter 8-grams: 2
+== ch012.xhtml · 3525 words · scope: ch009.xhtml, ch010.xhtml, ch011.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== ch013.xhtml · 3903 words · scope: ch010.xhtml, ch011.xhtml, ch012.xhtml
+  INTERNAL repeats: 5
+    x2: they gave us is not investigation material t
+    x2: gave us is not investigation material t is
+    x2: us is not investigation material t is public
+    x2: is not investigation material t is public relations
+    x2: not investigation material t is public relations material
+  cross-chapter 8-grams: 0
+== ch014.xhtml · 3068 words · scope: ch011.xhtml, ch012.xhtml, ch013.xhtml
+  INTERNAL repeats: 1
+    x2: that person seemed to be waiting for me
+  vs ch013.xhtml: were clear his brows and eyes calm his
+  vs ch013.xhtml: clear his brows and eyes calm his nose
+  vs ch013.xhtml: his brows and eyes calm his nose high
+  cross-chapter 8-grams: 3
+== ch015.xhtml · 3927 words · scope: ch012.xhtml, ch013.xhtml, ch014.xhtml
+  INTERNAL repeats: 3
+    x2: ae o yoon looked at her once ccasionally
+    x2: o yoon looked at her once ccasionally im
+    x2: yoon looked at her once ccasionally im i
+  vs ch013.xhtml: ae o yoon did not answer at once
+  vs ch014.xhtml: stood up hat is enough for today im
+  vs ch014.xhtml: up hat is enough for today im i
+  vs ch014.xhtml: hat is enough for today im i ju
+  vs ch014.xhtml: is enough for today im i ju immediately
+  cross-chapter 8-grams: 5
 repeat_check: REVIEW (deliberate lyric quotes may be legitimate)

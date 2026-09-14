@@ -24,28 +24,39 @@ approved plate; four photographic-real images joined the book (the assistant's c
 each matches its character image 100%); the missing `#chapters-stamp` was implemented on the cover
 with `edition.css` §58; the package was rebuilt, sealed and pushed.
 
-**Tree state (measured, `reports/workspace_audit.json`):** 5 chapters (`ch001`–`ch005`, next slot
-`ch006`) · 11 XHTML documents · 47 payload files · 44 manifest items · 11 spine entries in the
-mandated order · 10 NCX navPoints · 13 nav items · 9 images (`cover-bg.jpg` 1200×1800 repaired in
-place · four 736×920 cards `id-02`…`id-05` · assistant portrait `id-06` 736×920 · three 1120×1400
-wardrobe plates `id-07`…`id-09`) · 20 embedded WOFF faces · 6 character cards · 6 introduction cards ·
-35 glossary cards · 178 reference checks resolved · 16,502 body words · 0 structural errors.
-**Package:** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` · 47 entries · 2,032,683 B ·
-sha256 `d4c044f3d069bfeb05c5065747509cff4cf2a8e21d811538a419b6779148cd08` · mimetype STORED first, zip test clean.
-(The v1 package it replaces: 43 entries · 1,495,148 B · sha256 `acc78690…`; its unpacked contents are
-preserved in `extracted/`.)
+**Cycle 3 complete: chapters 6–10, checklist/lecture/plain-block redesigns, Boram cast** (details in
+§8). **Cycle 4 complete: chapters 11–15, reader-supplied portraits, JYP arc cast.** The reader
+uploaded `uploads/Boram.jpg` (adopted as the authoritative Boram card master — `id-10` replaced in
+place, and all Boram plates regenerated identity-locked to it), plus `uploads/Irene.jpg` and
+`uploads/Jiyeon.jpg` (RESERVED for Irene and Jiyeon when they first appear in prose — do not use
+early) and `uploads/600.webp` (the original serial cover; source reference only — watermarked and
+CJK, never usable as our cover or chapter art). New masters: Kim Mi-joo `id-14`, Bae Suzy `id-17`
+(approved `image-search/bae-suzy…pr-1`), Park Jin-young `id-19` (approved
+`image-search/park-jin-young…-2`); plates `wd_boram_disguise`/`wd_boram_loungewear` (v2, re-locked),
+`wd_boram_morning` (ch011), `wd_kim_miju_plain` (ch013), `wd_suzy_meeting` (ch014). Cast pages grown
+8→13 cards/intros (Mi-joo, Suzy, Park Jin-young with portraits; Park Dae-jun, Park Jung-hwan
+text-only); glossary 36→39 (`sasaeng`, `ganjang gejang`, `Nation’s First Love`); id-10 caption/alt
+corrected to "Reader-provided portrait, street editorial" everywhere.
 
-**Gates this cycle:** `validate_tree` PASS (11/11 parsed, 0 undefined classes, 0 unresolved refs, 0 Han
-outside 61 `lang="ko"` glosses) · `punct_quotes --check --max-para-en 12` PASS · `audit_marks` all five
-chapters clean of hard flags (NO-QM? triaged: every survivor is an imperative or an exclamatory
-statement the raw itself punctuates with 。/！) · `repeat_check` PASS ×4, REVIEW ×1 (the deliberate
-refrain, see the cycle entry below) · `style_audit` PASS (11–14 distinct block types per chapter,
-3–6 blocks per 1k words, no repeated device outside the allowlist) · `check_classes` PASS (11 pages,
-`edition.css` included) · `legacy_firewall` PASS (0 hard bleed; every soft token cleared by `raws/`
-provenance — nothing was allowlisted or weakened) · `sync_styles` PASS · `install_fonts --verify` PASS
-· stylelint 0 errors · `style_index --check-skill` PASS · `workspace_audit --assets`:
-0 structural errors, `metrics-band` ×3 triaged (the counter includes block furniture; prose-only
-measurement is 4.0 em-dashes/1k words max and 71 words longest paragraph, both in band).
+**Tree state (measured, `reports/workspace_audit.json`):** 15 chapters (`ch001`–`ch015`, next slot
+`ch016`) · 21 XHTML documents · 67 payload entries · 64 manifest items · 21 spine entries ·
+20 NCX navPoints · 23 nav list items · 19 images (`cover-bg.jpg` 1200×1800 repaired in place ·
+cards `id-02`…`id-06`, `id-10`, `id-14`, `id-17`, `id-19` at 736×920 · wardrobe/scene plates
+`wd_*` at 1120×1400) · 20 embedded WOFF faces · 13 character cards · 13 introduction cards ·
+39 glossary cards · 296 reference checks resolved · 47,126 body words · 0 structural errors.
+**Package:** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` · 67 entries · 3,743,733 B ·
+sha256 `48d6bce0ee4b9373f197b89c353da2fdcbded27fd6f9fc76897b8fca44f808b8` · mimetype STORED first,
+zip test clean. (Cycle-3 package it replaces: 56 entries · 2,884,650 B · sha256 `748469d4…`.)
+
+**Gates this cycle:** `validate_tree` PASS (21/21 parsed, 0 unresolved refs, 0 Han outside the
+`lang="ko"` glosses) · `audit_marks` all five new chapters RESULT: OK (NO-QM? survivors triaged:
+every one an imperative or statement the raw punctuates with 。) · `repeat_check` reviewed (surviving
+flags are raw-faithful refrains: pullquote echoes, the line the raw itself splits across ch014/ch015,
+the EXO/“occasionally” beats) · `style_audit` PASS (15 chapters; ch011–ch015 at 8/8/10/8/8 distinct
+block types) · `check_classes` PASS (21 pages) · `legacy_firewall` PASS (soft Lee Boo-jin ×33 cleared
+by raws provenance) · `workspace_audit`: package built, parity archive == extracted == work_epub
+(0/0/0), 0 structural errors · in-archive asserts: entries = manifest + 3, 27 image refs 0 broken,
+stamps `Chapters 1–15` ×3, glossary 39, cards/intros 13/13, v2 plates byte-identical.
 
 **Canon pins:** see §1. Chapter 5 ends on Jessica's silence and the "blade" bargain; Bae Do-yoon holds
 two purple entries, one blue, one gold, and no rank he can spend yet.
@@ -63,16 +74,17 @@ delivered archive · **after every final EPUB: commit, push to the session branc
 (currently `arena/01a0a030-dominating-south-korea-startin`), verify remote HEAD, deliver the GitHub
 download link.**
 
-**Next cycle (when the reader supplies Chapter 6):** next numeric image manifest id is `id-10`.
-Save `raws/ch006_raw.txt` first → recon greps →
-draft `work_epub/OEBPS/text/ch006.xhtml` → wire-up (manifest `ch006`, NCX `num_11`/playOrder 11, one
-nav `<li>` at 14, cover `#chapters-stamp` and both OPF stamps → `Chapters 1–6`, glossary header/footer
-and the card append as needed) → all of SKILL §9 → worklog §8 entry + §0 refresh → only then
-`build_epub.py`, in-archive asserts, seal, push, present. New glossary candidates already promised by
-the text: `geomsa-nim` usage in address, `sunbae`/`hubae` on set, `chaebol` in the press voice, and the
-营业 (yŏngŏp / "business-mode") register the characters keep calling 营业.
+**Next cycle (when the reader supplies Chapter 16+):** next numeric image manifest id is `id-20`.
+Save `raws/ch016_raw.txt` first → recon greps → draft `work_epub/OEBPS/text/ch016.xhtml` → wire-up
+(manifest `ch016`, NCX `num_21`/playOrder 21, nav `<li>` 24, cover `#chapters-stamp` and both OPF
+stamps → `Chapters 1–16`, glossary header/footer + cards as earned) → all of SKILL §9 → worklog §8
+entry + §0 refresh → only then `build_epub.py`, in-archive asserts, seal, push, present. Reserved
+portraits: `uploads/Irene.jpg` (Irene, Red Velvet) and `uploads/Jiyeon.jpg` (Jiyeon, T-ara) go live
+the cycle their names first appear in prose. Name discipline for the JYP arc: 裴云 → Bae Do-yoon;
+裴秀智 → Bae Suzy; 朴振英 → J.Y. Park / Park Jin-young; 金美珠 → Kim Mi-ju;
+朴正焕 → Park Jung-hwan; 朴大俊 → Park Dae-jun; 全宝蓝 → Boram.
 
-Repository root: this checkout. Session branch: `arena/01a09e8b-dominating-south-korea-startin`.
+Repository root: this checkout. Session branch: `arena/01a0a030-dominating-south-korea-startin`.
 
 ## 1 · Canon pins
 
@@ -146,6 +158,26 @@ rebuilt; `work_epub/` is the only tree the gates and the packer read.
 ---
 
 ## 8 · Cycle log (Version 1, newest first)
+
+### Cycle 4 — chapters 11–15, reader-supplied portraits, JYP arc — September 14, 2026 — complete, EPUB built
+
+Raws `ch011`–`ch015` saved verbatim before drafting. Reader uploads adopted: `uploads/Boram.jpg`
+replaced `id-10` as the authoritative Boram master (ch009/ch010 plates regenerated as v2, identity-
+locked to the new master; ch011 morning plate `wd_boram_morning` generated from it too); Irene and
+Jiyeon uploads held in reserve; `600.webp` reference-only. New art: `id-14` Kim Mi-joo (generated
+master), `id-17` Bae Suzy (pr-1 approved; cy 0.30), `id-19` Park Jin-young (pjy-2 approved; cy
+0.25); plates `wd_kim_miju_plain` (ch013 plain-clothes block), `wd_suzy_meeting` (ch014 meeting-room
+block). Chapters: ch011 gejang-night debt + morning hallway + prosecutor-hall file drop (menu-block;
+8 distinct); ch012 file-speed wager with Mi-ju, lunch politics, petition arrives (checklist, memory,
+dossier, briefing, official-statement; 8 distinct); ch013 JYP side-gate visit, escalation-ladder
+lecture, Judicial Monster entry-note, practice-room whispers, Suzy intro (whisper-block; 10
+distinct); ch014 originals disappoint, J.Y. Park enters, Suzy testimony + sealed-box memory, status-
+panel scoreboard (8 distinct); ch015 the tour, EXO confession, SM-door story, the business card,
+Mi-ju’s crossed-out headline (8 distinct). Author-aside labels this cycle: crab debts / soft
+persimmons / PR-as-investigation / women-and-speed / “On occasionally”. Cast pages 8→13, glossary
+36→39, stamps → Chapters 1–15. Four Han slips caught pre-build (ch012, ch013, ch015 ×2) — full-tree
+CJK scan clean. Package: 67 entries · 3,743,733 B · sha256 `48d6bce0…`. Pushed to the session
+branch; remote HEAD verified.
 
 ### Cycle 3 — chapters 6–10, style redesigns, Boram cast — September 14, 2026 — complete, EPUB built
 
