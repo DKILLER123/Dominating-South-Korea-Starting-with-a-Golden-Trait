@@ -5,15 +5,17 @@ publisher-grade English EPUB. This file holds the **skills**; `worklog.md` holds
 (cycle log, ships, canon pins). Do not duplicate skills between the two — SKILL.md is the master
 reference, worklog §8 is the history.
 
-**Current at ship:** cycle 5 shipped. Tree = 18 chapters · 73 payload entries · 70 manifest items ·
-24 spine entries · 23 NCX navPoints · 26 nav list items · 22 images (`cover-bg.jpg` repaired in
-place · cards `id-02`…`id-06`, `id-10`, `id-14`, `id-17`, `id-19`, `id-20` (reader-provided Ji-yeon),
-`id-21` (Inmudang master) · plates `wd_*` incl. `id-22 wd_jiyeon_disguise`) ·
-20 WOFF faces · 16 character cards · 16 introduction cards · 41 glossary cards. Package: 73 entries ·
-4,262,765 B · sha256 `b15f739e…`. Next image id: **id-23**. Next chapter: **ch019** (NCX `num_24`,
-playOrder `24`, nav li 27). Reserved portrait: `uploads/Irene.jpg` (Irene) for her first prose
-appearance; `uploads/600.webp` reference-only. `firewall_allowlist.txt` holds exactly one documented
-homonym clearance (Park Ji-yeon ← ch017 raw); it must never admit reference-novel content.
+**Current at ship:** cycle 6 shipped. Tree = 20 chapters · 77 payload entries · 74 manifest items ·
+26 spine entries · 25 NCX navPoints · 28 nav list items · 24 images (`cover-bg.jpg` repaired in
+place · cards `id-02`…`id-06` (`id-03` reader-provided Jessica), `id-10`, `id-14`, `id-17`, `id-19`,
+`id-20`, `id-21`, `id-23` (reader-provided Irene) · plates `wd_*` incl. `id-22`, `id-24`) ·
+20 WOFF faces · 17 character cards · 17 introduction cards · 43 glossary cards. Package: 77 entries ·
+4,615,230 B · sha256 `0e1ef706…`. Next image id: **id-25**. Next chapter: **ch021** (NCX `num_26`,
+playOrder `26`, nav li 29). No reserved portraits remain; `uploads/600.webp` reference-only.
+`firewall_allowlist.txt`: two documented homonym clearances (Park Ji-yeon ← ch017 raw;
+Bae Joo-hyun ← ch020 raw, legal name once on card). style_audit counted registry =
+`style_audit.block_classes()`; `chat-container`/`pullquote`/`notification` are not counted toward
+the 8-distinct floor.
 
 **Provenance of these skills.** The pipeline below was inherited from the reader's previous novel and
 rewritten for this book. **The previous novel's content is banned** — see `reference/README.md` and

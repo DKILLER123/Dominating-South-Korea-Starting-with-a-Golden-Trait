@@ -65,4 +65,9 @@
    [NO-QM?] “…Don’t press people about their work.”
 == work_epub/OEBPS/text/ch018.xhtml
    [NO-QM?] “…When ordinary people are unhappy, they can stay in, stay silent.”
+== work_epub/OEBPS/text/ch019.xhtml
+   [NO-QM?] “…lder is shoulder, waist is waist, feet are feet — all of it scattered.”
+   [NO-QM?] “…Shoulders loose.”
+== work_epub/OEBPS/text/ch020.xhtml
+   [NO-QM?] “…Why you suddenly asked to meet.”
 RESULT: OK (triage any NO-QM? lines above)

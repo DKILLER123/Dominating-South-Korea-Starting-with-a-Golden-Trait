@@ -108,4 +108,20 @@
   vs ch017.xhtml: ae o yoon looked at the two of
   vs ch017.xhtml: o yoon looked at the two of them
   cross-chapter 8-grams: 3
+== ch019.xhtml · 3660 words · scope: ch016.xhtml, ch017.xhtml, ch018.xhtml
+  INTERNAL repeats: 1
+    x2: ae o yoon looked down at his own
+  cross-chapter 8-grams: 0
+== ch020.xhtml · 3178 words · scope: ch017.xhtml, ch018.xhtml, ch019.xhtml
+  INTERNAL repeats: 5
+    x2: ou passed approval a very long time ago
+    x2: got lost in eoul and insisted on looking
+    x2: lost in eoul and insisted on looking calm
+    x2: in eoul and insisted on looking calm about
+    x2: eoul and insisted on looking calm about it
+  vs ch017.xhtml: dentity locked to her card portrait id same
+  vs ch017.xhtml: smile on her face gathered in a little
+  vs ch019.xhtml: ae o yoon lifted his coffee and drank
+  vs ch019.xhtml: o yoon lifted his coffee and drank again
+  cross-chapter 8-grams: 4
 repeat_check: REVIEW (deliberate lyric quotes may be legitimate)

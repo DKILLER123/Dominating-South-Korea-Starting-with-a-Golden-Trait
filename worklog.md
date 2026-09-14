@@ -51,25 +51,40 @@ inventory (ch017). One documented firewall allowlist entry created (`firewall_al
 “Park Ji-yeon” is a homonym collision — T-ara’s Ji-yeon is named by this book’s own raws
 (ch017) and is the reader’s reserved upload; no reference-novel content admitted.
 
-**Tree state (measured, `reports/workspace_audit.json`):** 18 chapters (`ch001`–`ch018`, next slot
-`ch019`) · 24 XHTML documents · 73 payload entries · 70 manifest items · 24 spine entries ·
-23 NCX navPoints · 26 nav list items · 22 images (`cover-bg.jpg` repaired in place · cards
-`id-02`…`id-06`, `id-10`, `id-14`, `id-17`, `id-19`, `id-20` (reader Ji-yeon), `id-21` (master) ·
-plates `wd_*` incl. `id-22 wd_jiyeon_disguise`) · 20 embedded WOFF faces · 16 character cards ·
-16 introduction cards · 41 glossary cards · 0 structural errors.
-**Package:** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` · 73 entries · 4,262,765 B ·
-sha256 `b15f739ec7f06eee…` · mimetype STORED first, zip test clean. (Cycle-4 package it replaces:
-67 entries · 3,743,733 B · sha256 `48d6bce0…`.)
+**Cycle 6 complete: chapters 19–20, Jessica master replaced from the reader’s upload, Irene’s
+reserve live.** `uploads/Jessica.jpg` adopted as Jessica’s authoritative card master — `id-03`
+replaced in place and her ch005 arrivals plate regenerated identity-locked to the new master
+(v3: single handbag, sunglasses + mask + belted trench per the block description). `uploads/Irene.jpg`
+went live the cycle her name entered prose (ch020): card `id-23` + plate `wd_irene_practice`
+(side-door disguise, cap/mask/hoodie — recognized by the eyes). Second documented firewall
+clearance added (`firewall_allowlist.txt`): “Bae Joo-hyun” = Red Velvet Irene’s legal name, sourced
+to `raws/ch020_raw.txt` (裴珠泫), printed once on her card per the legal-name-once rule; prose uses
+the stage name only. Cast pages 16→17, glossary 41→43 (`Red Velvet`, `street casting`),
+stamps → Chapters 1–20. New block firsts: `chat-container` for Irene’s texts (ch020, uncounted by
+style_audit’s registry but kept for the reader’s stylesheet), `status-panel` “then and now” (ch020),
+`system-block` white-rank entry grant `Combat Beginner (White)` (ch019).
 
-**Gates this cycle:** `validate_tree` PASS (24/24 pages) · `check_classes` PASS · `style_audit`
-PASS (18 chapters; ch016–18 at 8/8/10 distinct) · `audit_marks` RESULT OK on all chapters (NO-QM?
-survivors are imperatives the raw punctuates with 。) · `repeat_check` REVIEW only (raw-faithful
-refrains: the “bought too much” volley, the kitchen/door whispers, the how-many-th-generation
-callbacks) · `legacy_firewall` PASS via one documented homonym clearance (hard hits 0) ·
-`workspace_audit`: parity 0/0/0, struct errors 0 · in-archive asserts: entries = manifest + 3,
-0 broken image refs, stamps `Chapters 1–18` ×3, glossary 41, cards/intros 16/16, new images
-byte-identical archive == workspace. Han slips caught pre-build: ch017 ×2 (温和, 签字); ch016/018
-clean at first scan; full-tree CJK scan clean.
+**Tree state (measured, `reports/workspace_audit.json`):** 20 chapters (`ch001`–`ch020`, next slot
+`ch021`) · 26 XHTML documents · 77 payload entries · 74 manifest items · 26 spine entries ·
+25 NCX navPoints · 28 nav list items · 24 images (`cover-bg.jpg` repaired in place · cards
+`id-02`…`id-06` (id-03 now reader-provided Jessica), `id-10`, `id-14`, `id-17`, `id-19`, `id-20`,
+`id-21`, `id-23` (reader-provided Irene) · plates `wd_*` incl. `id-22`, `id-24 wd_irene_practice`) ·
+20 embedded WOFF faces · 17 character cards · 17 introduction cards · 43 glossary cards ·
+0 structural errors.
+**Package:** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` · 77 entries · 4,615,230 B ·
+sha256 `0e1ef706e2002839…` · mimetype STORED first, zip test clean. (Cycle-5 package it replaces:
+73 entries · 4,262,765 B · sha256 `b15f739e…`.)
+
+**Gates this cycle:** `validate_tree` PASS (26/26) · `check_classes` PASS (26 pages) · `style_audit`
+PASS (20 chapters; ch019 9 distinct, ch020 8 distinct counted) · `audit_marks` RESULT OK (NO-QM?
+survivors imperatives per raw) · `repeat_check` REVIEW only (raw-faithful refrains) ·
+`legacy_firewall` PASS via two documented homonym clearances (hard hits 0) · `workspace_audit`
+incl. `--assets`: parity 0/0/0, struct 0, 44 assets decoded · in-archive asserts: entries =
+manifest + 3, 0 broken refs, stamps `Chapters 1–20` ×3, glossary 43, cards/intros 17/17,
+“Bae Joo-hyun” printed exactly once (the card), swapped/new images byte-identical. Han slips caught
+pre-build: ch019 ×2 (纠缠, 粗暴), ch020 ×2 (纠缠, 光环); full-tree CJK scan clean.
+Sandbox note: this turn’s checkout arrived rewound to the branch base with cycle work as a dirty
+overlay; recovered by `git reset --hard` to the verified remote tip before any cycle work.
 
 **Canon pins:** see §1. Chapter 5 ends on Jessica's silence and the "blade" bargain; Bae Do-yoon holds
 two purple entries, one blue, one gold, and no rank he can spend yet.
@@ -87,14 +102,16 @@ delivered archive · **after every final EPUB: commit, push to the session branc
 (currently `arena/01a0a030-dominating-south-korea-startin`), verify remote HEAD, deliver the GitHub
 download link.**
 
-**Next cycle (when the reader supplies Chapter 19+):** next numeric image manifest id is `id-23`.
-Save `raws/ch019_raw.txt` first → recon greps → draft → wire-up (manifest `ch019`, NCX
-`num_24`/playOrder 24, nav `<li>` 27, cover `#chapters-stamp` and both OPF descriptions →
-`Chapters 1–19`, glossary header/footer + cards as earned) → all of SKILL §9 → worklog §8 + §0 →
-only then `build_epub.py`, in-archive asserts, seal, push, present. Reserved portrait still held:
-`uploads/Irene.jpg` (Irene, Red Velvet) for her first prose appearance. `firewall_allowlist.txt`
-exists now — add to it ONLY documented homonym/real-person clearances sourced to this book’s raws,
-never to admit reference-novel content.
+**Next cycle (when the reader supplies Chapter 21+):** next numeric image manifest id is `id-25`.
+Save `raws/ch021_raw.txt` first → recon greps → draft → wire-up (manifest `ch021`, NCX
+`num_26`/playOrder 26, nav `<li>` 29, cover `#chapters-stamp` and both OPF descriptions →
+`Chapters 1–21`, glossary header/footer + cards as earned) → all of SKILL §9 → worklog §8 + §0 →
+only then `build_epub.py`, in-archive asserts, seal, push, present. No reserved portraits remain
+(all reader uploads now live except reference-only `uploads/600.webp`). `firewall_allowlist.txt`
+holds exactly two documented homonym clearances (Park Ji-yeon ← ch017 raw; Bae Joo-hyun ← ch020
+raw) — add only real-person/raw-sourced clearances, never reference-novel content. style_audit’s
+counted registry excludes `chat-container`/`pullquote`/`notification`: when a chapter needs its
+floor, count against the registry list (see `style_audit.block_classes()`).
 
 Repository root: this checkout. Session branch: `arena/01a0a030-dominating-south-korea-startin`.
 
@@ -170,6 +187,24 @@ rebuilt; `work_epub/` is the only tree the gates and the packer read.
 ---
 
 ## 8 · Cycle log (Version 1, newest first)
+
+### Cycle 6 — chapters 19–20, Jessica replaced, Irene live — September 14–15, 2026 — complete, EPUB built
+
+Push of cycle 5 verified first (`e2e1152`), then the reader’s upload commit `9af8ad4`
+(`uploads/Jessica.jpg`) fetched. Raws `ch019`–`ch020` saved verbatim before drafting. Jessica master
+replaced in place from the reader upload (`id-03`, 736×920 boutique crop) and her ch005 plate
+regenerated twice (v2 rejected: duplicated handbag; v3 approved, single bag) identity-locked to the
+new master. Irene reserve live: `id-23` from `uploads/Irene.jpg` + `wd_irene_practice` plate
+(side-door disguise). Chapters: ch19 the master’s stand-firm lesson, corrections without mercy, the
+escape that worked, white-rank `system-block` grant `Combat Beginner (White)`, the SM scout at the
+café with comment-thread undertones, the power meditation and the card into the wallet (9 distinct
+counted); ch20 the contact-list name, chat-container texts with the side-door protocol, the
+disguise wardrobe block, Irene char-intro, then/now status-panel, the station memory (unlicensed
+taxi), the friend-list dossier, “You passed approval a very long time ago” (8 distinct counted).
+Author-aside labels: tonics absorbed through the skin / friend lists and formal approvals. Cast
+16→17, glossary 41→43, stamps → 1–20. Firewall: second documented clearance (Bae Joo-hyun ←
+ch020 raw; legal name printed once on the card only). Package: 77 entries · 4,615,230 B ·
+sha256 `0e1ef706…`. Pushed to the session branch; remote HEAD verified.
 
 ### Cycle 5 — chapters 16–18, Ji-yeon live, Inmudang — September 14, 2026 — complete, EPUB built
 

@@ -105,5 +105,13 @@
       <navLabel><text>Chapter 18 · Learning Self-Defense</text></navLabel>
       <content src="text/ch018.xhtml"/>
     </navPoint>
+    <navPoint id="num_24" playOrder="24">
+      <navLabel><text>Chapter 19 · Power Is a Man’s Best Tonic</text></navLabel>
+      <content src="text/ch019.xhtml"/>
+    </navPoint>
+    <navPoint id="num_25" playOrder="25">
+      <navLabel><text>Chapter 20 · An Old Friend: Irene</text></navLabel>
+      <content src="text/ch020.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>

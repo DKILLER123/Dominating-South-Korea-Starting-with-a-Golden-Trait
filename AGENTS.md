@@ -51,15 +51,15 @@ local HEAD, and provide the GitHub download link. Never force-push, never touch 
 
 `npm run gates` chains the three fast gates; `npm run audit:assets` runs the full audit.
 
-## Current state (cycle 5, 2026-09-14)
+## Current state (cycle 6, 2026-09-15)
 
-Tree: 18 chapters (`ch001`–`ch018`) · 73 payload entries · 70 manifest items · 24 spine entries ·
-23 NCX navPoints · 26 nav list items · 20 WOFF faces · 22 images (repaired cover plate · cards
-`id-02`…`id-06`, `id-10`, `id-14`, `id-17`, `id-19`, `id-20` reader-provided Ji-yeon, `id-21`
-Inmudang master · plates `wd_*` incl. `id-22 wd_jiyeon_disguise`, all photographic-real) ·
-16 character cards · 16 introduction cards · 41 glossary cards. Package built and pushed:
-73 entries · 4,262,765 B · sha256 `b15f739e…`. `extracted/` holds the unpacked archive snapshot.
-All gates green (firewall PASS via one documented homonym clearance in `firewall_allowlist.txt`:
-Park Ji-yeon, sourced to ch017 raw — never for reference content). Next chapter slot `ch019`
-(NCX `num_24`/playOrder 24, nav li 27, next image id `id-23`). Reserved: `uploads/Irene.jpg`
-(Irene) for her first prose appearance; `uploads/600.webp` reference-only.
+Tree: 20 chapters (`ch001`–`ch020`) · 77 payload entries · 74 manifest items · 26 spine entries ·
+25 NCX navPoints · 28 nav list items · 20 WOFF faces · 24 images (repaired cover plate · cards
+`id-02`…`id-06` with `id-03` reader-provided Jessica, `id-10`, `id-14`, `id-17`, `id-19`, `id-20`,
+`id-21`, `id-23` reader-provided Irene · plates `wd_*` incl. `id-22`, `id-24 wd_irene_practice`,
+all photographic-real) · 17 character cards · 17 introduction cards · 43 glossary cards. Package
+built and pushed: 77 entries · 4,615,230 B · sha256 `0e1ef706…`. `extracted/` holds the unpacked
+archive snapshot. All gates green (firewall PASS via two documented homonym clearances in
+`firewall_allowlist.txt`: Park Ji-yeon ← ch017 raw, Bae Joo-hyun ← ch020 raw — legal name once on
+card; never for reference content). Next chapter slot `ch021` (NCX `num_26`/playOrder 26, nav li 29,
+next image id `id-25`). `uploads/600.webp` reference-only.
