@@ -249,3 +249,55 @@
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
+
+/* ── Cycle 9 fix · status-panel legibility ─────────────────────────
+   Readers that place the panel on a light page lost the pale
+   dark-theme inks (row text, note, header). Restate the panel as a
+   light card with dark ink so it reads on any background; the
+   :empty rule draws the bar track/fill for bars marked up as empty
+   width-spans (ch019 onward) without disturbing glyph bars.        */
+.status-panel {
+  background: #eef4fb;
+  color: #1f2a44;
+  border: 1px solid #8fa8cc;
+  box-shadow: none;
+}
+.status-panel .sp-header {
+  color: #0b5aa5;
+  text-shadow: none;
+  border-bottom-color: #b9c8e0;
+}
+.status-panel .sp-subject {
+  color: #33507f;
+  border-bottom-color: #b9c8e0;
+}
+.status-panel .sp-total {
+  color: #7c5e00;
+  text-shadow: none;
+  border-bottom-color: #b9c8e0;
+}
+.status-panel .sp-row {
+  border-bottom-color: #b9c8e0;
+}
+.status-panel .sp-label {
+  color: #33507f;
+}
+.status-panel .sp-value {
+  color: #1f2a44;
+}
+.status-panel .sp-bar:empty {
+  height: 0.55em;
+  min-width: 2.5em;
+  background: #2f66b8;
+  border: 1px solid #24509a;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.status-panel .sp-bar .filled {
+  color: #0b5aa5;
+  text-shadow: none;
+}
+.status-panel .sp-note {
+  color: #3e4c6e;
+  border-top-color: #b9c8e0;
+}
