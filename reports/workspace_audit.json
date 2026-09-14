@@ -43,7 +43,7 @@
     "validate_tree": 0,
     "punct_quotes": 0,
     "audit_marks": "no chapters in tree yet",
-    "repeat_check": 0,
+    "repeat_check": "no chapters in tree yet",
     "legacy_firewall": 0,
     "stylelint": 0
   },

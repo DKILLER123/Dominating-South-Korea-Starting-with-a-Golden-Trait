@@ -1,1 +1,0 @@
-usage: repeat_check.py chNNN.xhtml [scope-chapters…]

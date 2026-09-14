@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """House gate 3 — repetition check.
 
-Usage:  python3 repeat_check.py ch287.xhtml ch288.xhtml
+Usage:  python3 repeat_check.py ch001.xhtml            # bare filename, from the repo root
+        python3 repeat_check.py ch003.xhtml ch001.xhtml ch002.xhtml   # explicit scope
 
 For each named chapter, reports:
   * internal 8-gram repeats (the same 8 consecutive words twice inside the chapter)

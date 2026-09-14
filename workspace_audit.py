@@ -284,7 +284,8 @@ def main():
         'punct_quotes': [sys.executable, 'punct_quotes.py'],
         'audit_marks': [sys.executable, 'audit_marks.py', *['work_epub/' + n for n in chapter_names]]
         if chapter_names else None,
-        'repeat_check': [sys.executable, 'repeat_check.py', *[Path(n).name for n in chapter_names]],
+        'repeat_check': [sys.executable, 'repeat_check.py', *[Path(n).name for n in chapter_names]]
+        if chapter_names else None,
         'legacy_firewall': [sys.executable, 'legacy_firewall.py', '--json', 'reports/firewall.json'],
     }
     lint = ROOT / 'node_modules/.bin/stylelint'

@@ -148,6 +148,8 @@ edition facts); three character cards; four introduction cards; 27 glossary card
 sheet variants; a Contents page with the five reference entries, the chapter anchor comment and three
 landmarks. No age, date, height, song, title or relationship was invented anywhere.
 
+**Finishing pass.** The gate scripts' own docstrings still carried the reference novel's chapter numbers as examples (`ch298.xhtml`, `ch287.xhtml`, a `ch297 cycle` attribution) and `validate_tree.py` justified the Jamo exemption with the other book's four fan blocks: all restated for this book, since process may be inherited but a stray provenance line teaches a future cycle the wrong chapter map. `workspace_audit.py` no longer runs `repeat_check` on an empty tree either, so `reports/` holds no zero-input transcripts. `legacy_firewall.py` now reads only `raws/*.txt` as the provenance corpus, so no README can launder a real-name token into canon. `install_fonts.py --verify` measures digit style and GSUB features per face and fails if the title face is not lining — the inherited "oldstyle figure" folklore is now a measurement (Cardo lining; Cormorant and IM Fell oldstyle; IM Fell has no `lnum` at all).
+
 **Verification.** `validate_tree` PASS · `punct_quotes` PASS · `legacy_firewall` PASS ·
 `sync_styles` PASS · `install_fonts` PASS · stylelint PASS · `style_index --check-skill` PASS ·
 `workspace_audit.py --assets` → `structural_errors: []` after the cover plate was installed,

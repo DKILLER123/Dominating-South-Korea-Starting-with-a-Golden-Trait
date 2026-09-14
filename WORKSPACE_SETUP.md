@@ -95,7 +95,7 @@ are printed by the audit so they are never guessed.
 | `python3 style_index.py --check-skill` | **PASS** — 297 class tokens cited in SKILL §5 all exist in the sheet |
 | `node_modules/.bin/stylelint --config .sl.json "work_epub/OEBPS/styles/*.css"` | **PASS** — 0 errors (2 config deviations recorded in worklog §2.7) |
 | `.venv/bin/python workspace_audit.py --assets` | **structural_errors: []**; `package_state: "not built yet (setup cycle)"` |
-| `repeat_check` / `audit_marks` | not applicable at setup — no chapter file exists yet |
+| `repeat_check` / `audit_marks` | not applicable at setup — no chapter file exists yet, and the audit no longer invokes them on an empty tree |
 | `build_epub.py` | **not run** — deliberate |
 
 **Not performed:** EPUBCheck, rendering proofs in real reader engines, accessibility conformance,

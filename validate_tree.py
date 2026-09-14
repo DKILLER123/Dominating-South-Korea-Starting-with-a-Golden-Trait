@@ -60,9 +60,10 @@ def main():
     else:
         print(f"parsed OK: {parsed}/{len(files)} · undefined classes: 0")
 
-    # CJK detection: Han/fullwidth/boxes. Hangul Compatibility Jamo (U+3130–U+318F)
-    # is deliberately exempted: the base ships ㅋㅋ / ㅠㅠ as fan-register emoticons
-    # in four comment/chat blocks (ch120/143/196/209) — voice, not language.
+    # CJK detection: Han/fullwidth/boxes. Hangul Compatibility Jamo (U+3130–U+318F) stays
+    # exempted as a class because ㅋㅋ / ㅠㅠ inside a fan comment thread are register, not
+    # untranslated language. This book has not printed them yet; the exemption is kept because a
+    # fandom scene may legitimately need one, and a lone exempted jamo never excuses a Han run.
     cjk = re.compile(r"[\u2e80-\u312f\u3190-\u9fff\uf900-\ufaff\uff00-\uffef\u3000-\u303f]")
     ko_span = re.compile(r'<(\w+)[^>]*\blang="ko"[^>]*>(.*?)</\1>', re.S)
     hangul_only = re.compile(r"[\uac00-\ud7af\u3130-\u318f]")
