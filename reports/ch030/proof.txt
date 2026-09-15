@@ -1,0 +1,27 @@
+PROOF — ch030.xhtml · Chapter: I’ve Always Seen You as a Younger Brother
+Date: 2026-09-15 · branch arena/01a0a030-dominating-south-korea-startin
+Source raw (verbatim): raws/ch030_raw.txt
+Words: 5230 · CJK characters in chapter: 0
+
+STYLE BLOCKS
+counted: location-stamp x3 (hotel entrance / upper-floor office / arranged room), wardrobe-block (Lee Boo-jin black-window-tea; NEW plate wd_leeboojin_tea.jpg identity-locked to card master id-04), contract-block (the younger-brother clause and fee schedule), status-panel (the rearrangement model), dossier-block (the wind: knife or bait), lecture-block (President Lee's class), checklist-block (why-me candidate answers), memory-block (what they are to each other), briefing-block (tonight's summons record), author-aside | uncounted extra: pullquote
+
+BEATS PRESERVED FROM RAW
+Beats: eight-o'clock summons; assistant's you'll-know-when-you-arrive; tea poured by the eldest princess; the dongsaeng declaration priced on sight; kidnapper line; cooperation-relationship fence; the case handed too early = probing; personnel-change wind (will be = schedule); high seats move, low seats rearranged; knife or bait, addressee unread; the lecture of reasonable arrangements; don't trust the position they give you; half-left praise as next-meeting reason; the overnight-stay nod and the little-one eye-roll; room card, assistant, you'll-know-when-you-enter; the doorway sweep ending on the slender figure.
+
+GATES (run after final edits)
+- style_audit.py: PASS (31 chapters); ch030 fields 10 distinct counted types
+- validate_tree.py: PASS (parse OK, unresolved refs 0, CJK 0 outside lang="ko" glosses)
+- check_classes.py: OK (every class token declared; lecture-block restated with stylesheet children lect-header/lect-q)
+- legacy_firewall.py: PASS (hard forms absent; soft clears sourced from raws)
+- repeat_check.py ch030.xhtml: cross-chapter 8-grams 0 (raw-deliberate callbacks paraphrased on the NEW chapter side; shipped sides verbatim)
+- punct_quotes.py: PASS (0 files to rewrite)
+- question-mark scan: every true interrogative ends in '?'; flagged no-QM lines verified as statements/imperatives per raw (e.g. 'So don't waste time.', 'Don't make yourself sound so innocent.') or splitter artifacts on 'Ms. Bae'
+
+NAMES / SPELLING
+- Bae Do-yoon (raw 裴云 never printed); Kim Mi-ju (Officer Kim); Bae Suzy (Ms. Bae); Lee Boo-jin (house spelling, raw 李富真); Jessica = stage name with Jung Soo-yeon as the personal name at charged moments (recognition line, name-call, contract signature side), address Ms. Jung per house usage; sister unnamed in raw kept as 'her sister' (house card Krystal / Jung Soo-jung exists); Irene referenced in ch029 memory per house rule; sunbae and dongsaeng used in prose and carded.
+- Glossary +2 cards -> 54 (dongsaeng; sunbae); footer 'through Chapter 31 — fifty-four cards'.
+
+WIRING
+- content.opf manifest +3 chapter items +2 image items (id-26 wd_leeboojin_tea.jpg, id-27 wd_jessica_suite.jpg), spine +3 itemrefs; dc:description stamps -> Chapters 1–31 (both lines, summary extended)
+- cover.xhtml stamp -> Chapters 1–31; toc.ncx num_34/35/36 playOrder 34–36; nav.xhtml +3 li

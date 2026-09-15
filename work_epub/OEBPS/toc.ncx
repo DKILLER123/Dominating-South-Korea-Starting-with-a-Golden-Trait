@@ -145,5 +145,17 @@
       <navLabel><text>Chapter 28 · The First Person Who Came to Mind Was Her?</text></navLabel>
       <content src="text/ch028.xhtml"/>
     </navPoint>
+    <navPoint id="num_34" playOrder="34">
+      <navLabel><text>Chapter 29 · The Extremely Curious Kim Mi-ju</text></navLabel>
+      <content src="text/ch029.xhtml"/>
+    </navPoint>
+    <navPoint id="num_35" playOrder="35">
+      <navLabel><text>Chapter 30 · I’ve Always Seen You as a Younger Brother</text></navLabel>
+      <content src="text/ch030.xhtml"/>
+    </navPoint>
+    <navPoint id="num_36" playOrder="36">
+      <navLabel><text>Chapter 31 · A Spring Night’s Dream</text></navLabel>
+      <content src="text/ch031.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>

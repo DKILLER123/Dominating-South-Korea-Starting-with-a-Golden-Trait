@@ -1,0 +1,27 @@
+PROOF — ch029.xhtml · Chapter: The Extremely Curious Kim Mi-ju
+Date: 2026-09-15 · branch arena/01a0a030-dominating-south-korea-startin
+Source raw (verbatim): raws/ch029_raw.txt
+Words: 4016 · CJK characters in chapter: 0
+
+STYLE BLOCKS
+counted: location-stamp x3 (JYP door / elevator / Prosecutors' Office), checklist-block (the something-is-going-on evidence), whisper-block (elevator lowered voices), status-panel (the evasion gauge), memory-block (red-light resurfacing of Suzy's question -> Irene), contract-block (the last-question guarantee), briefing-block (afternoon deliverables), dossier-block (the locked drawer), wardrobe-block (restored work state; plate wd_bae_doyoon_prosecutor.jpg reused), author-aside | uncounted extra: pullquote
+
+BEATS PRESERVED FROM RAW
+Beats: Mi-ju reads Suzy's uncollected emotion and the crossed backward glances (something is going on); elevator interrogation (half-second tell); car ride (not panic not disorder; the flipped-out thing); red light memory of the type-question and Irene; office return and locked-drawer meditation; doorway last-question guarantee and its doorway addendum; blank document, blinking cursor, answer clear but unadmitted. Raw author-note (monthly-tickets plea) kept in raw only, excluded from prose as meta.
+
+GATES (run after final edits)
+- style_audit.py: PASS (31 chapters); ch029 fields 10 distinct counted types
+- validate_tree.py: PASS (parse OK, unresolved refs 0, CJK 0 outside lang="ko" glosses)
+- check_classes.py: OK (every class token declared; lecture-block restated with stylesheet children lect-header/lect-q)
+- legacy_firewall.py: PASS (hard forms absent; soft clears sourced from raws)
+- repeat_check.py ch029.xhtml: cross-chapter 8-grams 0 (raw-deliberate callbacks paraphrased on the NEW chapter side; shipped sides verbatim)
+- punct_quotes.py: PASS (0 files to rewrite)
+- question-mark scan: every true interrogative ends in '?'; flagged no-QM lines verified as statements/imperatives per raw (e.g. 'So don't waste time.', 'Don't make yourself sound so innocent.') or splitter artifacts on 'Ms. Bae'
+
+NAMES / SPELLING
+- Bae Do-yoon (raw 裴云 never printed); Kim Mi-ju (Officer Kim); Bae Suzy (Ms. Bae); Lee Boo-jin (house spelling, raw 李富真); Jessica = stage name with Jung Soo-yeon as the personal name at charged moments (recognition line, name-call, contract signature side), address Ms. Jung per house usage; sister unnamed in raw kept as 'her sister' (house card Krystal / Jung Soo-jung exists); Irene referenced in ch029 memory per house rule; sunbae and dongsaeng used in prose and carded.
+- Glossary +2 cards -> 54 (dongsaeng; sunbae); footer 'through Chapter 31 — fifty-four cards'.
+
+WIRING
+- content.opf manifest +3 chapter items +2 image items (id-26 wd_leeboojin_tea.jpg, id-27 wd_jessica_suite.jpg), spine +3 itemrefs; dc:description stamps -> Chapters 1–31 (both lines, summary extended)
+- cover.xhtml stamp -> Chapters 1–31; toc.ncx num_34/35/36 playOrder 34–36; nav.xhtml +3 li
