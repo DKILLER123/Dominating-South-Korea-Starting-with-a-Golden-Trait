@@ -1,12 +1,9 @@
-legacy_firewall: 37 files scanned · 6,534 raw tokens indexed for provenance
+legacy_firewall: 43 files scanned · 8,098 raw tokens indexed for provenance
   hard bleed: 0 — none of the reference novel's inventions are present
   soft: Kim Taeyeon ×2 → cleared (sourced from this book's raws)
   soft: Im Yoona ×34 → cleared (sourced from this book's raws)
-  soft: T-ara ×24 → REVIEW — not named in raws/
-      work_epub/OEBPS/text/ch009.xhtml: …rridor light. Boram Member of the girl group T-ara. The new neighbor next door. Small stature, …
-      work_epub/OEBPS/text/ch009.xhtml: …lapped his forehead. “Oh. I remember.” “That T-ara member, right?” “Called…” He jammed. The nam…
-      work_epub/OEBPS/text/ch009.xhtml: …l figure’s. He nodded at once, hard. “Yes!” “T-ara’s Jeon Bo-ram!” He said it, then looked at h…
+  soft: T-ara ×24 → cleared (sourced from this book's raws)
   soft: Krystal ×84 → cleared (sourced from this book's raws)
-  soft: Lee Boo-jin ×43 → cleared (sourced from this book's raws)
+  soft: Lee Boo-jin ×152 → cleared (sourced from this book's raws)
   report: reports/firewall.json
 legacy_firewall: PASS

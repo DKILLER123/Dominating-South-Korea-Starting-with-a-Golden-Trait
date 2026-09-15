@@ -68,7 +68,7 @@ SOFT = {
     "Sooyoung": {"re": r"\bSooyoung\b", "raw_forms": ["崔秀英"]},
     "Hyo-min": {"re": r"\bHyo-?min\b", "raw_forms": ["朴善敏", "Hyomin"]},
     "IU": {"re": r"\bIU\b(?=\s+[A-Z]|\s+(?:said|smiled|released|was|is))", "raw_forms": ["李智恩", "아이유"]},
-    "T-ara": {"re": r"T-?\s?ara\b", "raw_forms": ["Tara", "티아拉"]},
+    "T-ara": {"re": r"T-?\s?ara\b", "raw_forms": ["T-ara", "Tara", "티아라"]},
     "Krystal": {"re": r"\bKrystal\b", "raw_forms": ["郑秀晶"]},
     "Lee Boo-jin": {"re": r"Lee\s+Boo-?jin|이부진", "raw_forms": ["李富真"]},
 }
