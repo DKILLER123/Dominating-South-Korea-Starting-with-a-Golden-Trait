@@ -9,8 +9,8 @@
     <dc:contributor>Arena Agent Mode · production and typesetting</dc:contributor>
     <dc:publisher>Reader's own edition (unofficial fan translation)</dc:publisher>
     <dc:date>2026-09-14</dc:date>
-    <dc:description>Chapters 1–31: the Shilla suite, the sealed corridor, the terms of a blade, Jessica’s café, a photograph two years old, a declined ring, an audited ledger, a first day in office, a cap in a supermarket line, a bulb changed at nine at night, a marinated-crab debt, a wager over the bottom file, a petition with a famous name, a careful stalker, a business card left in a JYP lobby, a department chief’s hints at nightfall, a masked maknae at an elevator hall, and a how-many-th-generation master above a dumpling shop, a white-rank entry earned in sweat, an SM scout’s card in a wallet, and a side door in Cheongdam-dong, a clerk’s psychology read on a good mood, a blank sub-account that knows which side of a doorway, and one question asked off the record in a cleared JYP meeting room, a clerk’s case file on her own superior’s loosened drawer, a chaebol heiress’s half-left praise over tea, and a first command delivered without explanation in a lamp-lit suite.</dc:description>
-    <dc:description>English edition of Chapters 1–31, typeset in the reader's reference stylesheet.</dc:description>
+    <dc:description>Chapters 1–31: the Shilla suite, the sealed corridor, the terms of a blade, Jessica’s café, a photograph two years old, a declined ring, an audited ledger, a first day in office, a cap in a supermarket line, a bulb changed at nine at night, a marinated-crab debt, a wager over the bottom file, a petition with a famous name, a careful stalker, a business card left in a JYP lobby, a department chief’s hints at nightfall, a masked maknae at an elevator hall, and a how-many-th-generation master above a dumpling shop, a white-rank entry earned in sweat, an SM scout’s card in a wallet, and a side door in Cheongdam-dong, a clerk’s psychology read on a good mood, a blank sub-account that knows which side of a doorway, and one question asked off the record in a cleared JYP meeting room, a clerk’s case file on her own superior’s loosened drawer, a chaebol heiress’s half-left praise over tea, and a first command delivered without explanation in a lamp-lit suite, the shadow of a sister in a photograph, a broken lip, a marked neck, and a name still unknown, a comment section that declares, and a verdict of illness, and a lucky fan who is already in the room.</dc:description>
+    <dc:description>English edition of Chapters 1–35, typeset in the reader's reference stylesheet.</dc:description>
     <dc:subject>Korean entertainment industry</dc:subject>
     <dc:subject>Rebirth</dc:subject>
     <dc:subject>Prosecutor</dc:subject>
@@ -105,6 +105,10 @@
     <item id="ch029" href="text/ch029.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch030" href="text/ch030.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch031" href="text/ch031.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch032" href="text/ch032.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch033" href="text/ch033.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch034" href="text/ch034.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch035" href="text/ch035.xhtml" media-type="application/xhtml+xml"/>
     <item id="id-25" href="images/wd_jiyeon_loungewear.jpg" media-type="image/jpeg"/>
     <item id="id-26" href="images/wd_leeboojin_tea.jpg" media-type="image/jpeg"/>
     <item id="id-27" href="images/wd_jessica_suite.jpg" media-type="image/jpeg"/>
@@ -147,5 +151,9 @@
     <itemref idref="ch029" linear="yes"/>
     <itemref idref="ch030" linear="yes"/>
     <itemref idref="ch031" linear="yes"/>
+    <itemref idref="ch032" linear="yes"/>
+    <itemref idref="ch033" linear="yes"/>
+    <itemref idref="ch034" linear="yes"/>
+    <itemref idref="ch035" linear="yes"/>
   </spine>
 </package>

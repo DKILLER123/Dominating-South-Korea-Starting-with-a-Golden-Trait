@@ -157,5 +157,21 @@
       <navLabel><text>Chapter 31 · A Spring Night’s Dream</text></navLabel>
       <content src="text/ch031.xhtml"/>
     </navPoint>
+    <navPoint id="num_37" playOrder="37">
+      <navLabel><text>Chapter 32 · The Similar One, Her Shadow</text></navLabel>
+      <content src="text/ch032.xhtml"/>
+    </navPoint>
+    <navPoint id="num_38" playOrder="38">
+      <navLabel><text>Chapter 33 · By the Way, What on Earth Is That Bastard’s Name?</text></navLabel>
+      <content src="text/ch033.xhtml"/>
+    </navPoint>
+    <navPoint id="num_39" playOrder="39">
+      <navLabel><text>Chapter 34 · Prosecutor Bae Must Love Irene</text></navLabel>
+      <content src="text/ch034.xhtml"/>
+    </navPoint>
+    <navPoint id="num_40" playOrder="40">
+      <navLabel><text>Chapter 35 · You Are That Lucky Fan</text></navLabel>
+      <content src="text/ch035.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>

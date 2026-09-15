@@ -53,21 +53,24 @@ link. Never force-push, never touch `main`.
 
 `npm run gates` chains the three fast gates; `npm run audit:assets` runs the full audit.
 
-## Current state (cycle 10, 2026-09-15 · restored workspace)
+## Current state (cycle 11, 2026-09-15)
 
-Tree: 31 chapters (`ch001`–`ch031`, next slot `ch032`) · 91 payload entries · 88 manifest items ·
-37 spine entries · 36 NCX navPoints · 39 nav list items · 20 WOFF faces · 27 images
+Tree: 35 chapters (`ch001`–`ch035`, next slot `ch036`) · 95 payload entries · 92 manifest items ·
+41 spine entries · 40 NCX navPoints · 43 nav list items · 20 WOFF faces · 27 images
 (`id-01`…`id-27`: repaired cover plate · cards `id-02`…`id-06` with `id-03` reader-provided
 Jessica, `id-10`, `id-14`, `id-17`, `id-19`, `id-20`, `id-21`, `id-23` reader-provided Irene ·
 plates `wd_*` incl. `id-25 wd_jiyeon_loungewear`, `id-26 wd_leeboojin_tea`, `id-27
-wd_jessica_suite`, all photographic-real) · 17 character cards · 17 introduction cards · 54
-glossary cards. Package built and verified: 91 entries · 5,177,796 B · sha256 `715f6bea…` —
-`work_epub/` byte-identical to the archive on all 91 payloads (re-proven at restore). Delivered
-archive snapshots: `extracted/` (v1, 43 entries) and `extracted-v10/` (91 entries). All gates green
+wd_jessica_suite`, all photographic-real — no new images in cycle 11) · 18 character cards
+(+ Lee Yoon-hyang, text-only) · 18 introduction cards · 56 glossary cards (+ little-puppy type,
+account farming). Package built and verified: 95 entries · 5,216,539 B · sha256
+`f2afaecb…` — in-archive asserts at build. Delivered archive snapshots: `extracted/` (v1,
+43 entries) and `extracted-v10/` (91 entries). All gates green
 (firewall PASS: 0 hard hits, every soft token cleared by `raws/` or the two documented homonym
 clearances in `firewall_allowlist.txt`: Park Ji-yeon ← ch017 raw, Bae Joo-hyun ← ch020 raw —
 legal name once on card; never for reference content). `repeat_check` exits REVIEW on the
-documented shipped-chapter pairs (worklog §2.16). Next chapter slot `ch032` (NCX `num_37`/
-playOrder 37, nav li 40; next image id `id-28`). Reserved portraits: `uploads/Ha-Jiwon.png`
+documented shipped-chapter pairs (worklog §2.16) plus the documented house-device echoes in
+ch032–035 (pullquote re-presentation, speech→contract record, raw-faithful refrains — cycle-11
+entry). Next chapter slot `ch036` (NCX `num_41`/playOrder 41, nav li 44; next image id
+`id-28`). Reserved portraits: `uploads/Ha-Jiwon.png`
 (bottom-right watermark crop on adoption) and `uploads/Son-Yejin.jpg` — live the cycle their names
 enter prose. `uploads/600.webp` reference-only.

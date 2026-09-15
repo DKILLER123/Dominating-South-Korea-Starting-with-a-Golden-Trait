@@ -94,20 +94,36 @@ archive itself, and the cycle-10 commit message.*
   card master `id-04`), `id-27 wd_jessica_suite.jpg` (from card master `id-03`). Glossary +2 → 54
   (`dongsaeng`, `sunbae`). Stamps/NCX/nav/OPF → Chapters 1–31.
 
-**Tree state (measured 2026-09-15 at restore, `reports/workspace_audit.json`):** 31 chapters
-(`ch001`–`ch031`, next slot `ch032`) · 40 XML documents · 91 payload entries · 88 manifest items ·
-37 spine entries · 36 NCX navPoints · 39 nav list items · 27 images (`cover-bg.jpg` repaired in
-place · cards `id-02`…`id-06` (`id-03` reader-provided Jessica), `id-10`, `id-14`, `id-17`, `id-19`,
-`id-20`, `id-21`, `id-23` (reader-provided Irene) · plates `wd_*` incl. `id-25 wd_jiyeon_loungewear`,
-`id-26 wd_leeboojin_tea`, `id-27 wd_jessica_suite` — id ceiling 27) · 20 embedded WOFF faces ·
-17 character cards · 17 introduction cards · 54 glossary cards · 441 reference checks ·
-0 structural errors.
+**Cycle 11 complete: chapters 32–35 (The Similar One, Her Shadow / By the Way, What on Earth Is
+That Bastard’s Name? / Prosecutor Bae Must Love Irene / You Are That Lucky Fan), from verbatim
+raws saved first, 8–9 distinct counted style blocks each, wired and shipped.** The JYP-arc
+conclusion: Lee Boo-jin’s plan revealed as a rescue (her sister Lee Yoon-hyang — NEW text-only
+card, 18th — gone ten years ago, yin and yang apart); Bae Do-yoon’s bitten lip and marked neck;
+the ledger read through the professional’s eyes (a habit, not a slip); the comment section that
+declares, and the verdict of illness; the lucky-fan plan (Male / Seoul / real account + account
+farming) and Bae Suzy naming Bae himself the lucky fan. Block firsts: `screen-view` (ch032, the
+photograph) after the finance/app-screen/comment-thread/hand-note/lecture/checklist returns. QM
+fidelity line-by-line: ch032 10/10 · ch033 24/24 (earlier “19” count was a partial scan) · ch034
+19/19 · ch035 12/12 — every raw ？ rendered, none invented. repeat_check 0 cross-chapter 8-grams
+all four; house devices (pullquote re-presentation, speech→contract record, raw-faithful refrains)
+remain the only internal REVIEWs. Glossary 54→56 (little-puppy type, account farming); characters
+17→18; introductions 17→18; stamps/NCX/nav/OPF → Chapters 1–35. Package: 95 entries · 5,216,539 B
+· sha256 `f2afaecb…`. No new images (next id stays `id-28`); reserved uploads stay reserved.
 
-**Package (cycle-10 ship, verified at restore):** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` ·
-91 entries · 5,177,796 B · sha256 `715f6bea294a058440b775e434a89844cc5f058a551442aa9001b68ecaca1012` ·
-mimetype STORED first · `work_epub/` byte-identical to the archive on all 91 payloads (name diff
-empty, per-entry sha256). The delivered archive is snapshotted in `extracted-v10/` (91 entries);
-`extracted/` keeps the v1 snapshot (43 entries) untouched, per the snapshot convention.
+**Tree state (cycle 11):** 35 chapters (`ch001`–`ch035`, next slot `ch036`) · 44 XML documents ·
+95 payload entries · 92 manifest items · 41 spine entries · 40 NCX navPoints · 43 nav list items ·
+27 images (id ceiling 27 — no new images this cycle; next manifest id `id-28`) · 20 embedded WOFF
+faces · 18 character cards (+ Lee Yoon-hyang, text-only) · 18 introduction cards (+ Lee Yoon-hyang)
+· 56 glossary cards (+ little-puppy type, account farming) · 0 structural errors (restore baseline:
+441 reference checks, 0 errors; cycle-11 delta verified by validate_tree 41/41 + in-archive
+asserts at build).
+
+**Package (cycle-11 ship):** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` ·
+95 entries · 5,216,539 B · sha256 `f2afaecb5e724f0f78825e0d531df1c4aae9ed981e7b7e874a2b139eeeb9c12a` ·
+mimetype STORED first · testzip clean · in-archive asserts at build (95 entries; 4 new chapters
+present; front matter wired). Prior ships remain snapshotted: `extracted-v10/` (cycle 10, 91
+entries), `extracted/` (v1, 43 entries) — untouched per the snapshot convention; the cycle-11
+archive will be snapshotted to a new named folder if the reader requests extraction.
 
 **Gates at restore (fresh sandbox, full suite):** `validate_tree` PASS (37/37 parsed, 0 undefined
 classes, 0 CJK outside 70 exempted `lang="ko"` glosses) · `punct_quotes` PASS · `check_classes` OK
@@ -120,11 +136,16 @@ OK on all 31 chapters · `repeat_check` standing REVIEW (documented pairs, §2.1
 (T-ara raw_forms in `legacy_firewall.py`; the `???` exemption in `audit_marks.py`’s SPACE-QM
 pattern) — no chapter bytes touched; details in §8.
 
-**Canon pins:** see §1. The book now ends at ch031: the arranged night in the Shilla suite —
-Jessica’s first command stands (five clauses, executed by presence), the obedience terms carry
-their single exception ("of course — except for him"), and the morning ends on the alarm and its
-complaint. Lee Boo-jin holds the dongsaeng clause with its fee schedule; Bae Do-yoon carries two
-purple entries, one blue, one gold, and the white-rank `Combat Beginner` earned in ch019.
+**Canon pins:** see §1. The book now ends at ch035: the lucky-fan plan is in motion with Bae
+Suzy’s consent, and the candidate is named — Bae Do-yoon himself, counted finger by finger in the
+JYP meeting room; the chapter closes on his nod: “Indeed. / I am pretty suitable.” Lee Boo-jin’s
+motivation stands revealed and pinned: the antibody plan is a rescue for the sister she lost
+(Lee Yoon-hyang, gone ten years ago, yin and yang apart); the “younger brother” line was true;
+Bae Do-yoon is orphanage-raised. The harasser’s file is qualitative (a habit, not a slip; the
+comment section that declares; “this is a sickness — so it has to be treated”); his name is still
+unsaid. Jessica’s first command stands (five clauses, executed by presence), the obedience terms
+carry their single exception ("of course — except for him"); Bae Do-yoon carries two purple
+entries, one blue, one gold, and the white-rank `Combat Beginner` earned in ch019.
 
 **Standing directives:** raw-first custody · Deep Scan + Deep Thinking · style-block maximalism
 (machine-gated by `style_audit.py`) · QM/phone-call audits every touched chapter · the reference
@@ -139,10 +160,10 @@ snapshot (`extracted/` v1, `extracted-v10/` cycle 10) · **after every final EPU
 the session branch (currently `arena/01a0a43e-dominating-south-korea-startin`), verify remote HEAD,
 deliver the GitHub download link.**
 
-**Next cycle (when the reader supplies Chapter 32+):** next numeric image manifest id is `id-28`.
-Save `raws/ch032_raw.txt` first → recon greps → draft → wire-up (manifest `ch032`, NCX
-`num_37`/playOrder 37, nav `<li>` 40, cover `#chapters-stamp` and both OPF descriptions →
-`Chapters 1–32`, glossary header/footer + cards as earned) → all of SKILL §9 → worklog §8 + §0 →
+**Next cycle (when the reader supplies Chapter 36+):** next numeric image manifest id is `id-28`.
+Save `raws/ch036_raw.txt` first → recon greps → draft → wire-up (manifest `ch036`, NCX
+`num_41`/playOrder 41, nav `<li>` 44, cover `#chapters-stamp` and both OPF descriptions →
+`Chapters 1–36`, glossary header/footer + cards as earned) → all of SKILL §9 → worklog §8 + §0 →
 only then `build_epub.py`, in-archive asserts, seal, push, present. Reserved portraits remain two
 — `uploads/Ha-Jiwon.png` (watermark crop on adoption) and `uploads/Son-Yejin.jpg`, live the cycle
 their names enter prose; `uploads/600.webp` reference-only. `firewall_allowlist.txt` holds exactly
@@ -164,6 +185,11 @@ Repository root: this checkout. Session branch: `arena/01a0a43e-dominating-south
 | Golden trait | **Favor of Rich Women**, grade Golden, unique to the owner | `raws/Synopsis_raw.txt`; wording may be superseded by the Chapter 1 raw, which then becomes the pin |
 | Patron | **Lee Boo-jin**, who demands "a blade of my own" and pays in money, power, beautiful women | raw |
 | Third figure | **Jessica Jung**, just out of Girls' Generation, delivered into his path | raw |
+| Lee Boo-jin’s sister | **Lee Yoon-hyang** (李尹馨; romanization pinned — 馨 reads hyang): younger sister, gone ten years ago over a personal feeling, yin and yang apart; the reason the antibody plan exists; never appears in a room | raw ch032; text-only card `char-lee-yoonhyang` (no portrait — nothing to lock one to) |
+| Bae Do-yoon’s origin | orphanage-raised (the grassroots young man who came out of the orphanage); Lee Boo-jin’s “younger brother” line was true | raws ch032–033 |
+| The Jessica nights | exactly two so far: ch005 (two years ago) and ch031 (the spring night); the raw’s 两次/两晚 is consistent — no re-cut | raws ch005 / ch031 / ch032 |
+| Mi-ju’s role title | house rendering of 配属事务官 = **assigned clerk** (“Officer Kim” stands as before) | raw ch033 |
+| Stage names in prose | Irene (裴珠泫) and Seulgi (姜涩琪) enter prose at ch034; Sulli (雪莉) first mentioned ch033, no card yet | raws ch033–034; stage-name policy (legal names once on cards only) |
 | Agency named | SM Entertainment (as the raw has it) | raw |
 | Real-name policy | real public figures keep real romanizations **only when this book's raw names them**; no fictionalisation by default | reader choice, 2026-09-14 |
 | Character imagery | web-searched real photographs for real people, coded to 736×920 4:5; search files kept in `image-search/` | reader choice |
@@ -247,6 +273,95 @@ rebuilt; `work_epub/` is the only tree the gates and the packer read.
 ---
 
 ## 8 · Cycle log (Version 1, newest first)
+
+### Cycle 11 — chapters 32–35 (The Similar One, Her Shadow / By the Way, What on Earth Is That Bastard’s Name? / Prosecutor Bae Must Love Irene / You Are That Lucky Fan) — September 15, 2026 — complete, EPUB built
+
+**Source & scope.** The reader supplied four raws (第32章…第35章) with standing directives: save the
+raws first before anything else; Deep Scan + Deep Thinking on every line; style-block maximalism
+(no compromise — fill thin context from deep-thinking understanding); before packaging, deep-scan
+again for missing style blocks and question-mark implementation. Raws `ch032_raw.txt`…`ch035_raw.txt`
+saved verbatim first.
+
+**Canon pins added this cycle (§1 to be updated on review).** (a) “two nights” is consistent:
+night #1 = ch005 (two years ago), night #2 = ch031 — the raw’s 两次/两晚 needs no re-cut. (b) NEW
+character **Lee Yoon-hyang** (李尹馨; romanization pinned here — 馨 reads hyang, house loose style
+cf. Boo-jin) = Lee Boo-jin’s younger sister, gone ten years ago over a personal feeling, 阴阳相隔;
+the “younger brother” line to Bae was TRUE (李富真说的是真的); Bae Do-yoon = orphanage-raised.
+Lee’s plan = build love-antibodies early; Jessica is the piece; the method is “cold, hard, and not
+gentle at all.” (c) ch033: Bae’s bitten lip + collarbone scratches found by Kim Mi-ju (house
+rendering for 配属事务官 = **assigned clerk**); Krystal (郑秀晶) first named in prose, uses
+“Unnie”; Sulli (雪莉) first mention, no card yet; Jessica’s forgotten protection is stated
+plainly; chapter closes on the unsaid name. (d) ch034: raw 裴珠泫 → **Irene** and 姜涩琪 →
+**Seulgi** (stage-name rule; card precedent Irene ch020); the harassment file meets the face of
+Bae Suzy’s fandom; verdict: “This is a sickness. — So it has to be treated.” (e) ch035: the
+lucky-fan plan (Male / location Seoul / real account + 养号 = account farming); JYP visit in
+civilian clothes; Bae Suzy’s “interesting — a little like fan operations” reaction, consent with
+the refusal clause standing; she nominates Bae as the lucky fan; ends “Indeed. / I am pretty
+suitable.”
+
+**Chapters (block plans executed; QM fidelity verified line-by-line against the raws).** ch032
+(10 raw ？ → 10 ?; 9 distinct counted): location-stamp ×2, checklist (the readings ruled out),
+memory (the door), dossier (her file: little-puppy / ordinary-man / wild-one / the rumored
+illegitimate son), status-panel (the knot), briefing (the assistant’s observation),
+**screen-view — first use in the book** (the photograph; sv-header/sv-scene/sv-caption/sv-note),
+contract (antibody plan I–V), pullquote “…Yoon-hyang’s shadow in him” + author-aside “On the cold
+rescue.” ch033 (24 raw ？ → 24 ? — the count previously noted as 19 was a partial scan; the quoted
+“？” reply beat is the raw’s 裴云：“？” line, rendered as a quoted dialogue line); 8 distinct:
+stamps ×2, dossier (Mi-ju’s read), checklist (the damage report), status-panel (self-assessment),
+briefing (the company report, as told), **finance-block** (the ledger after the professional’s
+eyes — entries/invoices/rounding/pattern, qualitative only), memory (Krystal’s warnings, the
+shovel-face line included), pullquote “…completely collapsed.” + aside “On the name, not yet
+said.” ch034 (19 raw ？ → 19 ?; 8 distinct): stamp ×1, dossier (the case file), **app-screen**
+(the account), **comment-thread** (4 floors: two normal, two subtle — written to the raw’s tenor),
+briefing (the fan, normal/abnormal), memory (the Irene smile — no verbatim repeat of “I am
+here”), checklist (the reversal 01–05), pullquote “This is a sickness. — So it has to be
+treated.” + aside “On the face that will be the bait.” ch035 (12 raw ？ → 12 ?; 8 distinct):
+stamps ×2 (his office; JYP meeting room — ls register per ch026/ch013 precedent), **hand-note**
+(the plan as written: Male / 定位首尔 / real account, marginal notes incl. farm the account in
+advance), briefing (visit logistics: contact/location/approach/dress), **lecture** (the plan as
+explained: three moves + the objection + the consent, lect-q), checklist (candidate
+requirements; note = “you decide it yourself”), status-panel (her read: profile/temperament/
+distance), contract (her finger-count clauses I–V; figure = the proposer), pullquote “He’s right
+in front of me.” + aside “On the lucky fan.”
+
+**Wire-up.** OPF: 4 items + 4 itemrefs after `ch031`, four per-chapter phrases appended to the
+dc:description list, both descriptions → “Chapters 1–35.” NCX: `num_37`–`num_40` / playOrder
+37–40. nav: 4 `<li>` after ch031; stale char-note “Twenty chapters are in this edition” →
+“Thirty-five.” Cover `#chapters-stamp` → “Chapters 1–35.” Glossary 54 → 56: **little-puppy
+type** (ch032 dating-type slang) + **account farming** (ch035 养号), footer “through Chapter 35 —
+fifty-six cards.” Characters 17 → 18: NEW text-only `char-lee-yoonhyang` card (dept-chief
+pattern — she never appears in a room; no portrait, a frame on a desk corner), Kwon Young-il
+bio appended (the ledger read through the professional’s eyes — a habit, not a slip; the Chapter
+27 warnings proven), Bae Suzy bio appended (ch33–35: the name not said, the thinking switched,
+the lucky fan named). Introductions 17 → 18 (`intro-lee-yoonhyang`, “The sister in the frame”).
+Card-timing per house precedent: cards go live the cycle a name first appears in prose (Irene ←
+ch020; Lee Yoon-hyang ← ch032).
+
+**Gates (pre-build deep scan included).** `validate_tree` PASS (41/41 parsed, 0 undefined
+classes, 0 straight quotes in prose, 0 CJK outside 70 exempted `lang="ko"` glosses, 0 unresolved
+refs) · `style_audit` PASS (35 chapters; ch032 9 / ch033 8 / ch034 8 / ch035 8 distinct) ·
+`audit_marks` OK on all four (NO-QM? lines triaged as documented statements/imperatives) ·
+`legacy_firewall` PASS · `repeat_check`: **0 cross-chapter 8-grams** on all four; remaining
+internal REVIEWs are documented house devices or raw-faithful refrains (ch032 pullquote re-presents
+the dialogue line; ch033 “nearly visible at a glance” is the raw’s own two-scene echo + pullquote
+device; ch035 “cooperate with the plan’s advance at any time” is the speech→contract-record
+device). During drafting, 10 self-duplications were found by the gate and cut (contract-list
+echoes in ch032, the ch033→ch034 “as if she had just thought of something” cross-gram, the
+ch034/ch035 duplicated author-aside openers, the “Kim Mi-ju, standing to the side” ×2).
+
+**In-cycle fixes (no shipped bytes touched).** (1) `mb-note` — a class I introduced in the ch032/
+ch033 drafts that has no CSS rule; house memory blocks use `mb-label`/`mb-voice` + plain `<p>`
+under the generic `.memory-block p` rule — converted. (2) CJK slips caught by the post-draft
+scan: 失控 in ch032 and 省事 in ch034 — the second slipped past literal replacement because the
+two codepoints were in reversed order (U+7701 U+4E8B); patched by codepoint, re-verified 0.
+Rule reaffirmed: locate CJK by regex/codepoint, patch by codepoint, never by pasted literal.
+
+**Ship.** No new images (next manifest id stays `id-28`), no new plates (the JYP visit is in
+civilian clothes — the raw gives no plate-able detail; the reserved uploads stay reserved).
+`Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` rebuilt: **95 entries · 5,216,539 B ·
+sha256 `f2afaecb5e724f0f78825e0d531df1c4aae9ed981e7b7e874a2b139eeeb9c12a`** · mimetype STORED
+first · testzip clean. Committed, pushed to `arena/01a0a43e-dominating-south-korea-startin`,
+remote HEAD verified.
 
 ### Workspace restore, delivered-archive extraction, gate-fidelity fixes — September 15, 2026 — complete, no build
 

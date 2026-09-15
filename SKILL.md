@@ -5,16 +5,16 @@ publisher-grade English EPUB. This file holds the **skills**; `worklog.md` holds
 (cycle log, ships, canon pins). Do not duplicate skills between the two — SKILL.md is the master
 reference, worklog §8 is the history.
 
-**Current at ship:** cycle 10 shipped (2026-09-15; workspace restored the same day — see worklog
-§8 restore entry). Tree = 31 chapters · 91 payload entries · 88 manifest items · 37 spine entries ·
-36 NCX navPoints · 39 nav list items · 27 images (`cover-bg.jpg` repaired in place · cards
-`id-02`…`id-06` (`id-03` reader-provided Jessica), `id-10`, `id-14`, `id-17`, `id-19`, `id-20`,
-`id-21`, `id-23` (reader-provided Irene) · plates `wd_*` incl. `id-25 wd_jiyeon_loungewear`,
-`id-26 wd_leeboojin_tea`, `id-27 wd_jessica_suite` — id ceiling 27) · 20 WOFF faces ·
-17 character cards · 17 introduction cards · 54 glossary cards. Package: 91 entries ·
-5,177,796 B · sha256 `715f6bea…`; delivered-archive snapshots in `extracted/` (v1) and
-`extracted-v10/` (91 entries). Next image id: **id-28**. Next chapter: **ch032** (NCX `num_37`,
-playOrder `37`, nav li 40). Reserved portraits: `uploads/Ha-Jiwon.png` (bottom-right watermark
+**Current at ship:** cycle 11 shipped (2026-09-15). Tree = 35 chapters · 95 payload entries ·
+92 manifest items · 41 spine entries · 40 NCX navPoints · 43 nav list items · 27 images (no new
+images this cycle — `cover-bg.jpg` repaired in place · cards `id-02`…`id-06` (`id-03`
+reader-provided Jessica), `id-10`, `id-14`, `id-17`, `id-19`, `id-20`, `id-21`, `id-23`
+(reader-provided Irene) · plates `wd_*` incl. `id-25 wd_jiyeon_loungewear`, `id-26
+wd_leeboojin_tea`, `id-27 wd_jessica_suite` — id ceiling 27) · 20 WOFF faces · 18 character cards
+(+ Lee Yoon-hyang, text-only) · 18 introduction cards (+ Lee Yoon-hyang) · 56 glossary cards
+(+ little-puppy type, account farming). Package: 95 entries · 5,216,539 B · sha256
+`f2afaecb…`; delivered-archive snapshots in `extracted/` (v1) and `extracted-v10/` (91 entries).
+Next image id: **id-28**. Next chapter: **ch036** (NCX `num_41`, playOrder `41`, nav li 44). Reserved portraits: `uploads/Ha-Jiwon.png` (bottom-right watermark
 crop on adoption) and `uploads/Son-Yejin.jpg` — adopt the cycle their names first appear in prose;
 `uploads/600.webp` reference-only. `firewall_allowlist.txt`: two documented homonym clearances
 (Park Ji-yeon ← ch017 raw; Bae Joo-hyun ← ch020 raw, legal name once on card). style_audit counted
