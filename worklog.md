@@ -396,7 +396,14 @@ uploads stay reserved). `Dominating_South_Korea_Starting_with_a_Golden_Trait.epu
 **100 entries · 5,522,418 B · sha256
 `e33b5cd81801c29677402c4987eb43707ce65ba563009236815574de83f86fd9`** · mimetype STORED first ·
 testzip clean. Committed, pushed to `arena/01a0a43e-dominating-south-korea-startin`, remote
-HEAD verified.
+HEAD verified. (Branch plumbing, same day: the remote tip had moved twice while this
+cycle was in flight — the reader’s web upload `538eb5f` “Add files via upload” (a
+pre-adaptation bootstrap snapshot of the tooling, its parent dangling outside the
+fetchable lineage) and the true cycle-11 tip `49673fb` (via restore commit `6de7f1e`).
+Both were merged into the session branch with session-tree-wins (`-X ours`); the merged
+tree was verified byte-identical to the cycle-12 state and the delta vs `49673fb` exactly
+the cycle-12 files. No force-push; every commit on the remote remains in the branch
+history.)
 
 ### Cycle 11 — chapters 32–35 (The Similar One, Her Shadow / By the Way, What on Earth Is That Bastard’s Name? / Prosecutor Bae Must Love Irene / You Are That Lucky Fan) — September 15, 2026 — complete, EPUB built
 
