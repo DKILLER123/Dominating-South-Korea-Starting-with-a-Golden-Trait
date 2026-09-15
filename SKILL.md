@@ -5,17 +5,21 @@ publisher-grade English EPUB. This file holds the **skills**; `worklog.md` holds
 (cycle log, ships, canon pins). Do not duplicate skills between the two — SKILL.md is the master
 reference, worklog §8 is the history.
 
-**Current at ship:** cycle 6 shipped. Tree = 20 chapters · 77 payload entries · 74 manifest items ·
-26 spine entries · 25 NCX navPoints · 28 nav list items · 24 images (`cover-bg.jpg` repaired in
-place · cards `id-02`…`id-06` (`id-03` reader-provided Jessica), `id-10`, `id-14`, `id-17`, `id-19`,
-`id-20`, `id-21`, `id-23` (reader-provided Irene) · plates `wd_*` incl. `id-22`, `id-24`) ·
-20 WOFF faces · 17 character cards · 17 introduction cards · 43 glossary cards. Package: 77 entries ·
-4,615,230 B · sha256 `0e1ef706…`. Next image id: **id-25**. Next chapter: **ch021** (NCX `num_26`,
-playOrder `26`, nav li 29). No reserved portraits remain; `uploads/600.webp` reference-only.
-`firewall_allowlist.txt`: two documented homonym clearances (Park Ji-yeon ← ch017 raw;
-Bae Joo-hyun ← ch020 raw, legal name once on card). style_audit counted registry =
-`style_audit.block_classes()`; `chat-container`/`pullquote`/`notification` are not counted toward
-the 8-distinct floor.
+**Current at ship:** cycle 10 shipped (2026-09-15; workspace restored the same day — see worklog
+§8 restore entry). Tree = 31 chapters · 91 payload entries · 88 manifest items · 37 spine entries ·
+36 NCX navPoints · 39 nav list items · 27 images (`cover-bg.jpg` repaired in place · cards
+`id-02`…`id-06` (`id-03` reader-provided Jessica), `id-10`, `id-14`, `id-17`, `id-19`, `id-20`,
+`id-21`, `id-23` (reader-provided Irene) · plates `wd_*` incl. `id-25 wd_jiyeon_loungewear`,
+`id-26 wd_leeboojin_tea`, `id-27 wd_jessica_suite` — id ceiling 27) · 20 WOFF faces ·
+17 character cards · 17 introduction cards · 54 glossary cards. Package: 91 entries ·
+5,177,796 B · sha256 `715f6bea…`; delivered-archive snapshots in `extracted/` (v1) and
+`extracted-v10/` (91 entries). Next image id: **id-28**. Next chapter: **ch032** (NCX `num_37`,
+playOrder `37`, nav li 40). Reserved portraits: `uploads/Ha-Jiwon.png` (bottom-right watermark
+crop on adoption) and `uploads/Son-Yejin.jpg` — adopt the cycle their names first appear in prose;
+`uploads/600.webp` reference-only. `firewall_allowlist.txt`: two documented homonym clearances
+(Park Ji-yeon ← ch017 raw; Bae Joo-hyun ← ch020 raw, legal name once on card). style_audit counted
+registry = `style_audit.block_classes()`; `chat-container`/`pullquote`/`notification` are not
+counted toward the 8-distinct floor.
 
 **Provenance of these skills.** The pipeline below was inherited from the reader's previous novel and
 rewritten for this book. **The previous novel's content is banned** — see `reference/README.md` and
@@ -45,7 +49,7 @@ worklog §8. SKILL.md is versioned by its *Current at ship* line only.
 | `work_epub/` | **the book**: `mimetype`, `META-INF/container.xml`, `OEBPS/{content.opf,toc.ncx,text/,images/,fonts/,styles/}` |
 | `raws/` | untouched source raws, saved first (`raws/README.md`) |
 | `image-search/` | image workbench: search downloads, generation originals, coding rules (`image-search/README.md`) |
-| `extracted/` | read-only unpacked snapshot of each delivered archive (cycle 2 holds v1's 43 entries); never a second live tree |
+| `extracted/` + `extracted-v10/` | read-only unpacked snapshots of the delivered archives (cycle 2 holds v1's 43 entries; the cycle-10 91-entry ship holds in `extracted-v10/`); one folder per ship, never a second live tree |
 | `reports/` | generated audit output (safe to delete; `workspace_audit.py` rebuilds it) |
 | `reference/peninsula-inherited/` | the previous novel's SKILL/worklog/setup — **process only** |
 | `fonts.css`, `stylesheet.css` | the reader's supplied references — never edit their bytes |
@@ -85,8 +89,9 @@ by sheet section 38); `toc.ncx` mirrors everything except the nav itself.
 7. **Build** (`python3 build_epub.py`) → in-archive asserts (§11) → refresh SKILL.md *Current at
    ship* → seal the hash into worklog §8.
 8. **Publish (standing reader directive).** Commit the final EPUB plus the tree, tooling and useful
-reports; `git push origin <session-branch>` (the `arena/…` branch the session is tied to — cycle 2
-onward: `arena/01a0a030-dominating-south-korea-startin`); verify
+   reports; `git push origin <session-branch>` (the `arena/…` branch the session is tied to —
+   2026-09-15 restore onward: `arena/01a0a43e-dominating-south-korea-startin`, before that
+   `arena/01a0a030-…`); verify
 `git rev-parse HEAD` equals the remote ref for that same branch;
    give the reader the GitHub download link
    (`https://github.com/DKILLER123/Dominating-South-Korea-Starting-with-a-Golden-Trait/raw/<sha>/<file>.epub`).

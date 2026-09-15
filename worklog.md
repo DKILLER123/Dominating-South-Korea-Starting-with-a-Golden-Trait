@@ -64,56 +64,95 @@ stamps → Chapters 1–20. New block firsts: `chat-container` for Irene’s tex
 style_audit’s registry but kept for the reader’s stylesheet), `status-panel` “then and now” (ch020),
 `system-block` white-rank entry grant `Combat Beginner (White)` (ch019).
 
-**Tree state (measured, `reports/workspace_audit.json`):** 20 chapters (`ch001`–`ch020`, next slot
-`ch021`) · 26 XHTML documents · 77 payload entries · 74 manifest items · 26 spine entries ·
-25 NCX navPoints · 28 nav list items · 24 images (`cover-bg.jpg` repaired in place · cards
-`id-02`…`id-06` (id-03 now reader-provided Jessica), `id-10`, `id-14`, `id-17`, `id-19`, `id-20`,
-`id-21`, `id-23` (reader-provided Irene) · plates `wd_*` incl. `id-22`, `id-24 wd_irene_practice`) ·
-20 embedded WOFF faces · 17 character cards · 17 introduction cards · 43 glossary cards ·
+**Cycles 7–10 complete: chapters 21–31** — *reconstructed state; the original §8 entries for these
+cycles were not preserved in the reader’s GitHub save (the saved worklog froze at cycle 6). Rebuilt
+2026-09-15 from the per-chapter proofs `reports/ch021–ch031/proof.txt`, the machine reports, the
+archive itself, and the cycle-10 commit message.*
+
+- **Cycle 7 — ch021–ch022** ("Irene: I Do" / "Rekindled?"). The side-door night and the rekindled
+  rumor: contract-block clauses, news-digest, status-panel, name discipline held (Irene in prose;
+  Joo-hyun-ssi in address; Yoona stage-name only inside the carried-over contract clause). 8 distinct
+  counted blocks each (pullquote uncounted). The cycle-7 proof records the standing reservation for
+  the two then-new uploads: `uploads/Ha-Jiwon.png`, `uploads/Son-Yejin.jpg` — adopt on first prose
+  introduction; Ha-Jiwon.png needs a bottom-right watermark crop on adoption.
+- **Cycle 8 — ch023–ch025** ("Really Leaving Now" / "The Girls Next Door" / "Unnie, Are We Sick?").
+  The departure night, the girls next door, the fever night across the wall. New plate
+  `wd_jiyeon_loungewear.jpg` (`id-25`, identity-locked to `uploads/Jiyeon.jpg`); `wd_irene_practice`
+  reused in ch023 (same outfit as ch020, no new plate). Glossary +3 → 49 (`CCET · Pink Encounter`,
+  `jokbal`, `tteokbokki`). Surviving machine state of this cycle: 83 entries · 4,819,458 B · sha256
+  `a6341c1d…` (the saved `workspace_audit.json` predates cycles 9–10).
+- **Cycle 9 — ch026–ch028** ("Prosecutor Bae Is in a Good Mood" / "Prosecutor Bae, Do You Have a
+  Girlfriend?" / "The First Person Who Came to Mind Was Her?"). Mi-ju’s psychology read, the blank
+  sub-account, the closed-door JYP room, the final question and the Irene memory flood — the arc ends
+  on "Sort of." No new cast (17 cards held). Glossary +3 → 52 (`seon`; `standard answers`;
+  `stage control · kongchang`). 8 distinct counted each (ch026 carries an uncounted `chat-container`).
+- **Cycle 10 — ch029–ch031** ("The Extremely Curious Kim Mi-ju" / "I’ve Always Seen You as a Younger
+  Brother" / "A Spring Night’s Dream"). The locked-drawer dossier and the last-question guarantee;
+  Lee Boo-jin’s dongsaeng clause, her class, the wind (knife or bait); the arranged Shilla-suite
+  night with Jessica — the obedience terms with their exception clause and the first command. 10
+  distinct counted blocks each. Two new identity-locked plates: `id-26 wd_leeboojin_tea.jpg` (from
+  card master `id-04`), `id-27 wd_jessica_suite.jpg` (from card master `id-03`). Glossary +2 → 54
+  (`dongsaeng`, `sunbae`). Stamps/NCX/nav/OPF → Chapters 1–31.
+
+**Tree state (measured 2026-09-15 at restore, `reports/workspace_audit.json`):** 31 chapters
+(`ch001`–`ch031`, next slot `ch032`) · 40 XML documents · 91 payload entries · 88 manifest items ·
+37 spine entries · 36 NCX navPoints · 39 nav list items · 27 images (`cover-bg.jpg` repaired in
+place · cards `id-02`…`id-06` (`id-03` reader-provided Jessica), `id-10`, `id-14`, `id-17`, `id-19`,
+`id-20`, `id-21`, `id-23` (reader-provided Irene) · plates `wd_*` incl. `id-25 wd_jiyeon_loungewear`,
+`id-26 wd_leeboojin_tea`, `id-27 wd_jessica_suite` — id ceiling 27) · 20 embedded WOFF faces ·
+17 character cards · 17 introduction cards · 54 glossary cards · 441 reference checks ·
 0 structural errors.
-**Package:** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` · 77 entries · 4,615,230 B ·
-sha256 `0e1ef706e2002839…` · mimetype STORED first, zip test clean. (Cycle-5 package it replaces:
-73 entries · 4,262,765 B · sha256 `b15f739e…`.)
 
-**Gates this cycle:** `validate_tree` PASS (26/26) · `check_classes` PASS (26 pages) · `style_audit`
-PASS (20 chapters; ch019 9 distinct, ch020 8 distinct counted) · `audit_marks` RESULT OK (NO-QM?
-survivors imperatives per raw) · `repeat_check` REVIEW only (raw-faithful refrains) ·
-`legacy_firewall` PASS via two documented homonym clearances (hard hits 0) · `workspace_audit`
-incl. `--assets`: parity 0/0/0, struct 0, 44 assets decoded · in-archive asserts: entries =
-manifest + 3, 0 broken refs, stamps `Chapters 1–20` ×3, glossary 43, cards/intros 17/17,
-“Bae Joo-hyun” printed exactly once (the card), swapped/new images byte-identical. Han slips caught
-pre-build: ch019 ×2 (纠缠, 粗暴), ch020 ×2 (纠缠, 光环); full-tree CJK scan clean.
-Sandbox note: this turn’s checkout arrived rewound to the branch base with cycle work as a dirty
-overlay; recovered by `git reset --hard` to the verified remote tip before any cycle work.
+**Package (cycle-10 ship, verified at restore):** `Dominating_South_Korea_Starting_with_a_Golden_Trait.epub` ·
+91 entries · 5,177,796 B · sha256 `715f6bea294a058440b775e434a89844cc5f058a551442aa9001b68ecaca1012` ·
+mimetype STORED first · `work_epub/` byte-identical to the archive on all 91 payloads (name diff
+empty, per-entry sha256). The delivered archive is snapshotted in `extracted-v10/` (91 entries);
+`extracted/` keeps the v1 snapshot (43 entries) untouched, per the snapshot convention.
 
-**Canon pins:** see §1. Chapter 5 ends on Jessica's silence and the "blade" bargain; Bae Do-yoon holds
-two purple entries, one blue, one gold, and no rank he can spend yet.
+**Gates at restore (fresh sandbox, full suite):** `validate_tree` PASS (37/37 parsed, 0 undefined
+classes, 0 CJK outside 70 exempted `lang="ko"` glosses) · `punct_quotes` PASS · `check_classes` OK
+· `style_audit` PASS (31 chapters) · `style_index --check-skill` PASS (297 tokens) · `sync_styles`
+PASS (4,205 + 140 rule lines identical to the reader’s references) · `install_fonts --verify` PASS
+(20 faces, Cardo 700 lining) · stylelint 0 errors · `legacy_firewall` PASS (0 hard; every soft
+token cleared by `raws/` or an allowlist line — two documented homonym clearances) · `audit_marks`
+OK on all 31 chapters · `repeat_check` standing REVIEW (documented pairs, §2.16) ·
+`workspace_audit --assets` → `structural_errors: []`. Two gate-fidelity fixes landed this cycle
+(T-ara raw_forms in `legacy_firewall.py`; the `???` exemption in `audit_marks.py`’s SPACE-QM
+pattern) — no chapter bytes touched; details in §8.
 
-**Standing directives:** raw-first custody · Deep Scan + Deep Thinking · style-block maximalism (now
-machine-gated by `style_audit.py`) · QM/phone-call audits every touched chapter · the reference novel's
-content stays out (firewall gate) · book order Cover → Synopsis → Contents → Character Info →
-Introductions → Glossary → Ch1 · `raws/` and `image-search/` as the two file stores · reader's
-`fonts.css`/`stylesheet.css` preserved exactly · stage names (Jessica/Yoona/Krystal) in prose with the
-legal name once on the card · cover carries book name + DKILLER1 + genre, MC visible, no version
+**Canon pins:** see §1. The book now ends at ch031: the arranged night in the Shilla suite —
+Jessica’s first command stands (five clauses, executed by presence), the obedience terms carry
+their single exception ("of course — except for him"), and the morning ends on the alarm and its
+complaint. Lee Boo-jin holds the dongsaeng clause with its fee schedule; Bae Do-yoon carries two
+purple entries, one blue, one gold, and the white-rank `Combat Beginner` earned in ch019.
+
+**Standing directives:** raw-first custody · Deep Scan + Deep Thinking · style-block maximalism
+(machine-gated by `style_audit.py`) · QM/phone-call audits every touched chapter · the reference
+novel's content stays out (firewall gate) · book order Cover → Synopsis → Contents → Character Info
+→ Introductions → Glossary → Ch1 · `raws/` and `image-search/` as the two file stores · reader's
+`fonts.css`/`stylesheet.css` preserved exactly · stage names (Jessica/Yoona/Krystal) in prose with
+the legal name once on the card · cover carries book name + DKILLER1 + genre, MC visible, no version
 strings · **every AI-generated image photographic-real, never animatic** (reader, cycle 2) ·
 **wardrobe/scene plates generated from the subject's in-book card portrait as identity source, and
-labeled on their caption line** (reader, cycle 2) · `extracted/` keeps the unpacked snapshot of each
-delivered archive · **after every final EPUB: commit, push to the session branch
-(currently `arena/01a0a030-dominating-south-korea-startin`), verify remote HEAD, deliver the GitHub
-download link.**
+labeled on their caption line** (reader, cycle 2) · each delivered archive keeps an unpacked
+snapshot (`extracted/` v1, `extracted-v10/` cycle 10) · **after every final EPUB: commit, push to
+the session branch (currently `arena/01a0a43e-dominating-south-korea-startin`), verify remote HEAD,
+deliver the GitHub download link.**
 
-**Next cycle (when the reader supplies Chapter 21+):** next numeric image manifest id is `id-25`.
-Save `raws/ch021_raw.txt` first → recon greps → draft → wire-up (manifest `ch021`, NCX
-`num_26`/playOrder 26, nav `<li>` 29, cover `#chapters-stamp` and both OPF descriptions →
-`Chapters 1–21`, glossary header/footer + cards as earned) → all of SKILL §9 → worklog §8 + §0 →
-only then `build_epub.py`, in-archive asserts, seal, push, present. No reserved portraits remain
-(all reader uploads now live except reference-only `uploads/600.webp`). `firewall_allowlist.txt`
-holds exactly two documented homonym clearances (Park Ji-yeon ← ch017 raw; Bae Joo-hyun ← ch020
-raw) — add only real-person/raw-sourced clearances, never reference-novel content. style_audit’s
-counted registry excludes `chat-container`/`pullquote`/`notification`: when a chapter needs its
-floor, count against the registry list (see `style_audit.block_classes()`).
+**Next cycle (when the reader supplies Chapter 32+):** next numeric image manifest id is `id-28`.
+Save `raws/ch032_raw.txt` first → recon greps → draft → wire-up (manifest `ch032`, NCX
+`num_37`/playOrder 37, nav `<li>` 40, cover `#chapters-stamp` and both OPF descriptions →
+`Chapters 1–32`, glossary header/footer + cards as earned) → all of SKILL §9 → worklog §8 + §0 →
+only then `build_epub.py`, in-archive asserts, seal, push, present. Reserved portraits remain two
+— `uploads/Ha-Jiwon.png` (watermark crop on adoption) and `uploads/Son-Yejin.jpg`, live the cycle
+their names enter prose; `uploads/600.webp` reference-only. `firewall_allowlist.txt` holds exactly
+two documented homonym clearances (Park Ji-yeon ← ch017 raw; Bae Joo-hyun ← ch020 raw) — add only
+real-person/raw-sourced clearances, never reference-novel content. style_audit’s counted registry
+excludes `chat-container`/`pullquote`/`notification`: when a chapter needs its floor, count against
+the registry list (see `style_audit.block_classes()`).
 
-Repository root: this checkout. Session branch: `arena/01a0a030-dominating-south-korea-startin`.
+Repository root: this checkout. Session branch: `arena/01a0a43e-dominating-south-korea-startin`
+(renamed from `arena/01a0a030-…` at the 2026-09-15 workspace restore).
 
 ## 1 · Canon pins
 
@@ -184,11 +223,92 @@ block keeps its own plate, both generated from one identity source so the woman 
 snapshot (43 entries, sha256 `acc78690…`) stays there although the root deliverable has since been
 rebuilt; `work_epub/` is the only tree the gates and the packer read.
 
+15. **Reserved portraits, cycles 7–10 (proofs).** `uploads/Ha-Jiwon.png` and
+    `uploads/Son-Yejin.jpg` are reader-supplied reserves. Neither name has entered prose in
+    ch001–ch031 (verified against the raws in romanized, Korean and Chinese forms at the 2026-09-15
+    restore). They go live the cycle their names first appear in prose, per the standing
+    reservation rule; `Ha-Jiwon.png` needs a bottom-right watermark crop on adoption (cycle-7
+    proof). `uploads/600.webp` stays reference-only.
+16. **Standing REVIEW state (documented, not open).** `repeat_check` exits 1 as REVIEW on 20
+    cross-chapter 8-gram pairs, all inside shipped chapters ch006–ch020, all carried verbatim from
+    the raws — cycles 7+ paraphrase deliberate callbacks on the NEW chapter side, so ch021+ show 0.
+    Pairs: ch007↔ch006 "here was a business dinner last night drank" (the raw's repeated
+    dinner-lie, cycle-3 note) · ch011↔ch010 ×2 ("ae o yoon looked at her once he", "up with the
+    fact that he was joking") · ch014↔ch013 ×3 (the brows-and-eyes description) · ch015↔ch013
+    "ae o yoon did not answer at once" · ch015↔ch014 ×4 (the "is enough for today" drill line) ·
+    ch016↔ch013 and ch016↔ch015 "ae o yoon did not answer at once" · ch018↔ch016 "ae o yoon was
+    silent for a moment" · ch018↔ch017 ×2 ("looked at the two of them") · ch020↔ch017 ×2
+    (plate-caption phrase, "a little" smile) · ch020↔ch019 ×2 ("lifted his coffee and drank").
+    The 8 `doubled-word` flags: ch024's raw staging lines ("no no", "stop stop stop", "Yes yes")
+    plus one ch015 "had had". The 28 `metrics-band` flags are furniture-inclusive heuristics; the
+    prose-only measurements sit inside the bands (the §2.11 pattern). Do not "fix" shipped
+    chapters against this list.
+
 ---
 
 ## 8 · Cycle log (Version 1, newest first)
 
+### Workspace restore, delivered-archive extraction, gate-fidelity fixes — September 15, 2026 — complete, no build
+
+**Source & scope.** The reader restored the workspace from a GitHub save of the previous session
+(single commit `b50170e` = the tip of the old session branch `arena/01a0a030-…`). The saved
+`worklog.md`, `AGENTS.md` and the SKILL.md *Current at ship* line had frozen at cycle 6 (20
+chapters), while the tree, the raws (`ch001`–`ch031`), the per-chapter proofs
+(`reports/ch021–ch031/proof.txt`), the reader uploads and the root deliverable were all at the
+cycle-10 state. Deep scan result: `work_epub/` proved byte-identical to the root EPUB on all 91
+payloads (tree↔archive name diff empty, per-entry sha256); the root deliverable is the cycle-10
+ship (91 entries · 5,177,796 B · sha256 `715f6bea…`), mimetype STORED first, zip clean.
+
+**Extraction (reader directive: "extract all the files from the given epub for future use").** The
+delivered 31-chapter archive was unpacked entry for entry into `extracted-v10/`, per the snapshot
+convention in `extracted/README.md` (a new folder per ship, named for its ship; an existing
+snapshot is never refreshed or overwritten — `extracted/` keeps v1's 43 entries untouched). Parity
+proven three ways: archive == `extracted-v10/` == `work_epub/` on all 91 payloads.
+
+**Dependency install + gate verification (fresh sandbox).** `npm ci --ignore-scripts` + `.venv`
+rebuilt (`requirements-audit.txt`). Full suite: `validate_tree` PASS (37/37 parsed, 0 undefined
+classes, 0 straight quotes, 0 CJK outside 70 exempted `lang="ko"` glosses) · `punct_quotes` PASS ·
+`check_classes` OK (37 pages) · `style_audit` PASS (31 chapters; ch021 8 distinct … ch029–ch031
+10 distinct) · `style_index --check-skill` PASS (297 tokens) · `sync_styles` PASS (4,205 + 140 rule
+lines byte-identical to the reader's references) · `install_fonts --verify` PASS (20 faces,
+Cardo 700 lining confirmed) · stylelint 0 errors · `legacy_firewall` PASS · `audit_marks` OK on all
+31 chapters · `repeat_check` standing REVIEW (§2.16) · `workspace_audit --assets` →
+`structural_errors: []`, 441 reference checks, 47 assets decoded.
+
+**Gate-fidelity fixes (documented; no chapter or front-matter bytes touched).** (1)
+`legacy_firewall.py` — the `T-ara` SOFT entry carried a `REVIEW — not named in raws/` line from
+cycle 3 onward because its `raw_forms` lacked the spelling this book's raws actually use
+(`raws/ch009_raw.txt` lines 335/357/385/423 write `T-ara`); the list also held a mixed-script typo
+`티아拉` (Hangul + CJK 拉) that could never match a Hangul form. Added `T-ara` to `raw_forms` and
+corrected the Hangul form to `티아라`. The gate is now truly clean per SKILL §9: 0 hard hits, every
+soft token cleared by `raws/`. (2) `audit_marks.py` — the SPACE-QM pattern `\s\?` lacked the
+documented exemption for 3+ question-mark runs (SKILL §3 and the gate's own 1b comment allow
+`???` as the fan-board idiom; the neighbouring DOUBLE-QM pattern already encoded the exemption).
+The `???` beat paragraph in ch030 — an isolated `<p>???</p>`, whose space is a paragraph boundary
+introduced by tag-stripping — false-flagged and drove the whole-tree run to FAIL. Pattern is now
+`\s\?(?!\?\?)`, regression-tested (lone `?` and `??` after a space still flag; `???`+ exempt).
+Chapter text is untouched — the tree is canon, and ch030's rendering was always correct.
+
+**State reconstruction + doc reconciliation.** The original §8 entries for cycles 7–10 were not
+preserved in the save; their state was rebuilt from `reports/ch021–ch031/proof.txt`, the machine
+reports, the archive and the cycle-10 commit message, and is recorded in §0 with that provenance
+stated. `worklog §0`, `AGENTS.md`, the SKILL.md *Current at ship* line and the session-branch
+references were updated to the cycle-10 state; the session is now tied to
+`arena/01a0a43e-dominating-south-korea-startin`. `WORKSPACE_SETUP.md` carries a superseded banner
+(it is the original setup-cycle report, kept for history). `reports/` regenerated at the 31-chapter
+state (the saved copies predated cycles 9–10: 25 chapters, sha `a6341c1d…`).
+
+**Canon held / re-cuts.** None. No chapter, front-matter page, stylesheet or image was modified;
+no new assets; the two reader uploads `Ha-Jiwon.png` / `Son-Yejin.jpg` verified as still-reserved
+(neither name — romanized, Korean nor the Chinese forms 河智苑/孙艺珍 — appears in any raw of
+ch001–ch031); `uploads/600.webp` remains reference-only.
+
+**Ship.** None. No EPUB built this cycle; the root deliverable remains the cycle-10 ship
+(sha256 `715f6bea…`). Committed and pushed as a tooling/state checkpoint per the standing rule for
+cycles that produce no EPUB.
+
 ### Cycle 6 — chapters 19–20, Jessica replaced, Irene live — September 14–15, 2026 — complete, EPUB built
+
 
 Push of cycle 5 verified first (`e2e1152`), then the reader’s upload commit `9af8ad4`
 (`uploads/Jessica.jpg`) fetched. Raws `ch019`–`ch020` saved verbatim before drafting. Jessica master
