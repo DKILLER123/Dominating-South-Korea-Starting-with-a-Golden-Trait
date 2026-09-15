@@ -133,5 +133,17 @@
       <navLabel><text>Chapter 25 · Unnie, Are We Sick?</text></navLabel>
       <content src="text/ch025.xhtml"/>
     </navPoint>
+    <navPoint id="num_31" playOrder="31">
+      <navLabel><text>Chapter 26 · Prosecutor Bae Is in a Good Mood</text></navLabel>
+      <content src="text/ch026.xhtml"/>
+    </navPoint>
+    <navPoint id="num_32" playOrder="32">
+      <navLabel><text>Chapter 27 · Prosecutor Bae, Do You Have a Girlfriend?</text></navLabel>
+      <content src="text/ch027.xhtml"/>
+    </navPoint>
+    <navPoint id="num_33" playOrder="33">
+      <navLabel><text>Chapter 28 · The First Person Who Came to Mind Was Her?</text></navLabel>
+      <content src="text/ch028.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>

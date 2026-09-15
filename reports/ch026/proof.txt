@@ -1,0 +1,27 @@
+PROOF — ch026.xhtml · Chapter: Prosecutor Bae Is in a Good Mood
+Date: 2026-09-15 · branch arena/01a0a030-dominating-south-korea-startin
+Source raw (verbatim): raws/ch026_raw.txt
+Words: 3527 · CJK characters in chapter: 0 · question marks: 32
+
+STYLE BLOCKS (8+ counted types required by house rule)
+counted: location-stamp x2, checklist-block (Mi-ju's good-mood evidence), memory-block (three flashes: Irene corner / Boram takedown / Ji-yeon jokbal), status-panel (stalker escalation log), dossier-block (blank sub-account), wardrobe-block (cap + pale coat + half-melted iced americano; plate wd_suzy_meeting.jpg reused, identity-locked to id-17), briefing-block (JYP meeting record), author-aside | uncounted extras: chat-container (Suzy + screenshot quotes), pullquote
+
+BEATS PRESERVED FROM RAW
+Beats: Mi-ju's psychology read (lighter step / two-second daze / light in the eyes / said Morning first); matchmaking tease (Officer Choi's inquiry, seon); stalker returns via blank sub-account with real-world references; afternoon JYP interview; room cleared for a private word.
+
+GATES (run after final edits)
+- style_audit.py: PASS (28 chapters); ch026 fields 8 distinct counted types
+- validate_tree.py: PASS (parse OK 34/34, unresolved refs 0, CJK 0 outside lang="ko" glosses)
+- check_classes.py: OK (every class token declared in stylesheets)
+- legacy_firewall.py: PASS (hard forms absent; soft clears sourced from raws)
+- repeat_check.py ch026.xhtml: cross-chapter 8-grams 0 (deliberate raw callbacks paraphrased on the NEW chapter side; shipped sides verbatim)
+- punct_quotes.py: PASS (0 files to rewrite)
+- question-mark scan: every interrogative dialogue line ends in '?'; remaining no-QM lines are statements/imperatives/exclamations per raw (e.g. the appositive fragment 'The one who makes you sit here first thing...' mirrors raw line ending in 。)
+
+NAMES / SPELLING
+- Bae Do-yoon (protagonist; raw 裴云 never printed), Kim Mi-ju (Officer Kim), Bae Suzy (Ms. Bae in address; name-call 'Bae Suzy' at the demonstration), Irene in all prose incl. pre-debut memory ('not yet Irene' framing), Boram, Park Ji-yeon, Officer Choi, bu-jang-nim.
+- No new cast; cast page unchanged (17). Glossary +3 cards -> 52 (seon; standard answers; stage control · kongchang), footer updated 'through Chapter 28 — fifty-two cards'.
+
+WIRING
+- content.opf manifest +3 items, spine +3 itemrefs; dc:description stamps -> Chapters 1–28 (both lines, summary extended)
+- cover.xhtml stamp -> Chapters 1–28; toc.ncx num_31/32/33 playOrder 31–33; nav.xhtml +3 li
