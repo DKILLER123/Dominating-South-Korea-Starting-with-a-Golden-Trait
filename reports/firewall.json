@@ -1,5 +1,5 @@
 {
-  "files_scanned": 37,
+  "files_scanned": 43,
   "hard_tokens_groups": [
     "protagonist",
     "invented_orgs_and_products",
@@ -55,8 +55,8 @@
     {
       "name": "T-ara",
       "hits": 24,
-      "cleared_by_raws": false,
-      "note": "",
+      "cleared_by_raws": true,
+      "note": "sourced from this book's raws",
       "samples": [
         {
           "file": "work_epub/OEBPS/text/ch009.xhtml",
@@ -110,7 +110,7 @@
     },
     {
       "name": "Lee Boo-jin",
-      "hits": 43,
+      "hits": 152,
       "cleared_by_raws": true,
       "note": "sourced from this book's raws",
       "samples": [

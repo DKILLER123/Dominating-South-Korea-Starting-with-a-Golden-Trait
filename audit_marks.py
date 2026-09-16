@@ -50,7 +50,8 @@ def audit(path):
     # per the standing punctuation rules.
     for pat, tag in [(r"”\s*\?", "QM-AFTER-CLOSE"),
                      (r"\?(?<!\?\?)\?(?!\?)", "DOUBLE-QM"),
-                     (r"\s\?", "SPACE-QM"), (r"\?”\.", "QM-PERIOD")]:
+                     (r"\s\?(?!\?\?)", "SPACE-QM"),  # 3+ run exempt: documented ??? idiom (see 1b)
+                     (r"\?”\.", "QM-PERIOD")]:
         for m in re.finditer(pat, body):
             a = max(0, m.start() - 35)
             ctx = re.sub(r"\s+", " ", body[a:m.end() + 25])

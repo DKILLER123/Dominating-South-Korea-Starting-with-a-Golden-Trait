@@ -1,5 +1,10 @@
 # Workspace ready — *Dominating South Korea: Starting with a Golden Trait*
 
+> **Superseded as current state (2026-09-15).** This is the original setup-cycle report, kept for
+> history. Current state lives in `worklog.md` §0 (cycle 10, 31 chapters) and the newest §8 entry
+> (the workspace restore, delivered-archive extraction into `extracted-v10/`, and gate-fidelity
+> fixes); the session is now tied to `arena/01a0a43e-dominating-south-korea-startin`.
+
 **Setup date:** September 14, 2026 (Asia/Kolkata) · **Repository:** `DKILLER123/Dominating-South-Korea-Starting-with-a-Golden-Trait`
 **Session branch:** `arena/01a09e8b-dominating-south-korea-startin` (from `main` @ `538eb5f`) —
 cycle 2 continues on `arena/01a0a030-dominating-south-korea-startin`; this report describes the

@@ -161,4 +161,56 @@
     x2: borrowed car a favor repaid at close range
     x2: the distance was close or the time was
   cross-chapter 8-grams: 0
+== ch026.xhtml · 3578 words · scope: ch023.xhtml, ch024.xhtml, ch025.xhtml
+  INTERNAL repeats: 4
+    x2: a new account avatar and name both ordinary
+    x2: you should have looked to the left was
+    x2: should have looked to the left was right
+    x2: have looked to the left was right there
+  cross-chapter 8-grams: 0
+== ch027.xhtml · 3452 words · scope: ch024.xhtml, ch025.xhtml, ch026.xhtml
+  INTERNAL repeats: 53
+    x2: ae uzy lowered her head and gave one
+    x2: uzy lowered her head and gave one laugh
+    x2: timing accurate wording safe emotion stable audience cared
+    x2: accurate wording safe emotion stable audience cared for
+    x2: both remain clear headed about not puncturing it
+    x3: ’ll work hard to adjust so please don’t
+  cross-chapter 8-grams: 0
+== ch028.xhtml · 4042 words · scope: ch025.xhtml, ch026.xhtml, ch027.xhtml
+  INTERNAL repeats: 93
+    x2: asked it ’ll let you out otherwise my
+    x2: it ’ll let you out otherwise my manager
+    x2: ’ll let you out otherwise my manager may
+    x2: s ae your questions are a little many
+    x2: ae your questions are a little many today
+    x2: yet debuted o stage no lights none of
+  cross-chapter 8-grams: 0
+== ch029.xhtml · 4030 words · scope: ch026.xhtml, ch027.xhtml, ch028.xhtml
+  INTERNAL repeats: 54
+    x2: a little emotion not quite gathered back in
+    x2: the colder you are the more she’ll want
+    x2: colder you are the more she’ll want to
+    x2: you are the more she’ll want to test
+    x2: are the more she’ll want to test where
+    x2: the more she’ll want to test where the
+  cross-chapter 8-grams: 0
+== ch030.xhtml · 5325 words · scope: ch027.xhtml, ch028.xhtml, ch029.xhtml
+  INTERNAL repeats: 36
+    x2: ’ve always seen you as a younger brother
+    x2: you’d better not really treat me as a
+    x2: better not really treat me as a younger
+    x2: not really treat me as a younger brother
+    x2: ae o yoon drank a mouthful of tea
+    x2: ae o yoon lowered his head to look
+  cross-chapter 8-grams: 0
+== ch031.xhtml · 5849 words · scope: ch028.xhtml, ch029.xhtml, ch030.xhtml
+  INTERNAL repeats: 24
+    x2: some memories do not disappear because of one
+    x2: memories do not disappear because of one transaction
+    x2: do not disappear because of one transaction and
+    x2: not disappear because of one transaction and some
+    x2: disappear because of one transaction and some people
+    x2: because of one transaction and some people do
+  cross-chapter 8-grams: 0
 repeat_check: REVIEW (deliberate lyric quotes may be legitimate)

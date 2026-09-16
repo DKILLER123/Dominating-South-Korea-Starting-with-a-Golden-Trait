@@ -29,8 +29,10 @@ and why it is walled off).
 - **No EPUB without raws.** Nothing has been translated yet: do not invent Chapter 1, do not build a
   package to "see what it looks like" (`build_epub.py` overwrites the deliverable).
 - **Publication rule (reader directive):** after **every final EPUB**, commit and push to this
-session branch `arena/01a0a030-dominating-south-korea-startin`, verify the remote commit equals
-local HEAD, and provide the GitHub download link. Never force-push, never touch `main`.
+session branch `arena/01a0a43e-dominating-south-korea-startin` (the branch each Arena session is
+tied to — the 2026-09-15 restore continues on `arena/01a0a43e-…` after
+`arena/01a0a030-…`), verify the remote commit equals local HEAD, and provide the GitHub download
+link. Never force-push, never touch `main`.
   Setup cycles that produce no EPUB are committed locally and pushed as tooling/state checkpoints.
 
 ## Tooling in this repo
@@ -51,15 +53,25 @@ local HEAD, and provide the GitHub download link. Never force-push, never touch 
 
 `npm run gates` chains the three fast gates; `npm run audit:assets` runs the full audit.
 
-## Current state (cycle 6, 2026-09-15)
+## Current state (cycle 13, 2026-09-16)
 
-Tree: 20 chapters (`ch001`–`ch020`) · 77 payload entries · 74 manifest items · 26 spine entries ·
-25 NCX navPoints · 28 nav list items · 20 WOFF faces · 24 images (repaired cover plate · cards
-`id-02`…`id-06` with `id-03` reader-provided Jessica, `id-10`, `id-14`, `id-17`, `id-19`, `id-20`,
-`id-21`, `id-23` reader-provided Irene · plates `wd_*` incl. `id-22`, `id-24 wd_irene_practice`,
-all photographic-real) · 17 character cards · 17 introduction cards · 43 glossary cards. Package
-built and pushed: 77 entries · 4,615,230 B · sha256 `0e1ef706…`. `extracted/` holds the unpacked
-archive snapshot. All gates green (firewall PASS via two documented homonym clearances in
-`firewall_allowlist.txt`: Park Ji-yeon ← ch017 raw, Bae Joo-hyun ← ch020 raw — legal name once on
-card; never for reference content). Next chapter slot `ch021` (NCX `num_26`/playOrder 26, nav li 29,
-next image id `id-25`). `uploads/600.webp` reference-only.
+Tree: 40 chapters (`ch001`–`ch040`, next slot `ch041`) · 102 payload entries · 99 manifest
+items · 46 spine entries · 45 NCX navPoints · 48 nav list items · 20 WOFF faces · 29 images
+(`id-01`…`id-29`: repaired cover plate · cards `id-02`…`id-06` with `id-03` reader-provided
+Jessica, `id-10`, `id-14`, `id-17`, `id-19`, `id-20`, `id-21`, `id-23` reader-provided Irene,
+`id-28` Mina, `id-29` Taeyeon (web-sourced press photographs, 736×920) · plates `wd_*` incl.
+`id-25 wd_jiyeon_loungewear`, `id-26 wd_leeboojin_tea`, `id-27 wd_jessica_suite`, all
+photographic-real — no new images in cycle 13) · 20 character cards (4 bio appends in cycle 13:
+Bae Do-yoon, Irene, Taeyeon, Jessica) · 20 introduction cards · 60 glossary cards (+ Taeseo CP,
+internal digestion, ne). Package built and verified: 102 entries · 5,539,035 B · sha256
+`3abc7113…` — in-archive asserts at build. Delivered archive snapshots: `extracted/` (v1,
+43 entries) and `extracted-v10/` (91 entries). All gates green
+(firewall PASS: 0 hard hits, every soft token cleared by `raws/` or the two documented homonym
+clearances in `firewall_allowlist.txt`: Park Ji-yeon ← ch017 raw, Bae Joo-hyun ← ch020 raw —
+legal name once on card; never for reference content). `repeat_check` exits REVIEW on the
+documented shipped-chapter pairs (worklog §2.16) plus the documented house-device echoes in
+ch032–040 (pullquote re-presentation, speech→contract record, raw-faithful refrains —
+cycle-11/12/13 entries). Next chapter slot `ch041` (NCX `num_46`/playOrder 46, nav li 49; next
+image id `id-30`). Reserved portraits: `uploads/Ha-Jiwon.png`
+(bottom-right watermark crop on adoption) and `uploads/Son-Yejin.jpg` — live the cycle their names
+enter prose. `uploads/600.webp` reference-only.

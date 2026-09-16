@@ -95,4 +95,31 @@
    [NO-QM?] “…Don’t deny it.”
    [NO-QM?] “…What I mean is: no more analyzing the perfume.”
    [NO-QM?] “…Which is why I said the two of us.”
+== work_epub/OEBPS/text/ch026.xhtml
+   [NO-QM?] “…Don’t think wildly.”
+   [NO-QM?] “…; a few sentences remain, and they do not need so many people present.”
+== work_epub/OEBPS/text/ch027.xhtml
+   [NO-QM?] “…Which is why I usually say it only when necessary.”
+   [NO-QM?] “…What a safe answer.”
+   [NO-QM?] “…Which is why the door is closed.”
+   [NO-QM?] “…Don’t don’t don’t — I was joking.”
+   [NO-QM?] “…laughing too happily, he may suspect you said something strange to me.”
+== work_epub/OEBPS/text/ch028.xhtml
+   [NO-QM?] “…Whatever happens, it is within my psychological expectations.”
+   [NO-QM?] “…ke that is more of a rule violation than saying pretty words directly.”
+   [NO-QM?] “… it I’ll let you out; otherwise my manager may really call the police.”
+== work_epub/OEBPS/text/ch029.xhtml
+   [NO-QM?] “…ated alone — as if I could recant my statement in half an hour inside.”
+   [NO-QM?] “…Doesn’t sound like completely blocked back.”
+   [NO-QM?] “…Is Ms.”
+   [NO-QM?] “…y you’re willing to say it yourself, I’ll hear it then — not too late.”
+   [NO-QM?] “…Done.”
+== work_epub/OEBPS/text/ch030.xhtml
+   [NO-QM?] “…s important is: you’d better not really treat me as a younger brother.”
+   [NO-QM?] “…igh positions change, the people below are the first to be rearranged.”
+   [NO-QM?] “…eems troublesome but carries no real power — none of these are random.”
+   [NO-QM?] “… clean, no side taken, and if something goes wrong, easy to cut apart.”
+== work_epub/OEBPS/text/ch031.xhtml
+   [NO-QM?] “… is needed in the future — not to throw you to some third-rate person.”
+   [NO-QM?] “…Don’t make yourself sound so innocent.”
 RESULT: OK (triage any NO-QM? lines above)

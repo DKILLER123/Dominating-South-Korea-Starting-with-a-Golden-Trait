@@ -1,0 +1,169 @@
+/* ═══════════════════════════════════════════════════════════════
+   DOMINATING SOUTH KOREA: STARTING WITH A GOLDEN TRAIT · V1
+   EMBEDDED FONTS (fonts.css)
+   All typefaces bundled locally for offline EPUB rendering.
+   Format: WOFF (application/font-woff — EPUB 3 core media type).
+   The face set and every @font-face rule are inherited byte-for-byte
+   from the reader-supplied reference fonts.css in the repository root.
+   Families: Lora (body serif) · Crimson Pro (editorial serif) ·
+   Cormorant Garamond (display) · IM Fell English (antique) ·
+   Courier Prime (system/mono) · Caveat (handwriting) · Permanent
+   Marker (hate-wall scrawl) · Cardo (chapter titles) · EB Garamond
+   Italic (pullquotes) · Bebas Neue / Inter (introduction cards) ·
+   Libre Baskerville (title fallback). 20 WOFF faces, reproducible with
+   `python3 install_fonts.py`. All faces SIL OFL 1.1.
+   FIGURE GUARD (measured at setup by `install_fonts.py --verify`,
+   not inherited as folklore): the shipped latin subsets draw OLDSTYLE
+   digits in Cormorant Garamond 600/700 and in both IM Fell English
+   faces — their “1” is cut at x-height and reads as a capital “I”, so
+   numerals never go in them. IM Fell has no lnum feature at all, so
+   nothing could pin it, and Cormorant’s lnum cannot be trusted to
+   survive an EPUB reader. Chapter titles are set in CARDO 700, which
+   measures lining at cap height with no feature dependency, so
+   “Chapter 3” renders upright everywhere. Lora, Crimson Pro, Inter,
+   Courier Prime, Libre Baskerville and EB Garamond Italic all measure
+   lining; Caveat measures “unclear” by design and is handwriting only.
+   ═══════════════════════════════════════════════════════════════ */
+
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-400i.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-700.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(../fonts/CrimsonPro-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(../fonts/CrimsonPro-400i.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(../fonts/CrimsonPro-600.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url(../fonts/CormorantGaramond-600.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url(../fonts/CormorantGaramond-700.woff) format("woff");
+  font-weight: 700 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IM Fell English";
+  src: url(../fonts/IMFellEnglish-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IM Fell English";
+  src: url(../fonts/IMFellEnglish-400i.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Courier Prime";
+  src: url(../fonts/CourierPrime-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Courier Prime";
+  src: url(../fonts/CourierPrime-700.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url(../fonts/Caveat-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url(../fonts/Caveat-600.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(../fonts/PermanentMarker-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* Character-introduction display faces */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../fonts/BebasNeue-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url(../fonts/LibreBaskerville-700.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cardo";
+  src: url(../fonts/Cardo-700.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "EB Garamond";
+  src: url(../fonts/EBGaramond-400i.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId" xml:lang="en">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="BookId">urn:uuid:6f1c2a48-9b3e-4e77-8d51-2c0a74b9e310</dc:identifier>
+    <dc:title>Dominating South Korea: Starting with a Golden Trait</dc:title>
+    <dc:language>en</dc:language>
+    <dc:creator id="creator">DKILLER1</dc:creator>
+    <dc:contributor>Original Korean web serial, translated for this edition</dc:contributor>
+    <dc:contributor>Arena Agent Mode · production and typesetting</dc:contributor>
+    <dc:publisher>Reader's own edition (unofficial fan translation)</dc:publisher>
+    <dc:date>2026-09-14</dc:date>
+    <dc:description>Chapters 1–31: the Shilla suite, the sealed corridor, the terms of a blade, Jessica’s café, a photograph two years old, a declined ring, an audited ledger, a first day in office, a cap in a supermarket line, a bulb changed at nine at night, a marinated-crab debt, a wager over the bottom file, a petition with a famous name, a careful stalker, a business card left in a JYP lobby, a department chief’s hints at nightfall, a masked maknae at an elevator hall, and a how-many-th-generation master above a dumpling shop, a white-rank entry earned in sweat, an SM scout’s card in a wallet, and a side door in Cheongdam-dong, a clerk’s psychology read on a good mood, a blank sub-account that knows which side of a doorway, and one question asked off the record in a cleared JYP meeting room, a clerk’s case file on her own superior’s loosened drawer, a chaebol heiress’s half-left praise over tea, and a first command delivered without explanation in a lamp-lit suite.</dc:description>
+    <dc:description>English edition of Chapters 1–31, typeset in the reader's reference stylesheet.</dc:description>
+    <dc:subject>Korean entertainment industry</dc:subject>
+    <dc:subject>Rebirth</dc:subject>
+    <dc:subject>Prosecutor</dc:subject>
+    <dc:subject>Chaebol</dc:subject>
+    <dc:rights>All rights belong to the original author. This is a fan-produced English edition for private reading.</dc:rights>
+    <meta property="dcterms:modified">2026-09-14T00:00:00Z</meta>
+    <meta name="cover" content="id-01"/>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="style-css" href="styles/stylesheet.css" media-type="text/css"/>
+    <item id="fonts-css" href="styles/fonts.css" media-type="text/css"/>
+    <item id="id-01" href="images/cover-bg.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="font-Lora-400" href="fonts/Lora-400.woff" media-type="application/font-woff"/>
+    <item id="font-Lora-400i" href="fonts/Lora-400i.woff" media-type="application/font-woff"/>
+    <item id="font-Lora-700" href="fonts/Lora-700.woff" media-type="application/font-woff"/>
+    <item id="font-CrimsonPro-400" href="fonts/CrimsonPro-400.woff" media-type="application/font-woff"/>
+    <item id="font-CrimsonPro-400i" href="fonts/CrimsonPro-400i.woff" media-type="application/font-woff"/>
+    <item id="font-CrimsonPro-600" href="fonts/CrimsonPro-600.woff" media-type="application/font-woff"/>
+    <item id="font-CormorantGaramond-600" href="fonts/CormorantGaramond-600.woff" media-type="application/font-woff"/>
+    <item id="font-CormorantGaramond-700" href="fonts/CormorantGaramond-700.woff" media-type="application/font-woff"/>
+    <item id="font-IMFellEnglish-400" href="fonts/IMFellEnglish-400.woff" media-type="application/font-woff"/>
+    <item id="font-IMFellEnglish-400i" href="fonts/IMFellEnglish-400i.woff" media-type="application/font-woff"/>
+    <item id="font-CourierPrime-400" href="fonts/CourierPrime-400.woff" media-type="application/font-woff"/>
+    <item id="font-CourierPrime-700" href="fonts/CourierPrime-700.woff" media-type="application/font-woff"/>
+    <item id="font-Caveat-400" href="fonts/Caveat-400.woff" media-type="application/font-woff"/>
+    <item id="font-Caveat-600" href="fonts/Caveat-600.woff" media-type="application/font-woff"/>
+    <item id="font-PermanentMarker-400" href="fonts/PermanentMarker-400.woff" media-type="application/font-woff"/>
+    <item id="font-BebasNeue-400" href="fonts/BebasNeue-400.woff" media-type="application/font-woff"/>
+    <item id="font-Inter-400" href="fonts/Inter-400.woff" media-type="application/font-woff"/>
+    <item id="font-LibreBaskerville-700" href="fonts/LibreBaskerville-700.woff" media-type="application/font-woff"/>
+    <item id="font-Cardo-700" href="fonts/Cardo-700.woff" media-type="application/font-woff"/>
+    <item id="font-EBGaramond-400i" href="fonts/EBGaramond-400i.woff" media-type="application/font-woff"/>
+    <item id="cover" href="text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="synopsis" href="text/synopsis.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="characters" href="text/characters.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introductions" href="text/introductions.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary" href="text/glossary.xhtml" media-type="application/xhtml+xml"/>
+    <item id="edition-css" href="styles/edition.css" media-type="text/css"/>
+    <item id="id-02" href="images/id-02.jpg" media-type="image/jpeg"/>
+    <item id="id-03" href="images/id-03.jpg" media-type="image/jpeg"/>
+    <item id="id-04" href="images/id-04.jpg" media-type="image/jpeg"/>
+    <item id="id-05" href="images/id-05.jpg" media-type="image/jpeg"/>
+    <item id="id-06" href="images/id-06.jpg" media-type="image/jpeg"/>
+    <item id="id-07" href="images/wd_assistant_suit.jpg" media-type="image/jpeg"/>
+    <item id="id-08" href="images/wd_assistant_tealounge.jpg" media-type="image/jpeg"/>
+    <item id="id-09" href="images/wd_jessica_trench.jpg" media-type="image/jpeg"/>
+    <item id="id-10" href="images/id-10.jpg" media-type="image/jpeg"/>
+    <item id="id-11" href="images/wd_bae_doyoon_prosecutor.jpg" media-type="image/jpeg"/>
+    <item id="id-12" href="images/wd_boram_disguise.jpg" media-type="image/jpeg"/>
+    <item id="id-13" href="images/wd_boram_loungewear.jpg" media-type="image/jpeg"/>
+    <item id="id-14" href="images/id-14.jpg" media-type="image/jpeg"/>
+    <item id="id-15" href="images/wd_boram_morning.jpg" media-type="image/jpeg"/>
+    <item id="id-16" href="images/wd_kim_miju_plain.jpg" media-type="image/jpeg"/>
+    <item id="id-17" href="images/id-17.jpg" media-type="image/jpeg"/>
+    <item id="id-18" href="images/wd_suzy_meeting.jpg" media-type="image/jpeg"/>
+    <item id="id-19" href="images/id-19.jpg" media-type="image/jpeg"/>
+    <item id="id-20" href="images/id-20.jpg" media-type="image/jpeg"/>
+    <item id="id-21" href="images/id-21.jpg" media-type="image/jpeg"/>
+    <item id="id-22" href="images/wd_jiyeon_disguise.jpg" media-type="image/jpeg"/>
+    <item id="id-23" href="images/id-23.jpg" media-type="image/jpeg"/>
+    <item id="id-24" href="images/wd_irene_practice.jpg" media-type="image/jpeg"/>
+    <item id="ch001" href="text/ch001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch002" href="text/ch002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch003" href="text/ch003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch004" href="text/ch004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch005" href="text/ch005.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch006" href="text/ch006.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch007" href="text/ch007.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch008" href="text/ch008.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch009" href="text/ch009.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch010" href="text/ch010.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch011" href="text/ch011.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch012" href="text/ch012.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch013" href="text/ch013.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch014" href="text/ch014.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch015" href="text/ch015.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch016" href="text/ch016.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch017" href="text/ch017.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch018" href="text/ch018.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch019" href="text/ch019.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch020" href="text/ch020.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch021" href="text/ch021.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch022" href="text/ch022.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch023" href="text/ch023.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch024" href="text/ch024.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch025" href="text/ch025.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch026" href="text/ch026.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch027" href="text/ch027.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch028" href="text/ch028.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch029" href="text/ch029.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch030" href="text/ch030.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch031" href="text/ch031.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-25" href="images/wd_jiyeon_loungewear.jpg" media-type="image/jpeg"/>
+    <item id="id-26" href="images/wd_leeboojin_tea.jpg" media-type="image/jpeg"/>
+    <item id="id-27" href="images/wd_jessica_suite.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine page-progression-direction="ltr" toc="ncx">
+    <itemref idref="cover" linear="yes"/>
+    <itemref idref="synopsis" linear="yes"/>
+    <itemref idref="nav" linear="yes"/>
+    <itemref idref="characters" linear="yes"/>
+    <itemref idref="introductions" linear="yes"/>
+    <itemref idref="glossary" linear="yes"/>
+    <itemref idref="ch001" linear="yes"/>
+    <itemref idref="ch002" linear="yes"/>
+    <itemref idref="ch003" linear="yes"/>
+    <itemref idref="ch004" linear="yes"/>
+    <itemref idref="ch005" linear="yes"/>
+    <itemref idref="ch006" linear="yes"/>
+    <itemref idref="ch007" linear="yes"/>
+    <itemref idref="ch008" linear="yes"/>
+    <itemref idref="ch009" linear="yes"/>
+    <itemref idref="ch010" linear="yes"/>
+    <itemref idref="ch011" linear="yes"/>
+    <itemref idref="ch012" linear="yes"/>
+    <itemref idref="ch013" linear="yes"/>
+    <itemref idref="ch014" linear="yes"/>
+    <itemref idref="ch015" linear="yes"/>
+    <itemref idref="ch016" linear="yes"/>
+    <itemref idref="ch017" linear="yes"/>
+    <itemref idref="ch018" linear="yes"/>
+    <itemref idref="ch019" linear="yes"/>
+    <itemref idref="ch020" linear="yes"/>
+    <itemref idref="ch021" linear="yes"/>
+    <itemref idref="ch022" linear="yes"/>
+    <itemref idref="ch023" linear="yes"/>
+    <itemref idref="ch024" linear="yes"/>
+    <itemref idref="ch025" linear="yes"/>
+    <itemref idref="ch026" linear="yes"/>
+    <itemref idref="ch027" linear="yes"/>
+    <itemref idref="ch028" linear="yes"/>
+    <itemref idref="ch029" linear="yes"/>
+    <itemref idref="ch030" linear="yes"/>
+    <itemref idref="ch031" linear="yes"/>
+  </spine>
+</package>

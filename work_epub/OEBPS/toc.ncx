@@ -157,5 +157,41 @@
       <navLabel><text>Chapter 31 · A Spring Night’s Dream</text></navLabel>
       <content src="text/ch031.xhtml"/>
     </navPoint>
+    <navPoint id="num_37" playOrder="37">
+      <navLabel><text>Chapter 32 · The Similar One, Her Shadow</text></navLabel>
+      <content src="text/ch032.xhtml"/>
+    </navPoint>
+    <navPoint id="num_38" playOrder="38">
+      <navLabel><text>Chapter 33 · By the Way, What on Earth Is That Bastard’s Name?</text></navLabel>
+      <content src="text/ch033.xhtml"/>
+    </navPoint>
+    <navPoint id="num_39" playOrder="39">
+      <navLabel><text>Chapter 34 · Prosecutor Bae Must Love Irene</text></navLabel>
+      <content src="text/ch034.xhtml"/>
+    </navPoint>
+    <navPoint id="num_40" playOrder="40">
+      <navLabel><text>Chapter 35 · You Are That Lucky Fan</text></navLabel>
+      <content src="text/ch035.xhtml"/>
+    </navPoint>
+    <navPoint id="num_41" playOrder="41">
+      <navLabel><text>Chapter 36 · Where Am I, Bae Suzy, Inferior to Irene?</text></navLabel>
+      <content src="text/ch036.xhtml"/>
+    </navPoint>
+    <navPoint id="num_42" playOrder="42">
+      <navLabel><text>Chapter 37 · The Girl Group About to Debut</text></navLabel>
+      <content src="text/ch037.xhtml"/>
+    </navPoint>
+    <navPoint id="num_43" playOrder="43">
+      <navLabel><text>Chapter 38 · Irene’s Troubles, Taeyeon’s Guidance</text></navLabel>
+      <content src="text/ch038.xhtml"/>
+    </navPoint>
+    <navPoint id="num_44" playOrder="44">
+      <navLabel><text>Chapter 39 · Irene: I Once Confessed and Was Rejected</text></navLabel>
+      <content src="text/ch039.xhtml"/>
+    </navPoint>
+    <navPoint id="num_45" playOrder="45">
+      <navLabel><text>Chapter 40 · He Likes a Girl Like Yoonah-Ooni</text></navLabel>
+      <content src="text/ch040.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>
